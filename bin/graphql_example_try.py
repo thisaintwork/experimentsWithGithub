@@ -2,8 +2,14 @@
 # https://gist.github.com/gbaman/b3137e18c739e0cf98539bf4ec4366ad#file-graphql_example-py
 
 import requests
+import os
 
-headers = {'Authorization': 'Bearer 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'}
+key = 'AUTH_TKN'
+value = os.getenv(key, "novalue")
+# print("headers {} - {}".format(key, value))
+
+headers = {'Authorization': 'Bearer ' + value}
+print("headers - {}".format(headers))
 
 
 # A simple function to use requests.post to make the API call. Note the json= section.
