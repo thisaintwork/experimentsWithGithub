@@ -3,6 +3,7 @@
 
 import requests
 import os
+import json
 
 filename = '/home/perftest/DevCode/github-com-mreekie/GitHubProjects/experimentsWithGithub/input/testquery-01.graphql'
 # with open(filename, 'r') as file:
@@ -62,6 +63,11 @@ organization(login: "IQSS") {
 }
 """
 
-result = run_query(query1)  # Execute the query
+parsed_json = run_query(query1)  # Execute the query
+#parsed_json = json.loads(ugly_json)
+pretty_json = json.dumps(parsed_json, indent=4)
+print(pretty_json)
+
+
 # orgnzn = result["github"]["organization"]
-print("output - {}".format(result))
+#print("output - {}".format(result))
