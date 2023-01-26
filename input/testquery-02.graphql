@@ -1,0 +1,44 @@
+ organization(login: "IQSS") {
+    projectV2 (number: 34) {
+    # returns a type of ProjectV2
+    
+        title
+        # A projectv2 has a list of fields
+        # fields of type ProjectV2FieldConfigurationConnection
+        fields(first: 20) {
+            totalCount
+            edges {
+                node {
+                    id
+                    name
+                    # a field has a list of values
+                    # values of type ProjectV2FieldValueConnection
+                    values(first: 20) {
+                        totalCount
+                        edges {
+                            node {
+                                id
+                                value
+                                # a value has a list of files
+                                # files of type ProjectV2FileConnection
+                                files(first: 20) {
+                                    totalCount
+                                    edges {
+                                        node {
+                                            id
+                                            name
+                                            url
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    }
+    id
+    email
+    projectsUrl
+    login
+ }

@@ -1,0 +1,12 @@
+
+organization(login: "IQSS") {
+        projectV2 (number: 34) {
+            title
+        }
+        id
+        email
+        projectsUrl
+        login
+    }
+
+
