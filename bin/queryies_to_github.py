@@ -56,11 +56,31 @@ organization(login: "IQSS") {
                 filter
                 fields(first: 20) {
                     totalCount
-                    nodes 
+                    # nodes returns a list.
+                    # The items in the list are of type unionIsProjectV2FieldConfiguration
+                    # This is a union type, so we need to use the __typename field to determine the type
+                    # of the item in the list.  
+                    # The __typename field is a string that contains the name of the type.
+                    # We can use this to determine which fields to query.
+                    # The fields we query depend on the type of the item in the list.
+                    nodes  {
+                            __typename 
+                            # This will only show the name of the field if it's set to visible
+                            ... on ProjectV2Field {
+                                name
+                            }  
+                            ... on ProjectV2IterationField {
+                                name
+                            }  
+                            ... on ProjectV2SingleSelectField {
+                                name
+                            }  
+                    }
                         
                     
                 }
             }
+            # ProjectV2 views return ProjectV2ViewConnection
             views (first: 20) {
                 totalCount
                 nodes {
