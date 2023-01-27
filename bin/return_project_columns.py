@@ -27,7 +27,8 @@ query = """
 { organization(login: "thisaintwork") 
   { projectsV2(first: 20) 
     { nodes 
-      { id
+      { (closed: "True")
+        id
         number
         title
         closed

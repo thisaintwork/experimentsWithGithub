@@ -1,4 +1,3 @@
-
 organization(login: "IQSS") {
         projectV2 (number: 34) {
             title
@@ -12,32 +11,30 @@ organization(login: "IQSS") {
                 login
             }
             # view number 1 is the ordered backlog tab
-            view (number: 1 ) {
-                name
-                filter
-                fields(first: 20) {
-                    totalCount
-                    edges {
-                        node {
-                            name
-                        }
+            field( name: "Status" ) {
+                __typename
+                # This will only show the name of the field if it's set to visible
+                ... on ProjectV2Field {
+                    name
+                    id
+                }
+                ... on ProjectV2IterationField {
+                    name
+                }
+                ... on ProjectV2SingleSelectField {
+                    name
+                    id
+                    options {
+                        name
+                        id
                     }
                 }
-            }
-            views (first: 20) {
-                totalCount
-                nodes {
-                    id
-                    name
-                    number
 
-                }
             }
+                
         }
         id
         email
         projectsUrl
         login
     }
-
-
