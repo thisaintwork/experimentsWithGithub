@@ -50,8 +50,25 @@ organization(login: "IQSS") {
             creator {
                 login
             }
-            views {
+            # view number 1 is the ordered backlog tab
+            view (number: 1 ) {
+                name
+                filter
+                fields(first: 20) {
+                    totalCount
+                    nodes 
+                        
+                    
+                }
+            }
+            views (first: 20) {
                 totalCount
+                nodes {
+                    id
+                    name
+                    number
+
+                }
             }
         }
         id
@@ -59,6 +76,7 @@ organization(login: "IQSS") {
         projectsUrl
         login
     }
+
 
 }
 """

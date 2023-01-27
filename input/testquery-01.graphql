@@ -2,6 +2,37 @@
 organization(login: "IQSS") {
         projectV2 (number: 34) {
             title
+            closed
+            number
+            createdAt
+            updatedAt
+            closedAt
+            url
+            creator {
+                login
+            }
+            # view number 1 is the ordered backlog tab
+            view (number: 1 ) {
+                name
+                filter
+                fields(first: 20) {
+                    totalCount
+                    edges {
+                        node {
+                            name
+                        }
+                    }
+                }
+            }
+            views (first: 20) {
+                totalCount
+                nodes {
+                    id
+                    name
+                    number
+
+                }
+            }
         }
         id
         email
