@@ -39,7 +39,7 @@ def run_query(querystr):
 query1 = """
 {
 ###
-#Query1A
+#Query1C
 organization(login: "IQSS") {
         projectV2 (number: 34) {
             title
@@ -58,6 +58,59 @@ organization(login: "IQSS") {
                 nodes {
                     id
                     type 
+                    fieldValueByName (name: "Status") {
+                        ... on ProjectV2ItemFieldDateValue {
+                            date
+                        }
+                        
+                        ... on  ProjectV2ItemFieldIterationValue {
+                            id
+                        }
+                        ... on  ProjectV2ItemFieldLabelValue {
+                            labels {
+                                totalCount
+                                nodes {
+                                    name
+                                } 
+                            }
+                        }
+                        ... on  ProjectV2ItemFieldMilestoneValue {
+                            milestone {
+                                title
+                            }
+                        }
+                        ... on  ProjectV2ItemFieldNumberValue {
+                            number
+                        }
+                        ... on  ProjectV2ItemFieldPullRequestValue {
+                            pullRequests {
+                                totalCount
+                            }
+                        }
+                        ... on  ProjectV2ItemFieldRepositoryValue {
+                            repository {
+                                name
+                            }
+                        }
+                        ... on  ProjectV2ItemFieldReviewerValue {
+                            reviewers(first:20) {
+                                totalCount
+                            }
+                        
+                        }
+                        ... on  ProjectV2ItemFieldSingleSelectValue {
+                            name
+                        }
+                        ... on  ProjectV2ItemFieldTextValue {
+                            text	
+                        
+                        }
+                        ... on  ProjectV2ItemFieldUserValue {
+                            users(first:20) {
+                                totalCount
+                            }
+                        }
+                    }
                     content {
                         ... on Issue {
                             repository {

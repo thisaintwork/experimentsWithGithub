@@ -10,29 +10,17 @@ organization(login: "IQSS") {
             creator {
                 login
             }
-            # view number 1 is the ordered backlog tab
-            field( name: "Status" ) {
-                __typename
-                # This will only show the name of the field if it's set to visible
-                ... on ProjectV2Field {
-                    name
+            items {
+                totalCount
+                nodes {
                     id
+                    type {
                 }
-                ... on ProjectV2IterationField {
-                    name
                 }
-                ... on ProjectV2SingleSelectField {
-                    name
-                    id
-                    options {
-                        name
-                        id
-                    }
-                }
-
             }
-                
         }
+                
+
         id
         email
         projectsUrl
