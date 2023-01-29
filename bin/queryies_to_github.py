@@ -51,29 +51,51 @@ organization(login: "IQSS") {
             creator {
                 login
             }
-            # view number 1 is the ordered backlog tab
-            field( name: "Status" ) {
-                __typename 
-                # This will only show the name of the field if it's set to visible
-                ... on ProjectV2Field {
-                    name
-                    id
-                }  
-                ... on ProjectV2IterationField {
-                    name
-                }  
-                ... on ProjectV2SingleSelectField {
-                    name
-                    id
-                    options {
-                        name
-                        id
-                    }
-                }  
-
-            }   
+            items (first: 20) {
                 
-        }
+                totalCount
+                nodes {
+                    id
+                    type 
+                    content {
+                        ... on Issue {
+                            repository {
+                                name
+                            }
+                            title
+                            number
+                            url
+                            labels (first: 10) {
+                              totalCount
+                                nodes {
+                                    name
+                                }
+                            }
+                        }
+                        ... on PullRequest {
+                            repository {
+                                name
+                            }
+                            title
+                            number
+                            url
+                            labels (first: 10) {
+                              totalCount
+                                nodes {
+                                    name
+                                }
+                            }
+                        }
+                        ... on DraftIssue {
+                            title
+                        }
+                    
+                    }
+                }
+            } 
+        }    
+                
+ 
         id
         email
         projectsUrl
