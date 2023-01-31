@@ -5,6 +5,11 @@ import requests
 import os
 import json
 
+# import the graphql library for python
+from gql import gql, Client
+from gql.transport.requests import RequestsHTTPTransport
+
+
 filename = '/home/perftest/DevCode/github-com-mreekie/GitHubProjects/experimentsWithGithub/input/testquery-01.graphql'
 # with open(filename, 'r') as file:
 # query =  file.read()
