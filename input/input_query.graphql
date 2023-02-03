@@ -1,7 +1,4 @@
-"""
 {
-###
-#Query1C
 organization(login: "IQSS") {
         projectV2 (number: 34) {
             title
@@ -117,6 +114,4 @@ organization(login: "IQSS") {
         projectsUrl
         login
     }
-###
 }
-"""
