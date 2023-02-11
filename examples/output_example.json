@@ -1,0 +1,64 @@
+{
+	"organization": {
+		"projectV2": {
+			"title": "🅱1️⃣Dataverse_Global_Backlog",
+			"closed": "False",
+			"number": 34,
+			"createdAt": "2022-10-13T16:30:18Z",
+			"updatedAt": "2023-02-11T01:08:33Z",
+			"closedAt": "None",
+			"url": "https://github.com/orgs/IQSS/projects/34",
+			"creator": {
+				"login": "mreekie"
+			},
+			"items": {
+				"totalCount": 201,
+				"pageInfo": {
+					"hasNextPage": "True",
+					"hasPreviousPage": "False",
+					"endCursor": "Mg",
+					"startCursor": "MQ"
+				},
+				"nodes": [
+					{
+						"id": "PVTI_lADOAApNpc4AHKIszgDdiPw",
+						"type": "DRAFT_ISSUE",
+						"fieldValueByName": {
+							"name": "▶ SPRINT READY"
+						},
+						"content": {
+							"title": "▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫"
+						}
+					},
+					{
+						"id": "PVTI_lADOAApNpc4AHKIszgEdV3I",
+						"type": "PULL_REQUEST",
+						"fieldValueByName": {
+							"name": "🚮Clear of the Backlog"
+						},
+						"content": {
+							"repository": {
+								"name": "dataverse"
+							},
+							"title": "IQSS/9189-fix non-Globus properties",
+							"number": 9193,
+							"url": "https://github.com/IQSS/dataverse/pull/9193",
+							"labels": {
+								"totalCount": 1,
+								"nodes": [
+									{
+										"name": "Size: 3"
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"id": "MDEyOk9yZ2FuaXphdGlvbjY3NTIzNw==",
+		"email": "None",
+		"projectsUrl": "https://github.com/orgs/IQSS/projects",
+		"login": "IQSS"
+	}
+}

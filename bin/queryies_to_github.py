@@ -23,17 +23,10 @@ def load_query(query_filename):
 
 
 query_string = load_query(query_filename)
-response = client.execute(query_string)
-print(response)
-print("output - {}".format(response['organization']['projectV2']['items'['totalCount']))
+page_size = 2
+varsit = {"first": page_size}
+response = client.execute(query_string, variable_values=varsit)
+print("{}".format(response))
+print("output - {}".format(response['organization']['projectV2']['items']['totalCount']))
 
 
-
-#    if request.status_code == 200:
-#        return request.json()
-#    else:
-#        raise Exception("Query failed to run by returning code of {}. {}".format(request.status_code, querystr))
-#
-
-# orgnzn = result["github"]["organization"]
-# print("output - {}".format(result))
