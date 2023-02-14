@@ -4,6 +4,12 @@ from gql import gql, Client
 from gql.transport.aiohttp import AIOHTTPTransport
 import os
 import json
+from datetime import datetime
+import time
+
+
+#print({}.format(datetime(2008, 11, 10, 17, 53, 59)))
+
 
 
 def load_query(query_file):
@@ -17,19 +23,21 @@ def get_all_items(auth_token_val, query_str, vars_in):
     has_next_page = True
     start_with = None
     query_input_params = vars_in
-    print("query_input_params \"{}\"".format(query_input_params))
+    #print("query_input_params \"{}\"".format(query_input_params))
 
     headers = {"Authorization": "Bearer " + auth_token_val}
     transport = AIOHTTPTransport(url='https://api.github.com/graphql', headers=headers)
     client = Client(transport=transport)
+    print(" { \"pages\": [")
 
     while has_next_page:
         data = client.execute(query_str, variable_values=query_input_params)
         # print results
-        print("totalCount \"{}\"".format(data['organization']['projectV2']['items']['totalCount']))
-        print("hasNextPage \"{}\"".format(data['organization']['projectV2']['items']['pageInfo']['hasNextPage']))
-        print("startCursor \"{}\"".format(data['organization']['projectV2']['items']['pageInfo']['startCursor']))
-        print("endCursor - \"{}\"".format(data['organization']['projectV2']['items']['pageInfo']['endCursor']))
+        #print (", \"pageof\": ")
+        #print("totalCount \"{}\"".format(data['organization']['projectV2']['items']['totalCount']))
+        #print("hasNextPage \"{}\"".format(data['organization']['projectV2']['items']['pageInfo']['hasNextPage']))
+        #print("startCursor \"{}\"".format(data['organization']['projectV2']['items']['pageInfo']['startCursor']))
+        #print("endCursor - \"{}\"".format(data['organization']['projectV2']['items']['pageInfo']['endCursor']))
         #print("endCursor - \"{}\"".format(data['organization']['projectV2']['items']['nodes']['content']))
         #print("returned results \"{}\"".format(data))
 
@@ -39,7 +47,11 @@ def get_all_items(auth_token_val, query_str, vars_in):
         has_next_page = data['organization']['projectV2']['items']['pageInfo']['hasNextPage']
         start_with = data['organization']['projectV2']['items']['pageInfo']['endCursor']
         query_input_params["startWith"] = start_with
-        print("query_input_params \"{}\"".format(query_input_params))
+        #print("query_input_params \"{}\"".format(query_input_params))
+        if has_next_page:
+            print(" , ")
+
+    print("] }")
 
     return
 

@@ -3,20 +3,20 @@ query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!
  # products(first: $first, skip: $skip) {
     organization(login: $loginOrg) {
             projectV2 (number: $projectNum) {
-                title
-                closed
-                number
-                createdAt
-                updatedAt
-                closedAt
-                url
-                creator {
-                    login
-                }
+                #title
+                #closed
+                #number
+                #createdAt
+                #updatedAt
+                #closedAt
+                #url
+                #creator {
+                #    login
+                #}
                 items (first: $firstFew, after: $startWith) {
 
-                    totalCount
-                    pageInfo {
+                #    totalCount
+                     pageInfo {
                         hasNextPage
                         hasPreviousPage
                         endCursor
