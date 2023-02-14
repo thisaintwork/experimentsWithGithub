@@ -1,8 +1,8 @@
-query ($first: Int!) {
+query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!) {
  #   query ($first: Int!, $skip: Int!) {
  # products(first: $first, skip: $skip) {
-    organization(login: "IQSS") {
-            projectV2 (number: 34) {
+    organization(login: $loginOrg) {
+            projectV2 (number: $projectNum) {
                 title
                 closed
                 number
@@ -13,7 +13,7 @@ query ($first: Int!) {
                 creator {
                     login
                 }
-                items (first: $first) {
+                items (first: $firstFew, after: $startWith) {
 
                     totalCount
                     pageInfo {
