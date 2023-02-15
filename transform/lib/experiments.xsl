@@ -10,16 +10,32 @@
         <xsl:apply-templates />
     </xsl:template >
 
-    <xsl:template match="/JSON/entries/displayString" >
-        <xsl:value-of select='concat(replace(replace(.,"\n|\r","")," +"," "),"&#xA;")'/>
+    <xsl:template match="*/projectV2/items/nodes" >
+        <xsl:value-of select="type" /><xsl:text>|</xsl:text>
+        <xsl:value-of select="fieldValueByName/name" /><xsl:text>|</xsl:text>
+        <xsl:value-of select="content/number" /><xsl:text>|</xsl:text>
+        <xsl:value-of select="content/labels/totalCount" /><xsl:text>|</xsl:text>
+        
+        <!--<xsl:value-of select="content/labels" /><xsl:text>|</xsl:text>-->
+        
+        <xsl:value-of select='concat(replace(replace(content/title,"\n|\r","")," +"," "),"&#xA;")' />
+        
         <xsl:apply-templates />
     </xsl:template >
 
+    <xsl:template match="content/labels/nodes/array" >
+        <xsl:value-of select="name " /><xsl:text>|</xsl:text>
+        <!--<xsl:value-of select='concat(replace(replace(content/title,"\n|\r","")," +"," "),"&#xA;")' />-->
+        
+        <xsl:apply-templates />
+    </xsl:template >
+    
+    
     <xsl:template match="text()|@*">
         <!--<xsl:value-of select="."/>-->
     </xsl:template>
     
-
+ <!--
     <xsl:template match="*">
         <xsl:message terminate="no">
             WARNING: Unmatched element: <xsl:value-of select="name()"/>
@@ -27,7 +43,7 @@
         
         <xsl:apply-templates/>
     </xsl:template>
-    
+    -->
     
     
 </xsl:stylesheet>

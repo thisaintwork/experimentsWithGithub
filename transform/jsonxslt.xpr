@@ -6,6 +6,7 @@
     </meta>
     <projectTree name="jsonxslt.xpr">
         <folder path="."/>
+        <file name="lib/experiments.xsl"/>
         <file name="../scratch/github-results.json"/>
         <file name="input/github-results.xml"/>
     </projectTree>
