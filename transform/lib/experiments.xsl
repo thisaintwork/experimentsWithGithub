@@ -7,6 +7,18 @@
     <xsl:strip-space elements="*"/>
 
     <xsl:template match="/" >
+        
+        <xsl:text>
+        Type|
+        Status|
+        IssueNumber|
+        Title|
+        LabelsCount|
+        LabelString|
+        AssignedSize|
+        </xsl:text>
+        <xsl:text>&#10;</xsl:text>
+        
         <xsl:apply-templates />
     </xsl:template >
 
@@ -15,98 +27,95 @@
         <xsl:value-of select="type" />
         <xsl:text>|</xsl:text>
         <xsl:value-of select="fieldValueByName/name" />
+        <!--
+            Extract the Issue Number
+            - If no Size label is found the value empty
+            
+            Note:
+            - This is not ideal.
+            - I'd rather work it so that I can return a string like "Not defined"
+        -->
         <xsl:text>|</xsl:text>
         <xsl:value-of select="content/number" />
         <xsl:text>|</xsl:text>
         <xsl:value-of select='replace(replace(content/title,"\n|\r","")," +"," ")' />
         <xsl:text>|</xsl:text>
-        <xsl:value-of select="content/labels/totalCount" />
-        <xsl:text>|</xsl:text>
-        <!--<xsl:value-of select='content/labels/nodes/name' /><xsl:text>|</xsl:text>-->
+
+        <xsl:choose>
+            <xsl:when test='string-length(./content/labels/totalCount) > 0'>
+                <xsl:value-of select="./content/labels/totalCount" />
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>0</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
         
-        
-        <!--<xsl:value-of select='replace(content/labels/nodes/name,".+Size: ([0-9]+)","***$1***")' /><xsl:text>|</xsl:text>-\->-->
 
 
-        <!--
-            for each label
-            - Add it to a long comma delimited string
-        -->
-        
-        <xsl:text>"</xsl:text>
-        <xsl:for-each select="content/labels/nodes/name">
-            <xsl:value-of select="." />
-            <xsl:text>","</xsl:text>
-        </xsl:for-each>
-        <xsl:text>"</xsl:text>
         <xsl:text>|</xsl:text>
 
 
         <!--
+            Create a labels string
             for each label
-            - if string "Size:" is found, extract the number into the variab sizePoints
+            - Add it to a long comma delimited string 
+              that includes all of the labels.
+              e.g. "NIH OTA: 1.2.1","Size: 80","Deliverable: 5 Core PIDs"
         -->
-        <xsl:for-each select="content/labels/nodes/name">
-            <xsl:if test='contains(.,"Size:")' >
-                <xsl:value-of select='replace(.,"Size: ","")'/>
-            </xsl:if>
-        </xsl:for-each>
+        <xsl:for-each select="content/labels/nodes">
+            <xsl:choose>
+                <xsl:when test="./name">
+                    <xsl:text>"</xsl:text>
+                    <xsl:value-of select="./name" />
+                    <xsl:text>"</xsl:text>
+                    <xsl:if test='position() != last()' >
+                        <xsl:text>,</xsl:text>
+                    </xsl:if>
+                </xsl:when>
+                <xsl:when test="./array">
+                    <xsl:text>"</xsl:text>
+                    <xsl:value-of select="./array" />
+                    <xsl:text>"</xsl:text>
+                    <xsl:if test='position() != last()' >
+                        <xsl:text>,</xsl:text>
+                    </xsl:if>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:for-each>        
         <xsl:text>|</xsl:text>
 
 
         <!--
-            for each label
-            - Add it to a long comma delimited string
-        -->
-        <xsl:text>"</xsl:text>
-        <xsl:for-each select="content/labels/nodes/array">
-            <xsl:value-of select="." />
-            <xsl:text>","</xsl:text>
-        </xsl:for-each>
-        <xsl:text>"</xsl:text>
-        <xsl:text>|</xsl:text>
-        
-        
-        <!--
-            for each label
-            - if string "Size:" is found, extract the number into the variab sizePoints
-        -->
-        <xsl:for-each select="content/labels/nodes/array">
-            <xsl:if test='contains(.,"Size:")' >
-                <xsl:value-of select='replace(.,"Size: ","")'/>
-            </xsl:if>
-        </xsl:for-each>
-        <xsl:text>|</xsl:text>
-        <!--<xsl:value-of select='concat($labels,.)' />-->
-        
-        
-<!--        <xsl:for-each select="content/labels/nodes">
-            <!-\-<xsl:value-of select='replace(content/labels/nodes/name,".+Size: ([0-9]+)","$1")' /><xsl:text>|</xsl:text>-\->
+            Extract the estimated size
+            - If no Size label is found the value empty
+            
+            Note:
+            - This is not ideal.
+            - I'd rather work it so that I can return a string like "Size not defined"
             
             
-        </xsl:for-each>-\->-->
-        
-        <!--<xsl:value-of select="content/labels" /><xsl:text>|</xsl:text>-->
-        
-        <xsl:text>&#xA;</xsl:text>
-        
-        <xsl:apply-templates />
-    </xsl:template >
-    
-<!--
-    <xsl:template match="content/labels/nodes/array" >
-        <xsl:value-of select="name " /><xsl:text>|</xsl:text>
-        <!-\-<xsl:value-of select='concat(replace(replace(content/title,"\n|\r","")," +"," "),"&#xA;")' />-\->
-        
-        <xsl:apply-templates />
-    </xsl:template >-->
-    
-    
+        -->
+        <xsl:for-each select="./content/labels/nodes">
+             <xsl:choose>
+                <xsl:when test='contains(./name,"Size: ")' >
+                    <xsl:value-of select='replace(replace(./name,"Size: ","")," ","")' />
+                </xsl:when>
+                 <xsl:when test='contains(./array,"Size: ")' >
+                    <xsl:value-of select='replace(replace(./array,"Size: ","")," ","")' />
+                </xsl:when>
+             </xsl:choose>
+        </xsl:for-each>        
+        <xsl:text>|</xsl:text>
+
+ 
+        <xsl:text>&#10;</xsl:text>
+   </xsl:template>  
+
     <xsl:template match="text()|@*">
         <!--<xsl:value-of select="."/>-->
     </xsl:template>
     
- <!--
+    
     <xsl:template match="*">
         <xsl:message terminate="no">
             WARNING: Unmatched element: <xsl:value-of select="name()"/>
@@ -114,7 +123,6 @@
         
         <xsl:apply-templates/>
     </xsl:template>
-    -->
     
     
 </xsl:stylesheet>
