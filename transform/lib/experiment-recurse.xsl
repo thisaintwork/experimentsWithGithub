@@ -10,13 +10,13 @@
     <xsl:template name="longest_labels_list" as="element(labels) ?" >
         <xsl:param name="list" as="element(labels)*"/> 
         <xsl:choose >
-            <xsl:when test="$list">
                 <xsl:variable name="first"  select="count($list[1]/nodes)" as="xs:integer" />
                 <xsl:variable name="longest_of_rest" as="element(labels) ?" >
                     <xsl:call-template name="longest_labels_list" >
                         <xsl:with-param name="list" select="$list[position()!=1]"/>
                     </xsl:call-template>
                 </xsl:variable>
+                
                 <xsl:choose>
                     <xsl:when test="$first gt count($longest_of_rest/nodes)" >
                         <xsl:sequence select="$list[1]" />
