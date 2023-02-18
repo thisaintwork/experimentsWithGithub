@@ -24,9 +24,14 @@
 
     <xsl:template match="*/projectV2/items/nodes" >
         
-        <xsl:value-of select="type" />
         <xsl:text>|</xsl:text>
+        <xsl:text>'</xsl:text>
+        <xsl:value-of select="type" />
+        <xsl:text>'</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>'</xsl:text>
         <xsl:value-of select="fieldValueByName/name" />
+        <xsl:text>'</xsl:text>
         <!--
             Extract the Issue Number
             - If no Size label is found the value empty
@@ -35,10 +40,11 @@
             - This is not ideal.
             - I'd rather work it so that I can return a string like "Not defined"
         -->
-        <xsl:text>|</xsl:text>
         <xsl:value-of select="content/number" />
         <xsl:text>|</xsl:text>
+        <xsl:text>'</xsl:text>
         <xsl:value-of select='replace(replace(content/title,"\n|\r","")," +"," ")' />
+        <xsl:text>'</xsl:text>
         <xsl:text>|</xsl:text>
 
         <xsl:choose>
@@ -62,14 +68,16 @@
               that includes all of the labels.
               e.g. "NIH OTA: 1.2.1","Size: 80","Deliverable: 5 Core PIDs"
         -->
-        <xsl:for-each select="content/labels/nodes">
-                    <xsl:text>"</xsl:text>
-                    <xsl:value-of select="./name" />
-                    <xsl:text>"</xsl:text>
-                    <xsl:if test='position() != last()' >
-                        <xsl:text>,</xsl:text>
-                    </xsl:if>
-        </xsl:for-each>        
+        <xsl:if test="content/labels/nodes/*" >
+            <xsl:for-each select="content/labels/nodes">
+                <xsl:text>'</xsl:text>
+                <xsl:value-of select="./name" />
+                <xsl:text>'</xsl:text>
+                <xsl:if test='position() != last()' >
+                    <xsl:text>,</xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:if>
         <xsl:text>|</xsl:text>
 
 
@@ -84,7 +92,11 @@
             
         -->
         <xsl:for-each select="./content/labels/nodes">
+             <xsl:choose>
+                <xsl:when test='contains(./name,"Size: ")' >
                     <xsl:value-of select='replace(replace(./name,"Size: ","")," ","")' />
+                </xsl:when>
+             </xsl:choose>
         </xsl:for-each>        
         <xsl:text>|</xsl:text>
 

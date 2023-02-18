@@ -4249,6 +4249,27 @@
               </nodes>
               <totalCount>1</totalCount>
             </labels>
+            <number>5</number>
+            <repository>
+              <name>dataverse-frontend</name>
+            </repository>
+            <title>Define and establish the Dataverse frontend QA process</title>
+            <url>https://github.com/IQSS/dataverse-frontend/issues/5</url>
+          </content>
+          <fieldValueByName>
+            <name>Re-arch: SPA MVP (Guillermo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE8wwQ</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
             <number>1</number>
             <repository>
               <name>dataverse-frontend</name>
@@ -4798,33 +4819,6 @@
           <id>PVTI_lADOAApNpc4AHKIszgE5-kI</id>
           <type>ISSUE</type>
         </nodes>
-        <nodes>
-          <content>
-            <labels>
-              <nodes>
-                <name>Feature: Metadata</name>
-              </nodes>
-              <nodes>
-                <name>NIH: NetCDF</name>
-              </nodes>
-              <nodes>
-                <name>Size: 10</name>
-              </nodes>
-              <totalCount>3</totalCount>
-            </labels>
-            <number>6713</number>
-            <repository>
-              <name>dataverse</name>
-            </repository>
-            <title>Improve Geospatial Metadata Block by adding additional fields</title>
-            <url>https://github.com/IQSS/dataverse/issues/6713</url>
-          </content>
-          <fieldValueByName>
-            <name>NIH NetCDF (Phil)</name>
-          </fieldValueByName>
-          <id>PVTI_lADOAApNpc4AHKIszgE2uYY</id>
-          <type>ISSUE</type>
-        </nodes>
         <pageInfo>
           <endCursor>MjAw</endCursor>
           <hasNextPage>True</hasNextPage>
@@ -4842,6 +4836,36 @@
     <login>IQSS</login>
     <projectV2>
       <items>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Geospatial</name>
+              </nodes>
+              <nodes>
+                <name>NIH: NetCDF</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>6713</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Improve Geospatial Metadata Block by adding additional fields</title>
+            <url>https://github.com/IQSS/dataverse/issues/6713</url>
+          </content>
+          <fieldValueByName>
+            <name>NIH NetCDF (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE2uYY</id>
+          <type>ISSUE</type>
+        </nodes>
         <nodes>
           <content>
             <labels>
@@ -5045,7 +5069,7 @@
           <type>PULL_REQUEST</type>
         </nodes>
         <pageInfo>
-          <endCursor>MjA4</endCursor>
+          <endCursor>MjA5</endCursor>
           <hasNextPage>False</hasNextPage>
           <hasPreviousPage>True</hasPreviousPage>
           <startCursor>MjAx</startCursor>

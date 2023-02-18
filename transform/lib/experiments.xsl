@@ -8,15 +8,15 @@
 
     <xsl:template match="/" >
         
-        <xsl:text>
-        Type|
-        Status|
-        IssueNumber|
-        Title|
-        LabelsCount|
-        LabelString|
-        AssignedSize|
-        </xsl:text>
+        
+        <xsl:text>Type|</xsl:text>
+        <xsl:text>Status|</xsl:text>
+        <xsl:text>IssueNumber|</xsl:text>
+        <xsl:text>Title|</xsl:text>
+        <xsl:text>LabelsCount|</xsl:text>
+        <xsl:text>LabelString|</xsl:text>
+        <xsl:text>AssignedSize|</xsl:text>
+        
         <xsl:text>&#10;</xsl:text>
         
         <xsl:apply-templates />
@@ -63,24 +63,12 @@
               e.g. "NIH OTA: 1.2.1","Size: 80","Deliverable: 5 Core PIDs"
         -->
         <xsl:for-each select="content/labels/nodes">
-            <xsl:choose>
-                <xsl:when test="./name">
                     <xsl:text>"</xsl:text>
                     <xsl:value-of select="./name" />
                     <xsl:text>"</xsl:text>
                     <xsl:if test='position() != last()' >
                         <xsl:text>,</xsl:text>
                     </xsl:if>
-                </xsl:when>
-                <xsl:when test="./array">
-                    <xsl:text>"</xsl:text>
-                    <xsl:value-of select="./array" />
-                    <xsl:text>"</xsl:text>
-                    <xsl:if test='position() != last()' >
-                        <xsl:text>,</xsl:text>
-                    </xsl:if>
-                </xsl:when>
-            </xsl:choose>
         </xsl:for-each>        
         <xsl:text>|</xsl:text>
 

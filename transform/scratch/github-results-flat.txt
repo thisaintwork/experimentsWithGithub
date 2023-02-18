@@ -1,210 +1,209 @@
 Type|Status|IssueNumber|Title|LabelsCount|LabelString|AssignedSize|
-PULL_REQUEST|Clear of the Backlog|9193|IQSS/9189-fix non-Globus properties|1|"Size: 3"|3|
-ISSUE|Clear of the Backlog|208|Add Binder button for operating on datasets with Jupyter notebooks, Python, R, etc.|1|"Size: 3"|3|
-ISSUE|Clear of the Backlog|9293|New filter-based design for the API authentication mechanisms|4|"Feature: API","User Role: API User","NIH OTA: 1.7.1 (reArchitecture)","Size: 33"|Feature:APIUserRole:APIUserNIHOTA:1.7.1(reArchitecture)33|
-ISSUE|Clear of the Backlog|9150|Create a javascript for the frontend that supports Fundref|3|"NIH OTA: 1.2.1","Size: 80","Deliverable: 5 Core PIDs"|NIHOTA:1.2.180Deliverable:5CorePIDs|
-PULL_REQUEST|Clear of the Backlog|9086|Iqss/7349 2 improve related pub citation entry|2|"QDR","Size: 3"|QDR3|
-ISSUE|Clear of the Backlog|9151|Get the existing ROR plug-in working on the dataverse demo|3|"NIH OTA: 1.2.1","Size: 80","Deliverable: 5 Core PIDs"|NIHOTA:1.2.180Deliverable:5CorePIDs|
-PULL_REQUEST|Clear of the Backlog|9101|IQSS/7349-5 - Use brand name for catalog|2|"QDR","Size: 3"|QDR3|
-ISSUE|Clear of the Backlog|8975|File level metadata: File level metadata tags should wrap and not run off the page|7|"Feature: Metadata","Type: Bug","Feature: Style Guide","User Role: Superuser","Feature: Controlled Vocabulary","Hackathon: JSF","Size: 3"|Feature:MetadataType:BugFeature:StyleGuideUserRole:SuperuserFeature:ControlledVocabularyHackathon:JSF3|
-PULL_REQUEST|Clear of the Backlog|9087|IQSS/7349-3 file updates for schema.org|2|"QDR","Size: 3"|QDR3|
-PULL_REQUEST|Clear of the Backlog|9132|Dataset files cleanup|1|"Size: SprintTail"|SprintTail|
-PULL_REQUEST|Clear of the Backlog|9212|#9211 fix render logic display with TOA OR restricted files|1|"Size: 3"|3|
-ISSUE|Clear of the Backlog|9325|Description metadata field: Description field text should wrap and not run off the page|1|"Size: 3"|3|
-PULL_REQUEST|Clear of the Backlog|9085|Iqss/7349 1 truncate description|2|"QDR","Size: 3"|QDR3|
-ISSUE|Clear of the Backlog|6807|Explore button for Binder|2|"Feature: External Tool","Size: 3"|Feature:ExternalTool3|
-PULL_REQUEST|Clear of the Backlog|9249|DOCS: add link to development documentation build|2|"Feature: User Guide","Size: 3"|Feature:UserGuide3|
-PULL_REQUEST|Clear of the Backlog|9254|Make productionPlace multiple, facetable, and enabled for Advanced Search #9253|2|"Feature: Metadata","Size: 3"|Feature:Metadata3|
-ISSUE|Clear of the Backlog|1339|Spike: Revisit the issue of adding rate limiting logic to the application, create a list of actionable issues to start the effort.|1|"Size: 33"|33|
-PULL_REQUEST|Clear of the Backlog|9017|GDCC/9016-handle no file PID case in metrics|2|"JHU","Size: 10"|JHU10|
-PULL_REQUEST|Clear of the Backlog|8674|DANS/Local PermaLink PID Provider|2|"DANS","Size: 80"|DANS80|
-PULL_REQUEST|Clear of the Backlog|9316|Fix for the broken "earliest date" (#9309)|1|"Size: 10"|10|
-ISSUE|Clear of the Backlog|9231|Feature request: Add the ability to configure a Harvesting Client to add a custom header to OAI calls|2|"NIH OTA: 1.4.1","Size: 80"|NIHOTA:1.4.180|
-PULL_REQUEST|Clear of the Backlog|9269|8339 file data api|1|"Size: SprintTail"|SprintTail|
-PULL_REQUEST|Clear of the Backlog|9239|extract metadata (NcML XML) from NetCDF/HDF5 files, new "requirements" option for external tools|1|"Size: 10"|10|
-PULL_REQUEST|Clear of the Backlog|8915|7980 enhanced dsd|2|"User Role: Sysadmin","Size: 3"|UserRole:Sysadmin3|
-PULL_REQUEST|Clear of the Backlog|8827|7000 mpconfig files basic|6|"Feature: File Upload & Handling","Feature: Code Infrastructure","Feature: Installation Guide","User Role: Sysadmin","Containers & Cloud","Size: 3"|Feature:FileUpload&HandlingFeature:CodeInfrastructureFeature:InstallationGuideUserRole:SysadminContainers&Cloud3|
-PULL_REQUEST|Clear of the Backlog|9105|Add quotes around CVoc term URIs on advanced search page|2|"DANS","Size: 10"|DANS10|
-PULL_REQUEST|Clear of the Backlog|9122|IQSS/9121 Fix for search display with ext. CVoc|2|"DANS","Size: 10"|DANS10|
-PULL_REQUEST|Clear of the Backlog|9129|IQSS/9126- Fix workflow token access|2|"DANS","Size: 10"|DANS10|
-ISSUE|Clear of the Backlog|9282|In TabularSubsetGenerator.java use try-with-resources for BufferedWriter|2|"Size: 3","Tech Debt"|3TechDebt|
-ISSUE|Clear of the Backlog|9280|In Files.java usr try-with-resources to for JsonReader|2|"Size: 3","Tech Debt"|3TechDebt|
-PULL_REQUEST|Clear of the Backlog|8830|7000 mpconfig rserve|6|"Type: Feature","Feature: Code Infrastructure","Feature: Installation Guide","User Role: Sysadmin","Containers & Cloud","Size: 3"|Type:FeatureFeature:CodeInfrastructureFeature:InstallationGuideUserRole:SysadminContainers&Cloud3|
-ISSUE|Clear of the Backlog|9201|Retrospective: Continue the daily standups.|1|"Sprint Retrospective"|SprintRetrospective|
-PULL_REQUEST|Clear of the Backlog|9096|IQSS/9095-dvwebloader integration|2|"DataverseNO","Size: 10"|DataverseNO10|
-PULL_REQUEST|Clear of the Backlog|9234|9228 - add OIDC development setup for OIDC login feature testing|3|"Feature: Account & User Info","NIH OTA: 1.7.1 (reArchitecture)","Size: 3"|Feature:Account&UserInfoNIHOTA:1.7.1(reArchitecture)3|
-PULL_REQUEST|Clear of the Backlog|9227|8843 more harvest tests|1|"Size: 10"|10|
-PULL_REQUEST|Clear of the Backlog|9173|QDR/9172-fix messages|1|"Size: 3"|3|
-PULL_REQUEST|Clear of the Backlog|9226|import function DatasetUtil|1|"Size: 3"|3|
-ISSUE|Clear of the Backlog|9153|Extract metadata from NetCDF and HDF5 files as XML in NcML format|2|"NIH: NetCDF","Size: 80"|NIH:NetCDF80|
-ISSUE|Clear of the Backlog|8339|Provide an API for retrieving information about an individual datafile|1|"Size: 33"|33|
-PULL_REQUEST|Clear of the Backlog|7877|7844 codemeta schema|5|"Feature: Metadata","Working Group: SWC","HERMES","NIH OTA: 1.3.1","Size: 10"|Feature:MetadataWorkingGroup:SWCHERMESNIHOTA:1.3.110|
-PULL_REQUEST|Clear of the Backlog|8972|Trigger auto-analyze more frequently for guestbook estimates|1|"Size: 3"|3|
-PULL_REQUEST|Clear of the Backlog|9018|GDCC/9005 replace files api call|2|"DANS","Size: 33"|DANS33|
-PULL_REQUEST|Clear of the Backlog|8962|IQSS/8730 - fix direct upload progress|2|"DataverseNO","Size: 3"|DataverseNO3|
-PULL_REQUEST|Clear of the Backlog|8933|8932 container base image|3|"Containers & Cloud","Working Group: SWC","Size: 3"|Containers&CloudWorkingGroup:SWC3|
-PULL_REQUEST|Clear of the Backlog|9076|#9074 - Added support for building sphinx docs using python 3.10+|1|"Size: 3"|3|
-PULL_REQUEST|Clear of the Backlog|8824|7000 mpconfig version|4|"Feature: Code Infrastructure","Feature: Developer Guide","Containers & Cloud","Size: 3"|Feature:CodeInfrastructureFeature:DeveloperGuideContainers&Cloud3|
-PULL_REQUEST|Clear of the Backlog|8826|7000 mpconfig fqdn & siteUrl|4|"Feature: Code Infrastructure","Feature: Installation Guide","User Role: Sysadmin","Size: 3"|Feature:CodeInfrastructureFeature:InstallationGuideUserRole:Sysadmin3|
-PULL_REQUEST|Clear of the Backlog|8825|7000 mpconfig solr|6|"Feature: Code Infrastructure","Feature: Installation Guide","User Role: Sysadmin","Containers & Cloud","Feature: Indexing","Size: 3"|Feature:CodeInfrastructureFeature:InstallationGuideUserRole:SysadminContainers&CloudFeature:Indexing3|
-ISSUE|Clear of the Backlog|9203|Retrospective: All dev work gets represented on the board.|1|"Sprint Retrospective"|SprintRetrospective|
-PULL_REQUEST|Clear of the Backlog|9187|7940 stop harvest in progress|1|"Size: 10"|10|
-ISSUE|Clear of the Backlog|8843|Expand the suite of automated tests of the Harvesting functionality|4|"Feature: Harvesting","NIH OTA: 1.4.1","Testing: API","Size: 80"|Feature:HarvestingNIHOTA:1.4.1Testing:API80|
-ISSUE|Clear of the Backlog|9202|Retrospective: make the sprint board so that everything moves left to right.|2|"Size: 10","Sprint Retrospective"|10SprintRetrospective|
-PULL_REQUEST|Clear of the Backlog|8983|feat(upload): make upload file storage path configurable #6656|1|"Size: 33"|33|
-PULL_REQUEST|Clear of the Backlog|9091|Extend 'metadatablocks/{block_id}' endpoint JSON output|0|""||
-ISSUE|Clear of the Backlog|3621|invalid schema and metadataNamespace fields in OAI-PMH ListMetadataFormats response|4|"Feature: Harvesting","User Role: Sysadmin","NIH OTA: 1.4.1","Size: 10"|Feature:HarvestingUserRole:SysadminNIHOTA:1.4.110|
-ISSUE|Clear of the Backlog|9361|Add GENERIC storage quota check to the file upload framework. |1|"Size: 80"|80|
-ISSUE|Clear of the Backlog|212|shibb group: create a shibb group for Cornell University|2|"pm.Sonia","Size: 3"|pm.Sonia3|
-PULL_REQUEST|SPRINT READY|8940|8822 incomplete datasets via api|4|"Feature: Metadata","Feature: API","Size: 33","UI/UX: Design"|Feature:MetadataFeature:API33UI/UX:Design|
-ISSUE|SPRINT READY|9326|Payara 6: during password reset, users asked to accept term but there is no checkbox|4|"Type: Bug","Feature: Account & User Info","Payara 6 Upgrade","Size: 3"|Type:BugFeature:Account&UserInfoPayara6Upgrade3|
-PULL_REQUEST|Clear of the Backlog|9367|Text corrections #9365|2|"Feature: Metadata","Size: 3"|Feature:Metadata3|
-PULL_REQUEST|SPRINT READY|9306|9277 - correcting the sphinx documentation pdf build|2|"Feature: User Guide","Size: 10"|Feature:UserGuide10|
-PULL_REQUEST|Clear of the Backlog|9366|Add initial support for .eln file format|2|"Feature: File Upload & Handling","Size: 3"|Feature:FileUpload&Handling3|
-PULL_REQUEST|SPRINT READY|9290|9063 - add session API auth mechanism with feature flag|4|"Feature: API","User Role: API User","NIH OTA: 1.7.1 (reArchitecture)","Size: 3"|Feature:APIUserRole:APIUserNIHOTA:1.7.1(reArchitecture)3|
-ISSUE|SPRINT READY|9338|Inconsistent behavior relating to Roles|1|"Size: 10"|10|
-ISSUE|SPRINT READY|9329|Payara 6: ensure API tests are executing|1|"Size: 10"|10|
-ISSUE|SPRINT READY|9323|Payara 6: Can't publish some datasets|2|"Payara 6 Upgrade","Size: 3"|Payara6Upgrade3|
-PULL_REQUEST|SPRINT READY|9299|9297 feature flags|6|"Feature: Code Infrastructure","Feature: Developer Guide","Feature: Installation Guide","User Role: Sysadmin","Testing: API","Size: 3"|Feature:CodeInfrastructureFeature:DeveloperGuideFeature:InstallationGuideUserRole:SysadminTesting:API3|
-ISSUE|Clear of the Backlog|9376|Fix order of metadatablocks when creating and editing dataset templates in NDR collection|1|"Size: 10"|10|
-ISSUE|Clear of the Backlog|186|In Harvard Dataverse Repository, three published datasets are in unpublished Dataverse collections|1|"Size: 3"|3|
-ISSUE|Clear of the Backlog|150|Some datasets are uneditable, have finalizePublication lock, but DOIs work, "Draft"/"Unpublished" labels are missing|1|"Size: 10"|10|
-PULL_REQUEST|SPRINT READY|8981|Gdcc/Signposting|1|"Size: 10"|10|
-PULL_REQUEST|SPRINT READY|9204|IQSS/4959-Support-By-Category-and-Folder-Grouping|4|"QDR","JHU","Size: 33","ASU"|QDRJHU33ASU|
-PULL_REQUEST|SPRINT READY|9102|IQSS/9100 OpenAire update for orgs|2|"DANS","Size: 10"|DANS10|
-ISSUE|SPRINT READY|3648|Dataverse doesn't always produce valid DDI codebook 2.5 XML|7|"Feature: Metadata","Type: Bug","Feature: Harvesting","User Role: Sysadmin","epic.8701","NIH OTA: 1.2.1","Size: 33"|Feature:MetadataType:BugFeature:HarvestingUserRole:Sysadminepic.8701NIHOTA:1.2.133|
-ISSUE|SPRINT READY|9272|Spike: Datacite request to avoid creating unecessary file DOIs|1|"Size: 3"|3|
-ISSUE|SPRINT READY|7736|Fix handling of storageidentifiers in dataverse_json harvests|5|"Feature: Harvesting","NIH OTA DC","pm.epic.nih_harvesting","NIH OTA: 1.4.1","Size: 10"|Feature:HarvestingNIHOTADCpm.epic.nih_harvestingNIHOTA:1.4.110|
-ISSUE|SPRINT READY|8289|The "ListSets" command fails during the creation of a harvesting client for Zenodo |5|"Feature: Harvesting","NIH OTA DC","pm.epic.nih_harvesting","NIH OTA: 1.4.1","Size: 33"|Feature:HarvestingNIHOTADCpm.epic.nih_harvestingNIHOTA:1.4.133|
-PULL_REQUEST|Clear of the Backlog|9222|Update dataverse.xhtml to add "read more/read less" buttons for dataverse descriptions|2|"Feature: Search/Browse","Size: 3"|Feature:Search/Browse3|
-PULL_REQUEST|SPRINT READY|9184|Iqss/9183 terms of access validation fix|3|"Type: Suggestion","Feature: Code Infrastructure","Size: 3"|Type:SuggestionFeature:CodeInfrastructure3|
-PULL_REQUEST|Clear of the Backlog|8970|class field can be replaced by local variable|4|"Type: Suggestion","Feature: Code Infrastructure","User Role: Hackathon Participant","Size: 3"|Type:SuggestionFeature:CodeInfrastructureUserRole:HackathonParticipant3|
-PULL_REQUEST|SPRINT READY|9256|Make Series multiple #9255|2|"Feature: Metadata","Size: 3"|Feature:Metadata3|
-ISSUE|SPRINT READY|75|Spike: finalize the plan for transition to Make Data Count, how to display the metrics, how to handle legacy counts|2|"NIH OTA: 1.5.1","Size: 10"|NIHOTA:1.5.110|
-PULL_REQUEST|SPRINT READY|9257|8092 timestamp of data access request|2|"Feature: Request Access Workflow","Size: 10"|Feature:RequestAccessWorkflow10|
-PULL_REQUEST|Clear of the Backlog|6183|Fix at 'Show the dataset whose id is passed' section #6083|4|"Type: Suggestion","Feature: API Guide","User Role: API User","Size: 3"|Type:SuggestionFeature:APIGuideUserRole:APIUser3|
-ISSUE|SPRINT READY|9147|Draft design doc for NetCDF/HDF5/geospatial|3|"Feature: File Upload & Handling","NIH: NetCDF","Size: 33"|Feature:FileUpload&HandlingNIH:NetCDF33|
-ISSUE|Harvard Dataverse Instance (Sonia)|193|Spike: Add more licenses using multiple license feature|1|"Size: NoSprintCost"|NoSprintCost|
-ISSUE|Clear of the Backlog|8724|Linking Dataverse does not update child dataset indexes|1|"Size: 33"|33|
-ISSUE|Clear of the Backlog|5112|Exclude deaccessioned dataset from being harvested|5|"Type: Suggestion","Feature: Harvesting","User Role: Superuser","NIH OTA: 1.4.1","Size: 3"|Type:SuggestionFeature:HarvestingUserRole:SuperuserNIHOTA:1.4.13|
-ISSUE|Clear of the Backlog|9283|Payara 6: resolve conflicts and look for next bug|2|"Payara 6 Upgrade","Size: 10"|Payara6Upgrade10|
-ISSUE|Clear of the Backlog|8574|Spike: Inventory and prioritize all existing Harvesting related issues|5|"Feature: Harvesting","NIH OTA DC","pm.epic.nih_harvesting","NIH OTA: 1.4.1","Size: 33"|Feature:HarvestingNIHOTADCpm.epic.nih_harvestingNIHOTA:1.4.133|
-ISSUE|Clear of the Backlog|7430|Linked dataverses dont (always) show up in their linking dataverses|1|"Size: 80"|80|
-ISSUE|Clear of the Backlog|9214|Bug: Fix dataset creation in the payara 6 branch|2|"Payara 6 Upgrade","Size: 33"|Payara6Upgrade33|
-REDACTED||||0|||
-ISSUE|Clear of the Backlog|201|Purge unused user accounts (as in, first consider and discuss, then, potentially, purge)|2|"ops: User Accounts","Size: 10"|ops:UserAccounts10|
-PULL_REQUEST|Clear of the Backlog|9107|fix for cvv and editMetadata replace=true, and test|2|"DANS","Size: 3"|DANS3|
-PULL_REQUEST|Clear of the Backlog|9125|8346 License internationalizataion|1|"Size: 10"|10|
-DRAFT_ISSUE|Clear of the Backlog||🔻Sprint - old 🔻|0|||
-ISSUE|Clear of the Backlog|192|Restore access to two published datasets' whose pages fail to load; API endpoint for getting their dataset metadata fails|3|"Size: 10","Support","Support: prod. data corruption"|10SupportSupport:prod.datacorruption|
-PULL_REQUEST|Clear of the Backlog|9174|8290 harvest client api|1|"Size: 3"|3|
-ISSUE|Clear of the Backlog|9114|Create a whitepaper for external vocabulary work 1.2.1|2|"NIH OTA: 1.2.1","Size: 3"|NIHOTA:1.2.13|
-ISSUE|Clear of the Backlog|3741|OAI server: metadataPrefix unknown: Internal server error|4|"Type: Bug","Feature: Harvesting","User Role: Sysadmin","NIH OTA: 1.4.1"|Type:BugFeature:HarvestingUserRole:SysadminNIHOTA:1.4.1|
-ISSUE|Clear of the Backlog|7940|[feature request] stop an harvest job in progress|4|"Feature: Harvesting","NIH OTA DC","pm.epic.nih_harvesting","NIH OTA: 1.4.1"|Feature:HarvestingNIHOTADCpm.epic.nih_harvestingNIHOTA:1.4.1|
-ISSUE|Clear of the Backlog|3215|"Securing Your Installation" section of Installation Guide could cover ongoing security, advisories, private discussion|3|"Feature: Installation Guide","postmortem","Size: 10"|Feature:InstallationGuidepostmortem10|
-ISSUE|Clear of the Backlog|3797|OAI-PMH responses indicating errors should be processable by OAI-PMH clients|4|"Type: Bug","Feature: Harvesting","User Role: Sysadmin","NIH OTA: 1.4.1"|Type:BugFeature:HarvestingUserRole:SysadminNIHOTA:1.4.1|
-ISSUE|Clear of the Backlog|8656|Popup text can be hidden under Primefaces 11|0|""||
-ISSUE|Upgrades in Prep for DV6|8305|Spike: Upgrade to Payara 6 and from EE 8 to EE 10 (end of Payara 5 Community Edition security patches Q2/2022)|3|"bklog: Deliverable","Payara 6 Upgrade","bklog: NeedsDiscussion"|bklog:DeliverablePayara6Upgradebklog:NeedsDiscussion|
-PULL_REQUEST|Upgrades in Prep for DV6|9116|8305 Upgrade to Jakarta EE 10 and Payara 6|7|"Feature: Code Infrastructure","Feature: Installer","Feature: Installation Guide","Payara 6 Upgrade","bklog: Collection","Size: Queued","bklog: NeedsDiscussion"|Feature:CodeInfrastructureFeature:InstallerFeature:InstallationGuidePayara6Upgradebklog:CollectionQueuedbklog:NeedsDiscussion|
-PULL_REQUEST|Clear of the Backlog|9026|GDCC/Harvesting server it test failing|0|""||
-ISSUE|NIH bklog items (Stefano)|9123|Enhance Globus support for remote endpoints and tape stores|1|"NIH OTA: 1.1.1"|NIHOTA:1.1.1|
-ISSUE|NIH bklog items (Stefano)|8842|Refactor the OAI code, Step 2|3|"Feature: Harvesting","NIH OTA: 1.4.1","Size: Queued"|Feature:HarvestingNIHOTA:1.4.1Queued|
-ISSUE|Clear of the Backlog|8984|Update GUIDE to include GeoJSON|6|"Feature: Developer Guide","Feature: Admin Guide","Feature: User Guide","Feature: External Tool","Feature: Geospatial","Size: 3"|Feature:DeveloperGuideFeature:AdminGuideFeature:UserGuideFeature:ExternalToolFeature:Geospatial3|
-ISSUE|Clear of the Backlog|110|file tab display of image for "restricted file" is cluttered when not logged in for access|2|"bug","enhancement"|bugenhancement|
-ISSUE|Harvard Dataverse Instance (Sonia)|8185|Some researchers unsure of difference between "Private URL" and "Anonymous Private URL"|2|"Status: UX & UI","Size: Queued"|Status:UX&UIQueued|
-ISSUE|Harvard Dataverse Instance (Sonia)|8328|versioning: optimize load time for dataset with multiple versions|4|"Type: Feature","Type: Bug","Feature: Publishing & Versions","Size: Queued"|Type:FeatureType:BugFeature:Publishing&VersionsQueued|
-ISSUE|SPRINT- NEEDS SIZING|7285|Support for Crossref Funder Registry ID|8|"Type: Suggestion","Feature: Metadata","User Role: Curator","User Role: Depositor","NIH OTA: 1.5.1","bklog: NeedsDiscussion","Deliverable: 5 Core PIDs","Size: NoSprintCost"|Type:SuggestionFeature:MetadataUserRole:CuratorUserRole:DepositorNIHOTA:1.5.1bklog:NeedsDiscussionDeliverable:5CorePIDsNoSprintCost|
-ISSUE|SPRINT- NEEDS SIZING|210|Add Badge for DataCite registration provider|0|""||
-ISSUE|SPRINT- NEEDS SIZING|8889|Feature Request: Enable file PIDs at Dataverse Collection Level|1|"Feature: DOI & Handle"|Feature:DOI&Handle|
-PULL_REQUEST|Clear of the Backlog|7631|7527 redetect api error|0|""||
-PULL_REQUEST|Clear of the Backlog|8958|IQSS/8957 JWT creation test for DRS Archiver|3|"hdc","3a","Size: 3"|hdc3a3|
-PULL_REQUEST|Clear of the Backlog|9061|IQSS/9020- Fix for Update current version issue when a file is the dataset thumb|1|"Size: 3"|3|
-ISSUE|SPRINT READY|9240|Intermittent error from the new Harvesting Clients test |1|"Size: 10"|10|
-ISSUE|Clear of the Backlog|9339|Update Dataverse pom file to build with the 5.0.0 release of XOAI library|1|"Size: 3"|3|
-ISSUE|SPRINT READY|9148|Feature Request/Idea: As a curator or collection manager, I'd like to ensure that datasets published using the Dataverse APIs include a license or have Terms of Use|3|"Feature: API","Feature: Terms & Licensing","Size: 10"|Feature:APIFeature:Terms&Licensing10|
-PULL_REQUEST|Clear of the Backlog|8774|Upgrade from Payara 5 to 6|0|""||
-DRAFT_ISSUE|Clear of the Backlog||➖➖➖➖➖|0|||
-ISSUE|Community Backlog (Phil)|68|README for the Dataverse Community Backlog|0|""||
-ISSUE|SPRINT- NEEDS SIZING|7173|As a system integrator, I would appreciate a JSON Schema for validating my dataset JSON before uploading via API|8|"Type: Feature","Feature: Metadata","Feature: API","Feature: API Guide","User Role: API User","Feature: Accessibility","HERMES","Size: Queued"|Type:FeatureFeature:MetadataFeature:APIFeature:APIGuideUserRole:APIUserFeature:AccessibilityHERMESQueued|
-PULL_REQUEST|Clear of the Backlog|9225|9224 - revert workflow metadata block in Solr schema|4|"HERMES","hdc","2","Size: 3"|HERMEShdc23|
-PULL_REQUEST|Community Backlog (Phil)|9302|add custom license for France to the Dataverse Doc|2|"Feature: Terms & Licensing","Size: 3"|Feature:Terms&Licensing3|
-PULL_REQUEST|Community Backlog (Phil)|9262|8512 standardize license configuration|1|"Size: Queued"|Queued|
-PULL_REQUEST|SPRINT READY|9383|Support for deleting files using native API|3|"Feature: API","Feature: File Upload & Handling","Size: 3"|Feature:APIFeature:FileUpload&Handling3|
-PULL_REQUEST|Community Backlog (Phil)|8357|issue #5277: first implementation step for exporting related publicat…|1|"Size: Queued"|Queued|
-PULL_REQUEST|SPRINT- NEEDS SIZING|9012|rename role.editor to role.contributor|0|""||
-PULL_REQUEST|Community Backlog (Phil)|9013|Harvest: map publisher tag to distributorName|0|""||
-PULL_REQUEST|Community Backlog (Phil)|8982|GitHub Workflows security hardening|0|""||
-ISSUE|NIH bklog items (Stefano)|8629|Revisit/reimplement the concept of a "Harvested file". |4|"Feature: Harvesting","pm.epic.nih_harvesting_framework","NIH OTA: 1.4.1","Size: 10"|Feature:Harvestingpm.epic.nih_harvesting_frameworkNIHOTA:1.4.110|
-ISSUE|Clear of the Backlog|8267|Feature Request/Idea: Documentation for the API to create and edit harvesting clients|3|"Feature: Harvesting","Feature: API Guide","NIH OTA: 1.4.1"|Feature:HarvestingFeature:APIGuideNIHOTA:1.4.1|
-PULL_REQUEST|Community Backlog (Phil)|9003|9002 allow direct upload setting|0|""||
-PULL_REQUEST|Community Backlog (Phil)|8995|allow slash in check permissions api request|0|""||
-PULL_REQUEST|Clear of the Backlog|8908|Improve archiving api error handling|0|""||
-ISSUE|Clear of the Backlog|9117|Improve file type detection of NetCDF and HDF5|1|"NIH: NetCDF"|NIH:NetCDF|
-ISSUE|Clear of the Backlog|185|Add SAEF metadata block to Harvard Dataverse Repository|0|""||
-PULL_REQUEST|Community Backlog (Phil)|7261|6810 - refactor JSON deps|1|"Feature: Code Infrastructure"|Feature:CodeInfrastructure|
-PULL_REQUEST|Community Backlog (Phil)|6977|6970 proxy client ip|5|"Type: Feature","Feature: Permissions","Feature: Metrics + Reports","Feature: Admin Guide","User Role: Sysadmin"|Type:FeatureFeature:PermissionsFeature:Metrics+ReportsFeature:AdminGuideUserRole:Sysadmin|
-PULL_REQUEST|Community Backlog (Phil)|8786|8778 harvester ddi exporter|0|""||
-ISSUE|Community Backlog (Phil)|6978|Query Dataverse for mandatory metadata fields via API|4|"Feature: API","User Role: API User","HERMES","Hackathon: More APIs"|Feature:APIUserRole:APIUserHERMESHackathon:MoreAPIs|
-PULL_REQUEST|Community Backlog (Phil)|7044|fix mimetype of error pages|0|""||
-PULL_REQUEST|Community Backlog (Phil)|7636|Exclusions to remove module/classpath warnings|0|""||
-PULL_REQUEST|Community Backlog (Phil)|5506|IQSS-5505 - only update DOI metadata at PIDprovider when it changes|0|""||
-PULL_REQUEST|Community Backlog (Phil)|5621|use dataset thumbnail if available|0|""||
-PULL_REQUEST|Community Backlog (Phil)|7334|IQSS/7068 Reserve File Pids|0|""||
-ISSUE|Harvard Dataverse Instance (Sonia)|6640|Support Research Organization Registry (ROR) IDs|5|"Type: Suggestion","Feature: Metadata","User Role: Curator","User Role: Depositor","NIH OTA: 1.5.1"|Type:SuggestionFeature:MetadataUserRole:CuratorUserRole:DepositorNIHOTA:1.5.1|
-ISSUE|Community Backlog (Phil)|3913|Is a delete file endpoint available?|3|"Feature: API","User Role: API User","Hackathon: More APIs"|Feature:APIUserRole:APIUserHackathon:MoreAPIs|
-PULL_REQUEST|Community Backlog (Phil)|8709|Add docker-compose build system|0|""||
-DRAFT_ISSUE|HERMES (Oliver)||Dataverse Java API Package|0|||
-DRAFT_ISSUE|HERMES (Oliver)||Schema Data Binds / Model Mappings (DataCite Kernel Update)|0|||
-DRAFT_ISSUE|HERMES (Oliver)||Renewed DataCite Exporter|0|||
-PULL_REQUEST|Clear of the Backlog|9213|#8944 - Extend 'metadatablocks/{block_id}' endpoint JSON output|1|"Size: 33"|33|
-ISSUE|Clear of the Backlog|2|Spike: During some sprints we end the sprint with a few days with QA empty|1|"Sprint Retrospective"|SprintRetrospective|
-ISSUE|Clear of the Backlog|3|Spike: Improvement - End meetings on time & Schedule meetings more than a few hours ahead|1|"Sprint Retrospective"|SprintRetrospective|
-PULL_REQUEST|SPRINT- NEEDS SIZING|9245|Client-side multifile zip download|1|"DataverseNO"|DataverseNO|
-PULL_REQUEST|External Commitments (Jim)|6902|Work-in-Progress: 2043-guestbook-at-request code review requested|0|""||
-PULL_REQUEST|Re-arch: Auth MVP (Phil)|9273|9268 mpconfig OIDC provider|6|"Feature: Code Infrastructure","Feature: Performance & Stability","Feature: Installation Guide","Containers & Cloud","Testing: API","Size: 10"|Feature:CodeInfrastructureFeature:Performance&StabilityFeature:InstallationGuideContainers&CloudTesting:API10|
-PULL_REQUEST|Re-arch: Auth MVP (Phil)|9303|9293 - New filter-based design for the API authentication mechanisms (1/2)|4|"Feature: API","User Role: API User","NIH OTA: 1.7.1 (reArchitecture)","Size: 33"|Feature:APIUserRole:APIUserNIHOTA:1.7.1(reArchitecture)33|
-PULL_REQUEST|Re-arch: Auth MVP (Phil)|9230|9229 - enable OIDC bearer token API access|7|"Feature: API","Feature: Permissions","Feature: Account & User Info","Feature: API Guide","Feature: Admin Guide","Size: Queued","bklog: NeedsDiscussion"|Feature:APIFeature:PermissionsFeature:Account&UserInfoFeature:APIGuideFeature:AdminGuideQueuedbklog:NeedsDiscussion|
-ISSUE|Harvard Dataverse Instance (Sonia)|196|Add ZIP Previewer & File Downloader to demo and prod|0|""||
-ISSUE|SPRINT READY|9311|In SystemConfig.java use try-with-resources for JsonReader jsonReader = Json.createReader(new StringReader(setting)); in method getCurationLabels()|1|"Size: 3"|3|
-ISSUE|SPRINT- NEEDS SIZING|9312|In FileUtil.java use try-with-resources for in = new FileInputStream(inputFile).getChannel(); and out = new FileOutputStream(outputFile).getChannel(); in method copyFile(...) and out = new FileOutputStream(outputFile).getChannel(); in method determineFileType(...) and FileReader fileReader = new FileReader(file); in isGraphMLFile(...)|1|"Size: 3"|3|
-ISSUE|SonarQube cleanup (Gustavo)|9314|In JsonParser.java use try-with-resource for JsonReader jsonReader = Json.createReader(new StringReader(jsonString)); in method remapGeographicCoverage(...)|1|"Size: Queued"|Queued|
-ISSUE|SonarQube cleanup (Gustavo)|9313|In JSONLDUtil.java use try-with-resources for JsonObject jsonld = Json.createReader(rdr).readObject(); in method decontextualizeJsonLD(...)|1|"Size: Queued"|Queued|
-ISSUE|SonarQube cleanup (Gustavo)|9315|In JsonUtil.java use try-with-resources for return Json.createReader(rdr).readObject(); in method getJsonObject(...) and return Json.createReader(rdr).readArray(); in method getJsonArray(...)|1|"Size: Queued"|Queued|
-ISSUE|SPRINT READY|9331|Extracting lat/long and insert into geospatial bounding box fields|2|"NIH: NetCDF","Size: 10"|NIH:NetCDF10|
-ISSUE|SPRINT- NEEDS SIZING|9281|In DataConverter.java use try-with-resources for convertedFileStream|2|"Tech Debt","Size: Queued"|TechDebtQueued|
-PULL_REQUEST|Re-arch: Auth MVP (Phil)|9360|9293 - Apply filter-based auth for all API endpoints (2/2)|4|"Feature: API","User Role: API User","NIH OTA: 1.7.1 (reArchitecture)","Size: 10"|Feature:APIUserRole:APIUserNIHOTA:1.7.1(reArchitecture)10|
-ISSUE|Re-arch: SPA MVP (Guillermo)|5|Define and establish the Dataverse frontend QA process|1|"Size: 33"|33|
-ISSUE|Re-arch: SPA MVP (Guillermo)|1|Create the skeleton of the React application|1|"Size: 33"|33|
-ISSUE|Re-arch: SPA MVP (Guillermo)|9353|Dataverse container-based development environment|5|"Feature: Code Infrastructure","Feature: Developer Guide","Containers & Cloud","NIH OTA: 1.7.1 (reArchitecture)","Size: 130"|Feature:CodeInfrastructureFeature:DeveloperGuideContainers&CloudNIHOTA:1.7.1(reArchitecture)130|
-ISSUE|Re-arch: SPA MVP (Guillermo)|3|Storybook setup|1|"Size: 10"|10|
-ISSUE|Re-arch: SPA MVP (Guillermo)|2|Configure the GitHub repository for its administration and evolution|1|"Size: 10"|10|
-PULL_REQUEST|Clear of the Backlog|9354|pom file update to build XOAI-5.0.0 #9339|0|""||
-PULL_REQUEST|Clear of the Backlog|9188|Bump postgresql from 42.5.0 to 42.5.1 in /modules/dataverse-parent|2|"dependencies","Size: 3"|dependencies3|
-ISSUE|SPRINT- NEEDS SIZING|9355|Spike: Discover Root cause of GitHub actions stoppage in January (Before the end of February!)|1|"DevOps: Problem"|DevOps:Problem|
-ISSUE|Datacommons/DV Interop|9368|Deliverable: Investigate interoperability between datacommons and dataverse|2|"bklog: Deliverable","GDC: Interop With DV"|bklog:DeliverableGDC:InteropWithDV|
-ISSUE|Clear of the Backlog|9385|Spike: Investigate interoperability between google datacommons and dataverse|1|"GDC: Interop With DV"|GDC:InteropWithDV|
-PULL_REQUEST|SPRINT- NEEDS SIZING|9206|IQSS/9205-Add role-based provider|1|"Size: 3"|3|
-PULL_REQUEST|SPRINT READY|9195|IQSS/9194-fix curate command validation|2|"QDR","Size: 10"|QDR10|
-PULL_REQUEST|SPRINT READY|9186|IQSS/9185 contact email updates|2|"QDR","Size: 10"|QDR10|
-ISSUE|Deliverable: 5 Core PIDs|9300|Support the 5 core persistent identifiers in Dataverse|2|"bklog: Deliverable","Deliverable: 5 Core PIDs"|bklog:DeliverableDeliverable:5CorePIDs|
-ISSUE|SPRINT READY|9369|Shib group in another group doesn't work|1|"Size: 3"|3|
-ISSUE|SPRINT READY|9374|Fix Binder and Whole Tale (repo2docker) to download original files rather than archival .tab files|2|"Feature: External Tool","Size: 10"|Feature:ExternalTool10|
-ISSUE|Upgrades in Prep for DV6|9340|determine upgrade path from Payara 5 to 6|1|"Size: 33"|33|
-PULL_REQUEST|Upgrades in Prep for DV6|9291|8094 java17|6|"Feature: Code Infrastructure","Feature: Installer","Feature: Performance & Stability","Feature: Installation Guide","User Role: Sysadmin","Containers & Cloud"|Feature:CodeInfrastructureFeature:InstallerFeature:Performance&StabilityFeature:InstallationGuideUserRole:SysadminContainers&Cloud|
-ISSUE|Upgrades in Prep for DV6|9260|Test and move from Solr 8.X to Solr 9.X|0|""||
-ISSUE|SPRINT- NEEDS SIZING|9356|Add execution rate metering to the command engine|0|""||
-ISSUE|Dataverse Team (Gustavo)|9359|Investigate adding Apache-level mechanism for rejecting aggressive robot crawling|0|""||
-ISSUE|Dataverse Team (Gustavo)|8549|Add mechanism for collection-wise storage size quotas|0|""||
-REDACTED||||0|||
-ISSUE|Dataverse Team (Gustavo)|4499|DOIs for Dataset versions|3|"Feature: DOI & Handle","HERMES","Size: Queued"|Feature:DOI&HandleHERMESQueued|
-ISSUE|Deliverable: 5 Core PIDs|9370|Spike: issue to locate or document support for DOIs and ORCID|2|"spike","Deliverable: 5 Core PIDs"|spikeDeliverable:5CorePIDs|
-ISSUE|NIH NetCDF (Phil)|213|add NcML previewers (HDF5 and NetCDF) to demo and Harvard Dataverse|2|"Feature: External Tool","Size: 3"|Feature:ExternalTool3|
-ISSUE|NIH NetCDF (Phil)|6713|Improve Geospatial Metadata Block by adding additional fields|4|"Feature: Metadata","Feature: Geospatial","NIH: NetCDF","Size: 10"|Feature:MetadataFeature:GeospatialNIH:NetCDF10|
-ISSUE|SPRINT- NEEDS SIZING|8928|Dataset with large number of files|1|"Dataset: large number of files"|Dataset:largenumberoffiles|
-ISSUE|SPRINT- NEEDS SIZING|8256|Investigate performance degradation in reindex of datasets with large numbers of files|1|"Dataset: large number of files"|Dataset:largenumberoffiles|
-ISSUE|SPRINT- NEEDS SIZING|6808|Performance: Slow response for datasets with high number of files or versions|2|"Feature: Performance & Stability","Dataset: large number of files"|Feature:Performance&StabilityDataset:largenumberoffiles|
-ISSUE|SPRINT- NEEDS SIZING|6723|High levels of open file descriptors while uploading a zip with lots of files in it|5|"Feature: File Upload & Handling","Type: Bug","Feature: Performance & Stability","User Role: Sysadmin","Dataset: large number of files"|Feature:FileUpload&HandlingType:BugFeature:Performance&StabilityUserRole:SysadminDataset:largenumberoffiles|
-ISSUE|SPRINT- NEEDS SIZING|5523|deleting datasets with large number of files <400 should result in success message|3|"Feature: File Upload & Handling","Type: Bug","Dataset: large number of files"|Feature:FileUpload&HandlingType:BugDataset:largenumberoffiles|
-ISSUE|SPRINT- NEEDS SIZING|5283|Performance: Publishing dataset with large number of files via DataCite takes too long.|2|"Feature: Performance & Stability","Dataset: large number of files"|Feature:Performance&StabilityDataset:largenumberoffiles|
-ISSUE|SPRINT- NEEDS SIZING|2641|Permissions: Grant access errors for large # of files|5|"Status: UX & UI","Feature: File Upload & Handling","Type: Bug","Feature: Permissions","User Role: Curator"|Status:UX&UIFeature:FileUpload&HandlingType:BugFeature:PermissionsUserRole:Curator|
-PULL_REQUEST||9388|IQSS/9387 - Support protected system metadata|1|"DANS"|DANS|
+|'PULL_REQUEST'|'Clear of the Backlog'9193|'IQSS/9189-fix non-Globus properties'|1|'Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'208|'Add Binder button for operating on datasets with Jupyter notebooks, Python, R, etc.'|1|'Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'9293|'New filter-based design for the API authentication mechanisms'|4|'Feature: API','User Role: API User','NIH OTA: 1.7.1 (reArchitecture)','Size: 33'|33|
+|'ISSUE'|'Clear of the Backlog'9150|'Create a javascript for the frontend that supports Fundref'|3|'NIH OTA: 1.2.1','Size: 80','Deliverable: 5 Core PIDs'|80|
+|'PULL_REQUEST'|'Clear of the Backlog'9086|'Iqss/7349 2 improve related pub citation entry'|2|'QDR','Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'9151|'Get the existing ROR plug-in working on the dataverse demo'|3|'NIH OTA: 1.2.1','Size: 80','Deliverable: 5 Core PIDs'|80|
+|'PULL_REQUEST'|'Clear of the Backlog'9101|'IQSS/7349-5 - Use brand name for catalog'|2|'QDR','Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'8975|'File level metadata: File level metadata tags should wrap and not run off the page'|7|'Feature: Metadata','Type: Bug','Feature: Style Guide','User Role: Superuser','Feature: Controlled Vocabulary','Hackathon: JSF','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9087|'IQSS/7349-3 file updates for schema.org'|2|'QDR','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9132|'Dataset files cleanup'|1|'Size: SprintTail'|SprintTail|
+|'PULL_REQUEST'|'Clear of the Backlog'9212|'#9211 fix render logic display with TOA OR restricted files'|1|'Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'9325|'Description metadata field: Description field text should wrap and not run off the page'|1|'Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9085|'Iqss/7349 1 truncate description'|2|'QDR','Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'6807|'Explore button for Binder'|2|'Feature: External Tool','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9249|'DOCS: add link to development documentation build'|2|'Feature: User Guide','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9254|'Make productionPlace multiple, facetable, and enabled for Advanced Search #9253'|2|'Feature: Metadata','Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'1339|'Spike: Revisit the issue of adding rate limiting logic to the application, create a list of actionable issues to start the effort.'|1|'Size: 33'|33|
+|'PULL_REQUEST'|'Clear of the Backlog'9017|'GDCC/9016-handle no file PID case in metrics'|2|'JHU','Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'8674|'DANS/Local PermaLink PID Provider'|2|'DANS','Size: 80'|80|
+|'PULL_REQUEST'|'Clear of the Backlog'9316|'Fix for the broken "earliest date" (#9309)'|1|'Size: 10'|10|
+|'ISSUE'|'Clear of the Backlog'9231|'Feature request: Add the ability to configure a Harvesting Client to add a custom header to OAI calls'|2|'NIH OTA: 1.4.1','Size: 80'|80|
+|'PULL_REQUEST'|'Clear of the Backlog'9269|'8339 file data api'|1|'Size: SprintTail'|SprintTail|
+|'PULL_REQUEST'|'Clear of the Backlog'9239|'extract metadata (NcML XML) from NetCDF/HDF5 files, new "requirements" option for external tools'|1|'Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'8915|'7980 enhanced dsd'|2|'User Role: Sysadmin','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'8827|'7000 mpconfig files basic'|6|'Feature: File Upload & Handling','Feature: Code Infrastructure','Feature: Installation Guide','User Role: Sysadmin','Containers & Cloud','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9105|'Add quotes around CVoc term URIs on advanced search page'|2|'DANS','Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'9122|'IQSS/9121 Fix for search display with ext. CVoc'|2|'DANS','Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'9129|'IQSS/9126- Fix workflow token access'|2|'DANS','Size: 10'|10|
+|'ISSUE'|'Clear of the Backlog'9282|'In TabularSubsetGenerator.java use try-with-resources for BufferedWriter'|2|'Size: 3','Tech Debt'|3|
+|'ISSUE'|'Clear of the Backlog'9280|'In Files.java usr try-with-resources to for JsonReader'|2|'Size: 3','Tech Debt'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'8830|'7000 mpconfig rserve'|6|'Type: Feature','Feature: Code Infrastructure','Feature: Installation Guide','User Role: Sysadmin','Containers & Cloud','Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'9201|'Retrospective: Continue the daily standups.'|1|'Sprint Retrospective'||
+|'PULL_REQUEST'|'Clear of the Backlog'9096|'IQSS/9095-dvwebloader integration'|2|'DataverseNO','Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'9234|'9228 - add OIDC development setup for OIDC login feature testing'|3|'Feature: Account & User Info','NIH OTA: 1.7.1 (reArchitecture)','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9227|'8843 more harvest tests'|1|'Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'9173|'QDR/9172-fix messages'|1|'Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9226|'import function DatasetUtil'|1|'Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'9153|'Extract metadata from NetCDF and HDF5 files as XML in NcML format'|2|'NIH: NetCDF','Size: 80'|80|
+|'ISSUE'|'Clear of the Backlog'8339|'Provide an API for retrieving information about an individual datafile'|1|'Size: 33'|33|
+|'PULL_REQUEST'|'Clear of the Backlog'7877|'7844 codemeta schema'|5|'Feature: Metadata','Working Group: SWC','HERMES','NIH OTA: 1.3.1','Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'8972|'Trigger auto-analyze more frequently for guestbook estimates'|1|'Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9018|'GDCC/9005 replace files api call'|2|'DANS','Size: 33'|33|
+|'PULL_REQUEST'|'Clear of the Backlog'8962|'IQSS/8730 - fix direct upload progress'|2|'DataverseNO','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'8933|'8932 container base image'|3|'Containers & Cloud','Working Group: SWC','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9076|'#9074 - Added support for building sphinx docs using python 3.10+'|1|'Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'8824|'7000 mpconfig version'|4|'Feature: Code Infrastructure','Feature: Developer Guide','Containers & Cloud','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'8826|'7000 mpconfig fqdn & siteUrl'|4|'Feature: Code Infrastructure','Feature: Installation Guide','User Role: Sysadmin','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'8825|'7000 mpconfig solr'|6|'Feature: Code Infrastructure','Feature: Installation Guide','User Role: Sysadmin','Containers & Cloud','Feature: Indexing','Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'9203|'Retrospective: All dev work gets represented on the board.'|1|'Sprint Retrospective'||
+|'PULL_REQUEST'|'Clear of the Backlog'9187|'7940 stop harvest in progress'|1|'Size: 10'|10|
+|'ISSUE'|'Clear of the Backlog'8843|'Expand the suite of automated tests of the Harvesting functionality'|4|'Feature: Harvesting','NIH OTA: 1.4.1','Testing: API','Size: 80'|80|
+|'ISSUE'|'Clear of the Backlog'9202|'Retrospective: make the sprint board so that everything moves left to right.'|2|'Size: 10','Sprint Retrospective'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'8983|'feat(upload): make upload file storage path configurable #6656'|1|'Size: 33'|33|
+|'PULL_REQUEST'|'Clear of the Backlog'9091|'Extend 'metadatablocks/{block_id}' endpoint JSON output'|0|||
+|'ISSUE'|'Clear of the Backlog'3621|'invalid schema and metadataNamespace fields in OAI-PMH ListMetadataFormats response'|4|'Feature: Harvesting','User Role: Sysadmin','NIH OTA: 1.4.1','Size: 10'|10|
+|'ISSUE'|'Clear of the Backlog'9361|'Add GENERIC storage quota check to the file upload framework. '|1|'Size: 80'|80|
+|'ISSUE'|'Clear of the Backlog'212|'shibb group: create a shibb group for Cornell University'|2|'pm.Sonia','Size: 3'|3|
+|'PULL_REQUEST'|'SPRINT READY'8940|'8822 incomplete datasets via api'|4|'Feature: Metadata','Feature: API','Size: 33','UI/UX: Design'|33|
+|'ISSUE'|'SPRINT READY'9326|'Payara 6: during password reset, users asked to accept term but there is no checkbox'|4|'Type: Bug','Feature: Account & User Info','Payara 6 Upgrade','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9367|'Text corrections #9365'|2|'Feature: Metadata','Size: 3'|3|
+|'PULL_REQUEST'|'SPRINT READY'9306|'9277 - correcting the sphinx documentation pdf build'|2|'Feature: User Guide','Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'9366|'Add initial support for .eln file format'|2|'Feature: File Upload & Handling','Size: 3'|3|
+|'PULL_REQUEST'|'SPRINT READY'9290|'9063 - add session API auth mechanism with feature flag'|4|'Feature: API','User Role: API User','NIH OTA: 1.7.1 (reArchitecture)','Size: 3'|3|
+|'ISSUE'|'SPRINT READY'9338|'Inconsistent behavior relating to Roles'|1|'Size: 10'|10|
+|'ISSUE'|'SPRINT READY'9329|'Payara 6: ensure API tests are executing'|1|'Size: 10'|10|
+|'ISSUE'|'SPRINT READY'9323|'Payara 6: Can't publish some datasets'|2|'Payara 6 Upgrade','Size: 3'|3|
+|'PULL_REQUEST'|'SPRINT READY'9299|'9297 feature flags'|6|'Feature: Code Infrastructure','Feature: Developer Guide','Feature: Installation Guide','User Role: Sysadmin','Testing: API','Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'9376|'Fix order of metadatablocks when creating and editing dataset templates in NDR collection'|1|'Size: 10'|10|
+|'ISSUE'|'Clear of the Backlog'186|'In Harvard Dataverse Repository, three published datasets are in unpublished Dataverse collections'|1|'Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'150|'Some datasets are uneditable, have finalizePublication lock, but DOIs work, "Draft"/"Unpublished" labels are missing'|1|'Size: 10'|10|
+|'PULL_REQUEST'|'SPRINT READY'8981|'Gdcc/Signposting'|1|'Size: 10'|10|
+|'PULL_REQUEST'|'SPRINT READY'9204|'IQSS/4959-Support-By-Category-and-Folder-Grouping'|4|'QDR','JHU','Size: 33','ASU'|33|
+|'PULL_REQUEST'|'SPRINT READY'9102|'IQSS/9100 OpenAire update for orgs'|2|'DANS','Size: 10'|10|
+|'ISSUE'|'SPRINT READY'3648|'Dataverse doesn't always produce valid DDI codebook 2.5 XML'|7|'Feature: Metadata','Type: Bug','Feature: Harvesting','User Role: Sysadmin','epic.8701','NIH OTA: 1.2.1','Size: 33'|33|
+|'ISSUE'|'SPRINT READY'9272|'Spike: Datacite request to avoid creating unecessary file DOIs'|1|'Size: 3'|3|
+|'ISSUE'|'SPRINT READY'7736|'Fix handling of storageidentifiers in dataverse_json harvests'|5|'Feature: Harvesting','NIH OTA DC','pm.epic.nih_harvesting','NIH OTA: 1.4.1','Size: 10'|10|
+|'ISSUE'|'SPRINT READY'8289|'The "ListSets" command fails during the creation of a harvesting client for Zenodo '|5|'Feature: Harvesting','NIH OTA DC','pm.epic.nih_harvesting','NIH OTA: 1.4.1','Size: 33'|33|
+|'PULL_REQUEST'|'Clear of the Backlog'9222|'Update dataverse.xhtml to add "read more/read less" buttons for dataverse descriptions'|2|'Feature: Search/Browse','Size: 3'|3|
+|'PULL_REQUEST'|'SPRINT READY'9184|'Iqss/9183 terms of access validation fix'|3|'Type: Suggestion','Feature: Code Infrastructure','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'8970|'class field can be replaced by local variable'|4|'Type: Suggestion','Feature: Code Infrastructure','User Role: Hackathon Participant','Size: 3'|3|
+|'PULL_REQUEST'|'SPRINT READY'9256|'Make Series multiple #9255'|2|'Feature: Metadata','Size: 3'|3|
+|'ISSUE'|'SPRINT READY'75|'Spike: finalize the plan for transition to Make Data Count, how to display the metrics, how to handle legacy counts'|2|'NIH OTA: 1.5.1','Size: 10'|10|
+|'PULL_REQUEST'|'SPRINT READY'9257|'8092 timestamp of data access request'|2|'Feature: Request Access Workflow','Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'6183|'Fix at 'Show the dataset whose id is passed' section #6083'|4|'Type: Suggestion','Feature: API Guide','User Role: API User','Size: 3'|3|
+|'ISSUE'|'SPRINT READY'9147|'Draft design doc for NetCDF/HDF5/geospatial'|3|'Feature: File Upload & Handling','NIH: NetCDF','Size: 33'|33|
+|'ISSUE'|'Harvard Dataverse Instance (Sonia)'193|'Spike: Add more licenses using multiple license feature'|1|'Size: NoSprintCost'|NoSprintCost|
+|'ISSUE'|'Clear of the Backlog'8724|'Linking Dataverse does not update child dataset indexes'|1|'Size: 33'|33|
+|'ISSUE'|'Clear of the Backlog'5112|'Exclude deaccessioned dataset from being harvested'|5|'Type: Suggestion','Feature: Harvesting','User Role: Superuser','NIH OTA: 1.4.1','Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'9283|'Payara 6: resolve conflicts and look for next bug'|2|'Payara 6 Upgrade','Size: 10'|10|
+|'ISSUE'|'Clear of the Backlog'8574|'Spike: Inventory and prioritize all existing Harvesting related issues'|5|'Feature: Harvesting','NIH OTA DC','pm.epic.nih_harvesting','NIH OTA: 1.4.1','Size: 33'|33|
+|'ISSUE'|'Clear of the Backlog'7430|'Linked dataverses dont (always) show up in their linking dataverses'|1|'Size: 80'|80|
+|'ISSUE'|'Clear of the Backlog'9214|'Bug: Fix dataset creation in the payara 6 branch'|2|'Payara 6 Upgrade','Size: 33'|33|
+|'REDACTED'|''|''|0|||
+|'ISSUE'|'Clear of the Backlog'201|'Purge unused user accounts (as in, first consider and discuss, then, potentially, purge)'|2|'ops: User Accounts','Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'9107|'fix for cvv and editMetadata replace=true, and test'|2|'DANS','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9125|'8346 License internationalizataion'|1|'Size: 10'|10|
+|'DRAFT_ISSUE'|'Clear of the Backlog'|'🔻Sprint - old 🔻'|0|||
+|'ISSUE'|'Clear of the Backlog'192|'Restore access to two published datasets' whose pages fail to load; API endpoint for getting their dataset metadata fails'|3|'Size: 10','Support','Support: prod. data corruption'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'9174|'8290 harvest client api'|1|'Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'9114|'Create a whitepaper for external vocabulary work 1.2.1'|2|'NIH OTA: 1.2.1','Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'3741|'OAI server: metadataPrefix unknown: Internal server error'|4|'Type: Bug','Feature: Harvesting','User Role: Sysadmin','NIH OTA: 1.4.1'||
+|'ISSUE'|'Clear of the Backlog'7940|'[feature request] stop an harvest job in progress'|4|'Feature: Harvesting','NIH OTA DC','pm.epic.nih_harvesting','NIH OTA: 1.4.1'||
+|'ISSUE'|'Clear of the Backlog'3215|'"Securing Your Installation" section of Installation Guide could cover ongoing security, advisories, private discussion'|3|'Feature: Installation Guide','postmortem','Size: 10'|10|
+|'ISSUE'|'Clear of the Backlog'3797|'OAI-PMH responses indicating errors should be processable by OAI-PMH clients'|4|'Type: Bug','Feature: Harvesting','User Role: Sysadmin','NIH OTA: 1.4.1'||
+|'ISSUE'|'Clear of the Backlog'8656|'Popup text can be hidden under Primefaces 11'|0|||
+|'ISSUE'|'Upgrades in Prep for DV6'8305|'Spike: Upgrade to Payara 6 and from EE 8 to EE 10 (end of Payara 5 Community Edition security patches Q2/2022)'|3|'bklog: Deliverable','Payara 6 Upgrade','bklog: NeedsDiscussion'||
+|'PULL_REQUEST'|'Upgrades in Prep for DV6'9116|'8305 Upgrade to Jakarta EE 10 and Payara 6'|7|'Feature: Code Infrastructure','Feature: Installer','Feature: Installation Guide','Payara 6 Upgrade','bklog: Collection','Size: Queued','bklog: NeedsDiscussion'|Queued|
+|'PULL_REQUEST'|'Clear of the Backlog'9026|'GDCC/Harvesting server it test failing'|0|||
+|'ISSUE'|'NIH bklog items (Stefano)'9123|'Enhance Globus support for remote endpoints and tape stores'|1|'NIH OTA: 1.1.1'||
+|'ISSUE'|'NIH bklog items (Stefano)'8842|'Refactor the OAI code, Step 2'|3|'Feature: Harvesting','NIH OTA: 1.4.1','Size: Queued'|Queued|
+|'ISSUE'|'Clear of the Backlog'8984|'Update GUIDE to include GeoJSON'|6|'Feature: Developer Guide','Feature: Admin Guide','Feature: User Guide','Feature: External Tool','Feature: Geospatial','Size: 3'|3|
+|'ISSUE'|'Clear of the Backlog'110|'file tab display of image for "restricted file" is cluttered when not logged in for access'|2|'bug','enhancement'||
+|'ISSUE'|'Harvard Dataverse Instance (Sonia)'8185|'Some researchers unsure of difference between "Private URL" and "Anonymous Private URL"'|2|'Status: UX & UI','Size: Queued'|Queued|
+|'ISSUE'|'Harvard Dataverse Instance (Sonia)'8328|'versioning: optimize load time for dataset with multiple versions'|4|'Type: Feature','Type: Bug','Feature: Publishing & Versions','Size: Queued'|Queued|
+|'ISSUE'|'SPRINT- NEEDS SIZING'7285|'Support for Crossref Funder Registry ID'|8|'Type: Suggestion','Feature: Metadata','User Role: Curator','User Role: Depositor','NIH OTA: 1.5.1','bklog: NeedsDiscussion','Deliverable: 5 Core PIDs','Size: NoSprintCost'|NoSprintCost|
+|'ISSUE'|'SPRINT- NEEDS SIZING'210|'Add Badge for DataCite registration provider'|0|||
+|'ISSUE'|'SPRINT- NEEDS SIZING'8889|'Feature Request: Enable file PIDs at Dataverse Collection Level'|1|'Feature: DOI & Handle'||
+|'PULL_REQUEST'|'Clear of the Backlog'7631|'7527 redetect api error'|0|||
+|'PULL_REQUEST'|'Clear of the Backlog'8958|'IQSS/8957 JWT creation test for DRS Archiver'|3|'hdc','3a','Size: 3'|3|
+|'PULL_REQUEST'|'Clear of the Backlog'9061|'IQSS/9020- Fix for Update current version issue when a file is the dataset thumb'|1|'Size: 3'|3|
+|'ISSUE'|'SPRINT READY'9240|'Intermittent error from the new Harvesting Clients test '|1|'Size: 10'|10|
+|'ISSUE'|'Clear of the Backlog'9339|'Update Dataverse pom file to build with the 5.0.0 release of XOAI library'|1|'Size: 3'|3|
+|'ISSUE'|'SPRINT READY'9148|'Feature Request/Idea: As a curator or collection manager, I'd like to ensure that datasets published using the Dataverse APIs include a license or have Terms of Use'|3|'Feature: API','Feature: Terms & Licensing','Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'8774|'Upgrade from Payara 5 to 6'|0|||
+|'DRAFT_ISSUE'|'Clear of the Backlog'|'➖➖➖➖➖'|0|||
+|'ISSUE'|'Community Backlog (Phil)'68|'README for the Dataverse Community Backlog'|0|||
+|'ISSUE'|'SPRINT- NEEDS SIZING'7173|'As a system integrator, I would appreciate a JSON Schema for validating my dataset JSON before uploading via API'|8|'Type: Feature','Feature: Metadata','Feature: API','Feature: API Guide','User Role: API User','Feature: Accessibility','HERMES','Size: Queued'|Queued|
+|'PULL_REQUEST'|'Clear of the Backlog'9225|'9224 - revert workflow metadata block in Solr schema'|4|'HERMES','hdc','2','Size: 3'|3|
+|'PULL_REQUEST'|'Community Backlog (Phil)'9302|'add custom license for France to the Dataverse Doc'|2|'Feature: Terms & Licensing','Size: 3'|3|
+|'PULL_REQUEST'|'Community Backlog (Phil)'9262|'8512 standardize license configuration'|1|'Size: Queued'|Queued|
+|'PULL_REQUEST'|'SPRINT READY'9383|'Support for deleting files using native API'|3|'Feature: API','Feature: File Upload & Handling','Size: 3'|3|
+|'PULL_REQUEST'|'Community Backlog (Phil)'8357|'issue #5277: first implementation step for exporting related publicat…'|1|'Size: Queued'|Queued|
+|'PULL_REQUEST'|'SPRINT- NEEDS SIZING'9012|'rename role.editor to role.contributor'|0|||
+|'PULL_REQUEST'|'Community Backlog (Phil)'9013|'Harvest: map publisher tag to distributorName'|0|||
+|'PULL_REQUEST'|'Community Backlog (Phil)'8982|'GitHub Workflows security hardening'|0|||
+|'ISSUE'|'NIH bklog items (Stefano)'8629|'Revisit/reimplement the concept of a "Harvested file". '|4|'Feature: Harvesting','pm.epic.nih_harvesting_framework','NIH OTA: 1.4.1','Size: 10'|10|
+|'ISSUE'|'Clear of the Backlog'8267|'Feature Request/Idea: Documentation for the API to create and edit harvesting clients'|3|'Feature: Harvesting','Feature: API Guide','NIH OTA: 1.4.1'||
+|'PULL_REQUEST'|'Community Backlog (Phil)'9003|'9002 allow direct upload setting'|0|||
+|'PULL_REQUEST'|'Community Backlog (Phil)'8995|'allow slash in check permissions api request'|0|||
+|'PULL_REQUEST'|'Clear of the Backlog'8908|'Improve archiving api error handling'|0|||
+|'ISSUE'|'Clear of the Backlog'9117|'Improve file type detection of NetCDF and HDF5'|1|'NIH: NetCDF'||
+|'ISSUE'|'Clear of the Backlog'185|'Add SAEF metadata block to Harvard Dataverse Repository'|0|||
+|'PULL_REQUEST'|'Community Backlog (Phil)'7261|'6810 - refactor JSON deps'|1|'Feature: Code Infrastructure'||
+|'PULL_REQUEST'|'Community Backlog (Phil)'6977|'6970 proxy client ip'|5|'Type: Feature','Feature: Permissions','Feature: Metrics + Reports','Feature: Admin Guide','User Role: Sysadmin'||
+|'PULL_REQUEST'|'Community Backlog (Phil)'8786|'8778 harvester ddi exporter'|0|||
+|'ISSUE'|'Community Backlog (Phil)'6978|'Query Dataverse for mandatory metadata fields via API'|4|'Feature: API','User Role: API User','HERMES','Hackathon: More APIs'||
+|'PULL_REQUEST'|'Community Backlog (Phil)'7044|'fix mimetype of error pages'|0|||
+|'PULL_REQUEST'|'Community Backlog (Phil)'7636|'Exclusions to remove module/classpath warnings'|0|||
+|'PULL_REQUEST'|'Community Backlog (Phil)'5506|'IQSS-5505 - only update DOI metadata at PIDprovider when it changes'|0|||
+|'PULL_REQUEST'|'Community Backlog (Phil)'5621|'use dataset thumbnail if available'|0|||
+|'PULL_REQUEST'|'Community Backlog (Phil)'7334|'IQSS/7068 Reserve File Pids'|0|||
+|'ISSUE'|'Harvard Dataverse Instance (Sonia)'6640|'Support Research Organization Registry (ROR) IDs'|5|'Type: Suggestion','Feature: Metadata','User Role: Curator','User Role: Depositor','NIH OTA: 1.5.1'||
+|'ISSUE'|'Community Backlog (Phil)'3913|'Is a delete file endpoint available?'|3|'Feature: API','User Role: API User','Hackathon: More APIs'||
+|'PULL_REQUEST'|'Community Backlog (Phil)'8709|'Add docker-compose build system'|0|||
+|'DRAFT_ISSUE'|'HERMES (Oliver)'|'Dataverse Java API Package'|0|||
+|'DRAFT_ISSUE'|'HERMES (Oliver)'|'Schema Data Binds / Model Mappings (DataCite Kernel Update)'|0|||
+|'DRAFT_ISSUE'|'HERMES (Oliver)'|'Renewed DataCite Exporter'|0|||
+|'PULL_REQUEST'|'Clear of the Backlog'9213|'#8944 - Extend 'metadatablocks/{block_id}' endpoint JSON output'|1|'Size: 33'|33|
+|'ISSUE'|'Clear of the Backlog'2|'Spike: During some sprints we end the sprint with a few days with QA empty'|1|'Sprint Retrospective'||
+|'ISSUE'|'Clear of the Backlog'3|'Spike: Improvement - End meetings on time & Schedule meetings more than a few hours ahead'|1|'Sprint Retrospective'||
+|'PULL_REQUEST'|'SPRINT- NEEDS SIZING'9245|'Client-side multifile zip download'|1|'DataverseNO'||
+|'PULL_REQUEST'|'External Commitments (Jim)'6902|'Work-in-Progress: 2043-guestbook-at-request code review requested'|0|||
+|'PULL_REQUEST'|'Re-arch: Auth MVP (Phil)'9273|'9268 mpconfig OIDC provider'|6|'Feature: Code Infrastructure','Feature: Performance & Stability','Feature: Installation Guide','Containers & Cloud','Testing: API','Size: 10'|10|
+|'PULL_REQUEST'|'Re-arch: Auth MVP (Phil)'9303|'9293 - New filter-based design for the API authentication mechanisms (1/2)'|4|'Feature: API','User Role: API User','NIH OTA: 1.7.1 (reArchitecture)','Size: 33'|33|
+|'PULL_REQUEST'|'Re-arch: Auth MVP (Phil)'9230|'9229 - enable OIDC bearer token API access'|7|'Feature: API','Feature: Permissions','Feature: Account & User Info','Feature: API Guide','Feature: Admin Guide','Size: Queued','bklog: NeedsDiscussion'|Queued|
+|'ISSUE'|'Harvard Dataverse Instance (Sonia)'196|'Add ZIP Previewer & File Downloader to demo and prod'|0|||
+|'ISSUE'|'SPRINT READY'9311|'In SystemConfig.java use try-with-resources for JsonReader jsonReader = Json.createReader(new StringReader(setting)); in method getCurationLabels()'|1|'Size: 3'|3|
+|'ISSUE'|'SPRINT- NEEDS SIZING'9312|'In FileUtil.java use try-with-resources for in = new FileInputStream(inputFile).getChannel(); and out = new FileOutputStream(outputFile).getChannel(); in method copyFile(...) and out = new FileOutputStream(outputFile).getChannel(); in method determineFileType(...) and FileReader fileReader = new FileReader(file); in isGraphMLFile(...)'|1|'Size: 3'|3|
+|'ISSUE'|'SonarQube cleanup (Gustavo)'9314|'In JsonParser.java use try-with-resource for JsonReader jsonReader = Json.createReader(new StringReader(jsonString)); in method remapGeographicCoverage(...)'|1|'Size: Queued'|Queued|
+|'ISSUE'|'SonarQube cleanup (Gustavo)'9313|'In JSONLDUtil.java use try-with-resources for JsonObject jsonld = Json.createReader(rdr).readObject(); in method decontextualizeJsonLD(...)'|1|'Size: Queued'|Queued|
+|'ISSUE'|'SonarQube cleanup (Gustavo)'9315|'In JsonUtil.java use try-with-resources for return Json.createReader(rdr).readObject(); in method getJsonObject(...) and return Json.createReader(rdr).readArray(); in method getJsonArray(...)'|1|'Size: Queued'|Queued|
+|'ISSUE'|'SPRINT READY'9331|'Extracting lat/long and insert into geospatial bounding box fields'|2|'NIH: NetCDF','Size: 10'|10|
+|'ISSUE'|'SPRINT- NEEDS SIZING'9281|'In DataConverter.java use try-with-resources for convertedFileStream'|2|'Tech Debt','Size: Queued'|Queued|
+|'PULL_REQUEST'|'Re-arch: Auth MVP (Phil)'9360|'9293 - Apply filter-based auth for all API endpoints (2/2)'|4|'Feature: API','User Role: API User','NIH OTA: 1.7.1 (reArchitecture)','Size: 10'|10|
+|'ISSUE'|'Re-arch: SPA MVP (Guillermo)'5|'Define and establish the Dataverse frontend QA process'|1|'Size: 33'|33|
+|'ISSUE'|'Re-arch: SPA MVP (Guillermo)'1|'Create the skeleton of the React application'|1|'Size: 33'|33|
+|'ISSUE'|'Re-arch: SPA MVP (Guillermo)'9353|'Dataverse container-based development environment'|5|'Feature: Code Infrastructure','Feature: Developer Guide','Containers & Cloud','NIH OTA: 1.7.1 (reArchitecture)','Size: 130'|130|
+|'ISSUE'|'Re-arch: SPA MVP (Guillermo)'3|'Storybook setup'|1|'Size: 10'|10|
+|'ISSUE'|'Re-arch: SPA MVP (Guillermo)'2|'Configure the GitHub repository for its administration and evolution'|1|'Size: 10'|10|
+|'PULL_REQUEST'|'Clear of the Backlog'9354|'pom file update to build XOAI-5.0.0 #9339'|0|||
+|'PULL_REQUEST'|'Clear of the Backlog'9188|'Bump postgresql from 42.5.0 to 42.5.1 in /modules/dataverse-parent'|2|'dependencies','Size: 3'|3|
+|'ISSUE'|'SPRINT- NEEDS SIZING'9355|'Spike: Discover Root cause of GitHub actions stoppage in January (Before the end of February!)'|1|'DevOps: Problem'||
+|'ISSUE'|'Datacommons/DV Interop'9368|'Deliverable: Investigate interoperability between datacommons and dataverse'|2|'bklog: Deliverable','GDC: Interop With DV'||
+|'ISSUE'|'Clear of the Backlog'9385|'Spike: Investigate interoperability between google datacommons and dataverse'|1|'GDC: Interop With DV'||
+|'PULL_REQUEST'|'SPRINT- NEEDS SIZING'9206|'IQSS/9205-Add role-based provider'|1|'Size: 3'|3|
+|'PULL_REQUEST'|'SPRINT READY'9195|'IQSS/9194-fix curate command validation'|2|'QDR','Size: 10'|10|
+|'PULL_REQUEST'|'SPRINT READY'9186|'IQSS/9185 contact email updates'|2|'QDR','Size: 10'|10|
+|'ISSUE'|'Deliverable: 5 Core PIDs'9300|'Support the 5 core persistent identifiers in Dataverse'|2|'bklog: Deliverable','Deliverable: 5 Core PIDs'||
+|'ISSUE'|'SPRINT READY'9369|'Shib group in another group doesn't work'|1|'Size: 3'|3|
+|'ISSUE'|'SPRINT READY'9374|'Fix Binder and Whole Tale (repo2docker) to download original files rather than archival .tab files'|2|'Feature: External Tool','Size: 10'|10|
+|'ISSUE'|'Upgrades in Prep for DV6'9340|'determine upgrade path from Payara 5 to 6'|1|'Size: 33'|33|
+|'PULL_REQUEST'|'Upgrades in Prep for DV6'9291|'8094 java17'|6|'Feature: Code Infrastructure','Feature: Installer','Feature: Performance & Stability','Feature: Installation Guide','User Role: Sysadmin','Containers & Cloud'||
+|'ISSUE'|'Upgrades in Prep for DV6'9260|'Test and move from Solr 8.X to Solr 9.X'|0|||
+|'ISSUE'|'SPRINT- NEEDS SIZING'9356|'Add execution rate metering to the command engine'|0|||
+|'ISSUE'|'Dataverse Team (Gustavo)'9359|'Investigate adding Apache-level mechanism for rejecting aggressive robot crawling'|0|||
+|'ISSUE'|'Dataverse Team (Gustavo)'8549|'Add mechanism for collection-wise storage size quotas'|0|||
+|'REDACTED'|''|''|0|||
+|'ISSUE'|'Dataverse Team (Gustavo)'4499|'DOIs for Dataset versions'|3|'Feature: DOI & Handle','HERMES','Size: Queued'|Queued|
+|'ISSUE'|'Deliverable: 5 Core PIDs'9370|'Spike: issue to locate or document support for DOIs and ORCID'|2|'spike','Deliverable: 5 Core PIDs'||
+|'ISSUE'|'NIH NetCDF (Phil)'213|'add NcML previewers (HDF5 and NetCDF) to demo and Harvard Dataverse'|2|'Feature: External Tool','Size: 3'|3|
+|'ISSUE'|'NIH NetCDF (Phil)'6713|'Improve Geospatial Metadata Block by adding additional fields'|4|'Feature: Metadata','Feature: Geospatial','NIH: NetCDF','Size: 10'|10|
+|'ISSUE'|'SPRINT- NEEDS SIZING'8928|'Dataset with large number of files'|1|'Dataset: large number of files'||
+|'ISSUE'|'SPRINT- NEEDS SIZING'8256|'Investigate performance degradation in reindex of datasets with large numbers of files'|1|'Dataset: large number of files'||
+|'ISSUE'|'SPRINT- NEEDS SIZING'6808|'Performance: Slow response for datasets with high number of files or versions'|2|'Feature: Performance & Stability','Dataset: large number of files'||
+|'ISSUE'|'SPRINT- NEEDS SIZING'6723|'High levels of open file descriptors while uploading a zip with lots of files in it'|5|'Feature: File Upload & Handling','Type: Bug','Feature: Performance & Stability','User Role: Sysadmin','Dataset: large number of files'||
+|'ISSUE'|'SPRINT- NEEDS SIZING'5523|'deleting datasets with large number of files <400 should result in success message'|3|'Feature: File Upload & Handling','Type: Bug','Dataset: large number of files'||
+|'ISSUE'|'SPRINT- NEEDS SIZING'5283|'Performance: Publishing dataset with large number of files via DataCite takes too long.'|2|'Feature: Performance & Stability','Dataset: large number of files'||
+|'ISSUE'|'SPRINT- NEEDS SIZING'2641|'Permissions: Grant access errors for large # of files'|5|'Status: UX & UI','Feature: File Upload & Handling','Type: Bug','Feature: Permissions','User Role: Curator'||
