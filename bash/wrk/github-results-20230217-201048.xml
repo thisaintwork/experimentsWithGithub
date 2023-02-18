@@ -1,0 +1,5081 @@
+<?xml version="1.0" encoding="UTF-8"?><root><pages>
+  <organization>
+    <email>None</email>
+    <id>MDEyOk9yZ2FuaXphdGlvbjY3NTIzNw==</id>
+    <login>IQSS</login>
+    <projectV2>
+      <items>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9193</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/9189-fix non-Globus properties</title>
+            <url>https://github.com/IQSS/dataverse/pull/9193</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEdV3I</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>208</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>Add Binder button for operating on datasets with Jupyter notebooks, Python, R, etc.</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/208</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEjFxw</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: API</name>
+              </nodes>
+              <nodes>
+                <name>User Role: API User</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.7.1 (reArchitecture)</name>
+              </nodes>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>9293</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>New filter-based design for the API authentication mechanisms</title>
+            <url>https://github.com/IQSS/dataverse/issues/9293</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEW8Kk</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>NIH OTA: 1.2.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 80</name>
+              </nodes>
+              <nodes>
+                <name>Deliverable: 5 Core PIDs</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>9150</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Create a javascript for the frontend that supports Fundref</title>
+            <url>https://github.com/IQSS/dataverse/issues/9150</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEPm1E</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>QDR</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9086</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Iqss/7349 2 improve related pub citation entry</title>
+            <url>https://github.com/IQSS/dataverse/pull/9086</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTck</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>NIH OTA: 1.2.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 80</name>
+              </nodes>
+              <nodes>
+                <name>Deliverable: 5 Core PIDs</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>9151</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Get the existing ROR plug-in working on the dataverse demo</title>
+            <url>https://github.com/IQSS/dataverse/issues/9151</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEPm2g</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>QDR</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9101</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/7349-5 - Use brand name for catalog</title>
+            <url>https://github.com/IQSS/dataverse/pull/9101</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNnG4</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>Type: Bug</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Style Guide</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Superuser</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Controlled Vocabulary</name>
+              </nodes>
+              <nodes>
+                <name>Hackathon: JSF</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>7</totalCount>
+            </labels>
+            <number>8975</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>File level metadata: File level metadata tags should wrap and not run off the page</title>
+            <url>https://github.com/IQSS/dataverse/issues/8975</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD1Szg</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>QDR</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9087</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/7349-3 file updates for schema.org</title>
+            <url>https://github.com/IQSS/dataverse/pull/9087</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTcg</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: SprintTail</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9132</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Dataset files cleanup</title>
+            <url>https://github.com/IQSS/dataverse/pull/9132</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDgBco</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9212</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>#9211 fix render logic display with TOA OR restricted files</title>
+            <url>https://github.com/IQSS/dataverse/pull/9212</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDy_vQ</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9325</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Description metadata field: Description field text should wrap and not run off the page</title>
+            <url>https://github.com/IQSS/dataverse/issues/9325</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEgUqU</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>QDR</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9085</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Iqss/7349 1 truncate description</title>
+            <url>https://github.com/IQSS/dataverse/pull/9085</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTco</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: External Tool</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>6807</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Explore button for Binder</title>
+            <url>https://github.com/IQSS/dataverse/issues/6807</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgENlb0</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: User Guide</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9249</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>DOCS: add link to development documentation build</title>
+            <url>https://github.com/IQSS/dataverse/pull/9249</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEIJwM</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9254</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Make productionPlace multiple, facetable, and enabled for Advanced Search #9253</title>
+            <url>https://github.com/IQSS/dataverse/pull/9254</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEJJIY</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>1339</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Spike: Revisit the issue of adding rate limiting logic to the application, create a list of actionable issues to start the effort.</title>
+            <url>https://github.com/IQSS/dataverse/issues/1339</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNX3w</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>JHU</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9017</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>GDCC/9016-handle no file PID case in metrics</title>
+            <url>https://github.com/IQSS/dataverse/pull/9017</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTc4</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DANS</name>
+              </nodes>
+              <nodes>
+                <name>Size: 80</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>8674</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>DANS/Local PermaLink PID Provider</title>
+            <url>https://github.com/IQSS/dataverse/pull/8674</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTjw</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9316</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Fix for the broken "earliest date" (#9309)</title>
+            <url>https://github.com/IQSS/dataverse/pull/9316</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEex98</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 80</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9231</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Feature request: Add the ability to configure a Harvesting Client to add a custom header to OAI calls</title>
+            <url>https://github.com/IQSS/dataverse/issues/9231</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEQ8hQ</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: SprintTail</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9269</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>8339 file data api</title>
+            <url>https://github.com/IQSS/dataverse/pull/9269</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEREPI</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9239</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>extract metadata (NcML XML) from NetCDF/HDF5 files, new "requirements" option for external tools</title>
+            <url>https://github.com/IQSS/dataverse/pull/9239</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgERENo</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>8915</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>7980 enhanced dsd</title>
+            <url>https://github.com/IQSS/dataverse/pull/8915</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDO4h0</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: File Upload &amp; Handling</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Installation Guide</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>Containers &amp; Cloud</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>6</totalCount>
+            </labels>
+            <number>8827</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>7000 mpconfig files basic</title>
+            <url>https://github.com/IQSS/dataverse/pull/8827</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPakE</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DANS</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9105</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Add quotes around CVoc term URIs on advanced search page</title>
+            <url>https://github.com/IQSS/dataverse/pull/9105</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNnFM</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DANS</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9122</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/9121 Fix for search display with ext. CVoc</title>
+            <url>https://github.com/IQSS/dataverse/pull/9122</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDP82U</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DANS</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9129</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/9126- Fix workflow token access</title>
+            <url>https://github.com/IQSS/dataverse/pull/9129</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDQd5Q</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <nodes>
+                <name>Tech Debt</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9282</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>In TabularSubsetGenerator.java use try-with-resources for BufferedWriter</title>
+            <url>https://github.com/IQSS/dataverse/issues/9282</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEQ35M</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <nodes>
+                <name>Tech Debt</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9280</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>In Files.java usr try-with-resources to for  JsonReader</title>
+            <url>https://github.com/IQSS/dataverse/issues/9280</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEQ28M</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Feature</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Installation Guide</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>Containers &amp; Cloud</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>6</totalCount>
+            </labels>
+            <number>8830</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>7000 mpconfig rserve</title>
+            <url>https://github.com/IQSS/dataverse/pull/8830</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPajk</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Sprint Retrospective</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9201</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Retrospective: Continue the daily standups.</title>
+            <url>https://github.com/IQSS/dataverse/issues/9201</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDr79w</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DataverseNO</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9096</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/9095-dvwebloader integration</title>
+            <url>https://github.com/IQSS/dataverse/pull/9096</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNnIs</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Account &amp; User Info</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.7.1 (reArchitecture)</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>9234</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>9228 - add OIDC development setup for OIDC login feature testing</title>
+            <url>https://github.com/IQSS/dataverse/pull/9234</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEJPkw</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9227</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>8843 more harvest tests</title>
+            <url>https://github.com/IQSS/dataverse/pull/9227</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD575s</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9173</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>QDR/9172-fix messages</title>
+            <url>https://github.com/IQSS/dataverse/pull/9173</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDieAs</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9226</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>import function DatasetUtil</title>
+            <url>https://github.com/IQSS/dataverse/pull/9226</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD4sWU</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>NIH: NetCDF</name>
+              </nodes>
+              <nodes>
+                <name>Size: 80</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9153</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Extract metadata from NetCDF and HDF5 files as XML in NcML format</title>
+            <url>https://github.com/IQSS/dataverse/issues/9153</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDWIBo</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>8339</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Provide an API for retrieving information about an individual datafile</title>
+            <url>https://github.com/IQSS/dataverse/issues/8339</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNX3k</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>Working Group: SWC</name>
+              </nodes>
+              <nodes>
+                <name>HERMES</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.3.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>5</totalCount>
+            </labels>
+            <number>7877</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>7844 codemeta schema</title>
+            <url>https://github.com/IQSS/dataverse/pull/7877</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNc7o</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>8972</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Trigger auto-analyze more frequently for guestbook estimates</title>
+            <url>https://github.com/IQSS/dataverse/pull/8972</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTdo</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DANS</name>
+              </nodes>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9018</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>GDCC/9005 replace files api call</title>
+            <url>https://github.com/IQSS/dataverse/pull/9018</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTc0</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DataverseNO</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>8962</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/8730 - fix direct upload progress</title>
+            <url>https://github.com/IQSS/dataverse/pull/8962</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTdw</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Containers &amp; Cloud</name>
+              </nodes>
+              <nodes>
+                <name>Working Group: SWC</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>8933</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>8932 container base image</title>
+            <url>https://github.com/IQSS/dataverse/pull/8933</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDO5Ug</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9076</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>#9074 - Added support for building sphinx docs using python 3.10+</title>
+            <url>https://github.com/IQSS/dataverse/pull/9076</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTcs</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Developer Guide</name>
+              </nodes>
+              <nodes>
+                <name>Containers &amp; Cloud</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>8824</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>7000 mpconfig version</title>
+            <url>https://github.com/IQSS/dataverse/pull/8824</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDRVZw</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Installation Guide</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>8826</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>7000 mpconfig fqdn &amp; siteUrl</title>
+            <url>https://github.com/IQSS/dataverse/pull/8826</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPaiw</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Installation Guide</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>Containers &amp; Cloud</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Indexing</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>6</totalCount>
+            </labels>
+            <number>8825</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>7000 mpconfig solr</title>
+            <url>https://github.com/IQSS/dataverse/pull/8825</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPajM</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Sprint Retrospective</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9203</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Retrospective: All dev work gets represented on the board.</title>
+            <url>https://github.com/IQSS/dataverse/issues/9203</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDr8_I</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9187</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>7940 stop harvest in progress</title>
+            <url>https://github.com/IQSS/dataverse/pull/9187</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDtA3k</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <nodes>
+                <name>Testing: API</name>
+              </nodes>
+              <nodes>
+                <name>Size: 80</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>8843</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Expand the suite of automated tests of the Harvesting functionality</title>
+            <url>https://github.com/IQSS/dataverse/issues/8843</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPAxw</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <nodes>
+                <name>Sprint Retrospective</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9202</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Retrospective: make the sprint board so that everything moves left to right.</title>
+            <url>https://github.com/IQSS/dataverse/issues/9202</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDr8GU</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>8983</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>feat(upload): make upload file storage path configurable #6656</title>
+            <url>https://github.com/IQSS/dataverse/pull/8983</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDYaFc</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>9091</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Extend 'metadatablocks/{block_id}' endpoint JSON output</title>
+            <url>https://github.com/IQSS/dataverse/pull/9091</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTcQ</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>3621</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>invalid schema and metadataNamespace fields in OAI-PMH ListMetadataFormats response</title>
+            <url>https://github.com/IQSS/dataverse/issues/3621</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPA0M</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 80</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9361</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Add GENERIC storage quota check to the file upload framework. </title>
+            <url>https://github.com/IQSS/dataverse/issues/9361</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEqby4</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>pm.Sonia</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>212</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>shibb group: create a shibb group for Cornell University</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/212</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgExTZE</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>Feature: API</name>
+              </nodes>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <nodes>
+                <name>UI/UX: Design</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>8940</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>8822 incomplete datasets via api</title>
+            <url>https://github.com/IQSS/dataverse/pull/8940</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTd4</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Bug</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Account &amp; User Info</name>
+              </nodes>
+              <nodes>
+                <name>Payara 6 Upgrade</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>9326</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Payara 6: during password reset, users asked to accept term but there is no checkbox</title>
+            <url>https://github.com/IQSS/dataverse/issues/9326</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEgjkU</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9367</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Text corrections #9365</title>
+            <url>https://github.com/IQSS/dataverse/pull/9367</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgErtco</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: User Guide</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9306</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>9277 - correcting the sphinx documentation pdf build</title>
+            <url>https://github.com/IQSS/dataverse/pull/9306</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEuT1s</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: File Upload &amp; Handling</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9366</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Add initial support for .eln file format</title>
+            <url>https://github.com/IQSS/dataverse/pull/9366</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEr1q4</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: API</name>
+              </nodes>
+              <nodes>
+                <name>User Role: API User</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.7.1 (reArchitecture)</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>9290</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>9063 - add session API auth mechanism with feature flag</title>
+            <url>https://github.com/IQSS/dataverse/pull/9290</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEWUw8</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9338</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Inconsistent behavior relating to Roles</title>
+            <url>https://github.com/IQSS/dataverse/issues/9338</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEjAlM</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9329</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Payara 6: ensure API tests are executing</title>
+            <url>https://github.com/IQSS/dataverse/issues/9329</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEh3ys</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Payara 6 Upgrade</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9323</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Payara 6: Can't publish some datasets</title>
+            <url>https://github.com/IQSS/dataverse/issues/9323</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEgjmE</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Developer Guide</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Installation Guide</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>Testing: API</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>6</totalCount>
+            </labels>
+            <number>9299</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>9297 feature flags</title>
+            <url>https://github.com/IQSS/dataverse/pull/9299</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEYXVI</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9376</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Fix order of metadatablocks when creating and editing dataset templates in NDR collection</title>
+            <url>https://github.com/IQSS/dataverse/issues/9376</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD1buo</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>186</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>In Harvard Dataverse Repository, three published datasets are in unpublished Dataverse collections</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/186</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD1WOI</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>150</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>Some datasets are uneditable, have finalizePublication lock, but DOIs work, "Draft"/"Unpublished" labels are missing</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/150</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD1bqg</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>8981</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Gdcc/Signposting</title>
+            <url>https://github.com/IQSS/dataverse/pull/8981</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTdk</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>QDR</name>
+              </nodes>
+              <nodes>
+                <name>JHU</name>
+              </nodes>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <nodes>
+                <name>ASU</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>9204</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/4959-Support-By-Category-and-Folder-Grouping</title>
+            <url>https://github.com/IQSS/dataverse/pull/9204</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDsD5w</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DANS</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9102</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/9100 OpenAire update for orgs</title>
+            <url>https://github.com/IQSS/dataverse/pull/9102</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNnGc</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>Type: Bug</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>epic.8701</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.2.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>7</totalCount>
+            </labels>
+            <number>3648</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Dataverse doesn't always produce valid DDI codebook 2.5 XML</title>
+            <url>https://github.com/IQSS/dataverse/issues/3648</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDy_uQ</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9272</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Spike: Datacite request to avoid creating unecessary file DOIs</title>
+            <url>https://github.com/IQSS/dataverse/issues/9272</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEPdLg</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA DC</name>
+              </nodes>
+              <nodes>
+                <name>pm.epic.nih_harvesting</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>5</totalCount>
+            </labels>
+            <number>7736</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Fix handling of storageidentifiers in dataverse_json harvests</title>
+            <url>https://github.com/IQSS/dataverse/issues/7736</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPA2s</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA DC</name>
+              </nodes>
+              <nodes>
+                <name>pm.epic.nih_harvesting</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>5</totalCount>
+            </labels>
+            <number>8289</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>The "ListSets" command fails during the creation of a harvesting client for Zenodo </title>
+            <url>https://github.com/IQSS/dataverse/issues/8289</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPA5I</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Search/Browse</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9222</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Update dataverse.xhtml to add "read more/read less" buttons for dataverse descriptions</title>
+            <url>https://github.com/IQSS/dataverse/pull/9222</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD8XA4</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Suggestion</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>9184</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Iqss/9183 terms of access validation fix</title>
+            <url>https://github.com/IQSS/dataverse/pull/9184</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEI4go</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Suggestion</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Hackathon Participant</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>8970</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>class field can be replaced by local variable</title>
+            <url>https://github.com/IQSS/dataverse/pull/8970</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTds</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9256</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Make Series multiple #9255</title>
+            <url>https://github.com/IQSS/dataverse/pull/9256</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEJLes</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>NIH OTA: 1.5.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>75</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>Spike: finalize the plan for transition to Make Data Count, how to display the metrics, how to handle legacy counts</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/75</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEPnvA</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Request Access Workflow</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9257</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>8092 timestamp of data access request</title>
+            <url>https://github.com/IQSS/dataverse/pull/9257</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEJRAc</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Suggestion</name>
+              </nodes>
+              <nodes>
+                <name>Feature: API Guide</name>
+              </nodes>
+              <nodes>
+                <name>User Role: API User</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>6183</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Fix at 'Show the dataset whose id is passed' section #6083</title>
+            <url>https://github.com/IQSS/dataverse/pull/6183</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNc9E</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: File Upload &amp; Handling</name>
+              </nodes>
+              <nodes>
+                <name>NIH: NetCDF</name>
+              </nodes>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>9147</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Draft design doc for NetCDF/HDF5/geospatial</title>
+            <url>https://github.com/IQSS/dataverse/issues/9147</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDU1Dk</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: NoSprintCost</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>193</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>Spike: Add more licenses using multiple license feature</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/193</url>
+          </content>
+          <fieldValueByName>
+            <name>Harvard Dataverse Instance (Sonia)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDTpWM</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>8724</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Linking Dataverse does not update child dataset indexes</title>
+            <url>https://github.com/IQSS/dataverse/issues/8724</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTjA</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Suggestion</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Superuser</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>5</totalCount>
+            </labels>
+            <number>5112</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Exclude deaccessioned dataset from being harvested</title>
+            <url>https://github.com/IQSS/dataverse/issues/5112</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPA3Q</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Payara 6 Upgrade</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9283</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Payara 6: resolve conflicts and look for next bug</title>
+            <url>https://github.com/IQSS/dataverse/issues/9283</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEQ-GQ</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA DC</name>
+              </nodes>
+              <nodes>
+                <name>pm.epic.nih_harvesting</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>5</totalCount>
+            </labels>
+            <number>8574</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Spike: Inventory and prioritize all existing Harvesting related issues</title>
+            <url>https://github.com/IQSS/dataverse/issues/8574</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEN4RM</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 80</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>7430</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Linked dataverses dont (always) show up in their linking dataverses</title>
+            <url>https://github.com/IQSS/dataverse/issues/7430</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTjQ</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Payara 6 Upgrade</name>
+              </nodes>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9214</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Bug: Fix dataset creation in the payara 6 branch</title>
+            <url>https://github.com/IQSS/dataverse/issues/9214</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD0MTE</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>None</content>
+          <fieldValueByName>None</fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNXqw</id>
+          <type>REDACTED</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>ops: User Accounts</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>201</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>Purge unused user accounts (as in, first consider and discuss, then, potentially, purge)</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/201</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDfLyU</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DANS</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9107</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>fix for cvv and editMetadata replace=true, and test</title>
+            <url>https://github.com/IQSS/dataverse/pull/9107</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNm-g</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9125</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>8346 License internationalizataion</title>
+            <url>https://github.com/IQSS/dataverse/pull/9125</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDQQ_E</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <title>🔻Sprint - old 🔻</title>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDuNk0</id>
+          <type>DRAFT_ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <nodes>
+                <name>Support</name>
+              </nodes>
+              <nodes>
+                <name>Support: prod. data corruption</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>192</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>Restore access to two published datasets' whose pages fail to load; API endpoint for getting their dataset metadata fails</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/192</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDTsGM</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9174</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>8290 harvest client api</title>
+            <url>https://github.com/IQSS/dataverse/pull/9174</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDtA6o</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>NIH OTA: 1.2.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9114</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Create a whitepaper for external vocabulary work 1.2.1</title>
+            <url>https://github.com/IQSS/dataverse/issues/9114</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNnqw</id>
+          <type>ISSUE</type>
+        </nodes>
+        <pageInfo>
+          <endCursor>MTAw</endCursor>
+          <hasNextPage>True</hasNextPage>
+          <hasPreviousPage>False</hasPreviousPage>
+          <startCursor>MQ</startCursor>
+        </pageInfo>
+      </items>
+    </projectV2>
+    <projectsUrl>https://github.com/orgs/IQSS/projects</projectsUrl>
+  </organization>
+</pages> <pages>
+  <organization>
+    <email>None</email>
+    <id>MDEyOk9yZ2FuaXphdGlvbjY3NTIzNw==</id>
+    <login>IQSS</login>
+    <projectV2>
+      <items>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Bug</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>3741</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>OAI server: metadataPrefix unknown: Internal server error</title>
+            <url>https://github.com/IQSS/dataverse/issues/3741</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPA1M</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA DC</name>
+              </nodes>
+              <nodes>
+                <name>pm.epic.nih_harvesting</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>7940</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>[feature request] stop an harvest job in progress</title>
+            <url>https://github.com/IQSS/dataverse/issues/7940</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPA2E</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Installation Guide</name>
+              </nodes>
+              <nodes>
+                <name>postmortem</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>3215</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>"Securing Your Installation" section of Installation Guide could cover ongoing security, advisories, private discussion</title>
+            <url>https://github.com/IQSS/dataverse/issues/3215</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNX3s</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Bug</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>3797</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>OAI-PMH responses indicating errors should be processable by OAI-PMH clients</title>
+            <url>https://github.com/IQSS/dataverse/issues/3797</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPAzU</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>8656</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Popup text can be hidden under Primefaces 11</title>
+            <url>https://github.com/IQSS/dataverse/issues/8656</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNX3I</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>bklog: Deliverable</name>
+              </nodes>
+              <nodes>
+                <name>Payara 6 Upgrade</name>
+              </nodes>
+              <nodes>
+                <name>bklog: NeedsDiscussion</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>8305</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Spike: Upgrade to Payara 6 and from EE 8 to EE 10 (end of Payara 5 Community Edition security patches Q2/2022)</title>
+            <url>https://github.com/IQSS/dataverse/issues/8305</url>
+          </content>
+          <fieldValueByName>
+            <name>Upgrades in Prep for DV6</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEwBGE</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Installer</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Installation Guide</name>
+              </nodes>
+              <nodes>
+                <name>Payara 6 Upgrade</name>
+              </nodes>
+              <nodes>
+                <name>bklog: Collection</name>
+              </nodes>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <nodes>
+                <name>bklog: NeedsDiscussion</name>
+              </nodes>
+              <totalCount>7</totalCount>
+            </labels>
+            <number>9116</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>8305 Upgrade to Jakarta EE 10 and Payara 6</title>
+            <url>https://github.com/IQSS/dataverse/pull/9116</url>
+          </content>
+          <fieldValueByName>
+            <name>Upgrades in Prep for DV6</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDO5cU</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>9026</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>GDCC/Harvesting server it test failing</title>
+            <url>https://github.com/IQSS/dataverse/pull/9026</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNnM0</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>NIH OTA: 1.1.1</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9123</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Enhance Globus support for remote endpoints and tape stores</title>
+            <url>https://github.com/IQSS/dataverse/issues/9123</url>
+          </content>
+          <fieldValueByName>
+            <name>NIH bklog items (Stefano)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDQBHg</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>8842</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Refactor the OAI code, Step 2</title>
+            <url>https://github.com/IQSS/dataverse/issues/8842</url>
+          </content>
+          <fieldValueByName>
+            <name>NIH bklog items (Stefano)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPA5g</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Developer Guide</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Admin Guide</name>
+              </nodes>
+              <nodes>
+                <name>Feature: User Guide</name>
+              </nodes>
+              <nodes>
+                <name>Feature: External Tool</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Geospatial</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>6</totalCount>
+            </labels>
+            <number>8984</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Update GUIDE to include GeoJSON</title>
+            <url>https://github.com/IQSS/dataverse/issues/8984</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEXba0</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>bug</name>
+              </nodes>
+              <nodes>
+                <name>enhancement</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>110</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>file tab display of image for "restricted file" is cluttered when not logged in for access</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/110</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD1cao</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Status: UX &amp; UI</name>
+              </nodes>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>8185</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Some researchers unsure of difference between "Private URL" and "Anonymous Private URL"</title>
+            <url>https://github.com/IQSS/dataverse/issues/8185</url>
+          </content>
+          <fieldValueByName>
+            <name>Harvard Dataverse Instance (Sonia)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDRr8A</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Feature</name>
+              </nodes>
+              <nodes>
+                <name>Type: Bug</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Publishing &amp; Versions</name>
+              </nodes>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>8328</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>versioning: optimize load time for dataset with multiple versions</title>
+            <url>https://github.com/IQSS/dataverse/issues/8328</url>
+          </content>
+          <fieldValueByName>
+            <name>Harvard Dataverse Instance (Sonia)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDU9A0</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Suggestion</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Curator</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Depositor</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.5.1</name>
+              </nodes>
+              <nodes>
+                <name>bklog: NeedsDiscussion</name>
+              </nodes>
+              <nodes>
+                <name>Deliverable: 5 Core PIDs</name>
+              </nodes>
+              <nodes>
+                <name>Size: NoSprintCost</name>
+              </nodes>
+              <totalCount>8</totalCount>
+            </labels>
+            <number>7285</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Support for Crossref Funder Registry ID</title>
+            <url>https://github.com/IQSS/dataverse/issues/7285</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEPn1s</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>210</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>Add Badge for DataCite registration provider</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/210</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEh5Xc</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: DOI &amp; Handle</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>8889</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Feature Request: Enable file PIDs at Dataverse Collection Level</title>
+            <url>https://github.com/IQSS/dataverse/issues/8889</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTeE</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>7631</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>7527 redetect api error</title>
+            <url>https://github.com/IQSS/dataverse/pull/7631</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTj8</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>hdc</name>
+              </nodes>
+              <nodes>
+                <name>3a</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>8958</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/8957 JWT creation test for DRS Archiver</title>
+            <url>https://github.com/IQSS/dataverse/pull/8958</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTd0</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9061</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/9020- Fix for Update current version issue when a file is the dataset thumb</title>
+            <url>https://github.com/IQSS/dataverse/pull/9061</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTcw</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9240</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Intermittent error from the new Harvesting Clients test </title>
+            <url>https://github.com/IQSS/dataverse/issues/9240</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEgRmM</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9339</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Update Dataverse pom file to build with the 5.0.0 release of XOAI library</title>
+            <url>https://github.com/IQSS/dataverse/issues/9339</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEjA8A</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: API</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Terms &amp; Licensing</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>9148</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Feature Request/Idea: As a curator or collection manager, I'd like to ensure that datasets published using the Dataverse APIs include a license or have Terms of Use</title>
+            <url>https://github.com/IQSS/dataverse/issues/9148</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDU-iA</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>8774</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Upgrade from Payara 5 to 6</title>
+            <url>https://github.com/IQSS/dataverse/pull/8774</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTjg</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <title>➖➖➖➖➖</title>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNYVg</id>
+          <type>DRAFT_ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>68</number>
+            <repository>
+              <name>dataverse.org</name>
+            </repository>
+            <title>README for the Dataverse Community Backlog</title>
+            <url>https://github.com/IQSS/dataverse.org/issues/68</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPbg8</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Feature</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>Feature: API</name>
+              </nodes>
+              <nodes>
+                <name>Feature: API Guide</name>
+              </nodes>
+              <nodes>
+                <name>User Role: API User</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Accessibility</name>
+              </nodes>
+              <nodes>
+                <name>HERMES</name>
+              </nodes>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <totalCount>8</totalCount>
+            </labels>
+            <number>7173</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>As a system integrator, I would appreciate a JSON Schema for validating my dataset JSON before uploading via API</title>
+            <url>https://github.com/IQSS/dataverse/issues/7173</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDyp34</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>HERMES</name>
+              </nodes>
+              <nodes>
+                <name>hdc</name>
+              </nodes>
+              <nodes>
+                <name>2</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>9225</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>9224 - revert workflow metadata block in Solr schema</title>
+            <url>https://github.com/IQSS/dataverse/pull/9225</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD4phc</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Terms &amp; Licensing</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9302</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>add custom license for France to the Dataverse Doc</title>
+            <url>https://github.com/IQSS/dataverse/pull/9302</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEuT6o</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9262</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>8512 standardize license configuration</title>
+            <url>https://github.com/IQSS/dataverse/pull/9262</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEKRMQ</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: API</name>
+              </nodes>
+              <nodes>
+                <name>Feature: File Upload &amp; Handling</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>9383</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Support for deleting files using native API</title>
+            <url>https://github.com/IQSS/dataverse/pull/9383</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE0dq8</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>8357</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>issue #5277: first implementation step for exporting related publicat…</title>
+            <url>https://github.com/IQSS/dataverse/pull/8357</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNX3g</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>9012</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>rename role.editor to role.contributor</title>
+            <url>https://github.com/IQSS/dataverse/pull/9012</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTdE</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>9013</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Harvest: map publisher tag to distributorName</title>
+            <url>https://github.com/IQSS/dataverse/pull/9013</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTc8</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>8982</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>GitHub Workflows security hardening</title>
+            <url>https://github.com/IQSS/dataverse/pull/8982</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTdc</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>pm.epic.nih_harvesting_framework</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>8629</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Revisit/reimplement the concept of a "Harvested file". </title>
+            <url>https://github.com/IQSS/dataverse/issues/8629</url>
+          </content>
+          <fieldValueByName>
+            <name>NIH bklog items (Stefano)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPA6Y</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Harvesting</name>
+              </nodes>
+              <nodes>
+                <name>Feature: API Guide</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.4.1</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>8267</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Feature Request/Idea: Documentation for the API to create and edit harvesting clients</title>
+            <url>https://github.com/IQSS/dataverse/issues/8267</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPA34</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>9003</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>9002 allow direct upload setting</title>
+            <url>https://github.com/IQSS/dataverse/pull/9003</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTdI</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>8995</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>allow slash in check permissions api request</title>
+            <url>https://github.com/IQSS/dataverse/pull/8995</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTdY</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>8908</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Improve archiving api error handling</title>
+            <url>https://github.com/IQSS/dataverse/pull/8908</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNnSQ</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>NIH: NetCDF</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9117</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Improve file type detection of NetCDF and HDF5</title>
+            <url>https://github.com/IQSS/dataverse/issues/9117</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDO1K4</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>185</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>Add SAEF metadata block to Harvard Dataverse Repository</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/185</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPGK4</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>7261</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>6810 - refactor JSON deps</title>
+            <url>https://github.com/IQSS/dataverse/pull/7261</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPaks</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Feature</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Permissions</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Metrics + Reports</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Admin Guide</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <totalCount>5</totalCount>
+            </labels>
+            <number>6977</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>6970 proxy client ip</title>
+            <url>https://github.com/IQSS/dataverse/pull/6977</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDPalE</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>8786</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>8778 harvester ddi exporter</title>
+            <url>https://github.com/IQSS/dataverse/pull/8786</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDQgGg</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: API</name>
+              </nodes>
+              <nodes>
+                <name>User Role: API User</name>
+              </nodes>
+              <nodes>
+                <name>HERMES</name>
+              </nodes>
+              <nodes>
+                <name>Hackathon: More APIs</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>6978</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Query Dataverse for mandatory metadata fields via API</title>
+            <url>https://github.com/IQSS/dataverse/issues/6978</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNX3o</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>7044</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>fix mimetype of error pages</title>
+            <url>https://github.com/IQSS/dataverse/pull/7044</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTkY</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>7636</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Exclusions to remove module/classpath warnings</title>
+            <url>https://github.com/IQSS/dataverse/pull/7636</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTj4</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>5506</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS-5505 - only update DOI metadata at PIDprovider when it changes</title>
+            <url>https://github.com/IQSS/dataverse/pull/5506</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTkE</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>5621</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>use dataset thumbnail if available</title>
+            <url>https://github.com/IQSS/dataverse/pull/5621</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTkQ</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>7334</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/7068 Reserve File Pids</title>
+            <url>https://github.com/IQSS/dataverse/pull/7334</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTkM</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Type: Suggestion</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Curator</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Depositor</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.5.1</name>
+              </nodes>
+              <totalCount>5</totalCount>
+            </labels>
+            <number>6640</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Support Research Organization Registry (ROR) IDs</title>
+            <url>https://github.com/IQSS/dataverse/issues/6640</url>
+          </content>
+          <fieldValueByName>
+            <name>Harvard Dataverse Instance (Sonia)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDRr3k</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: API</name>
+              </nodes>
+              <nodes>
+                <name>User Role: API User</name>
+              </nodes>
+              <nodes>
+                <name>Hackathon: More APIs</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>3913</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Is a delete file endpoint available?</title>
+            <url>https://github.com/IQSS/dataverse/issues/3913</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDx6M8</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>8709</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Add docker-compose build system</title>
+            <url>https://github.com/IQSS/dataverse/pull/8709</url>
+          </content>
+          <fieldValueByName>
+            <name>Community Backlog (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNTjo</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <title>Dataverse Java API Package</title>
+          </content>
+          <fieldValueByName>
+            <name>HERMES (Oliver)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDyry4</id>
+          <type>DRAFT_ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <title>Schema Data Binds / Model Mappings (DataCite Kernel Update)</title>
+          </content>
+          <fieldValueByName>
+            <name>HERMES (Oliver)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDyru8</id>
+          <type>DRAFT_ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <title>Renewed DataCite Exporter</title>
+          </content>
+          <fieldValueByName>
+            <name>HERMES (Oliver)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDyrxI</id>
+          <type>DRAFT_ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9213</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>#8944 - Extend 'metadatablocks/{block_id}' endpoint JSON output</title>
+            <url>https://github.com/IQSS/dataverse/pull/9213</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDzmkQ</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Sprint Retrospective</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>2</number>
+            <repository>
+              <name>dataverse-pm</name>
+            </repository>
+            <title>Spike: During some sprints we end the sprint with a few days with QA empty</title>
+            <url>https://github.com/IQSS/dataverse-pm/issues/2</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD6FlA</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Sprint Retrospective</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>3</number>
+            <repository>
+              <name>dataverse-pm</name>
+            </repository>
+            <title>Spike: Improvement - End meetings on time &amp; Schedule meetings more than a few hours ahead</title>
+            <url>https://github.com/IQSS/dataverse-pm/issues/3</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD6IHY</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DataverseNO</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9245</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Client-side multifile zip download</title>
+            <url>https://github.com/IQSS/dataverse/pull/9245</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEBgMI</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>6902</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Work-in-Progress: 2043-guestbook-at-request code review requested</title>
+            <url>https://github.com/IQSS/dataverse/pull/6902</url>
+          </content>
+          <fieldValueByName>
+            <name>External Commitments (Jim)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNc8g</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Performance &amp; Stability</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Installation Guide</name>
+              </nodes>
+              <nodes>
+                <name>Containers &amp; Cloud</name>
+              </nodes>
+              <nodes>
+                <name>Testing: API</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>6</totalCount>
+            </labels>
+            <number>9273</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>9268 mpconfig OIDC provider</title>
+            <url>https://github.com/IQSS/dataverse/pull/9273</url>
+          </content>
+          <fieldValueByName>
+            <name>Re-arch: Auth MVP (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgETjO8</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: API</name>
+              </nodes>
+              <nodes>
+                <name>User Role: API User</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.7.1 (reArchitecture)</name>
+              </nodes>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>9303</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>9293 - New filter-based design for the API authentication mechanisms (1/2)</title>
+            <url>https://github.com/IQSS/dataverse/pull/9303</url>
+          </content>
+          <fieldValueByName>
+            <name>Re-arch: Auth MVP (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEZbvc</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: API</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Permissions</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Account &amp; User Info</name>
+              </nodes>
+              <nodes>
+                <name>Feature: API Guide</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Admin Guide</name>
+              </nodes>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <nodes>
+                <name>bklog: NeedsDiscussion</name>
+              </nodes>
+              <totalCount>7</totalCount>
+            </labels>
+            <number>9230</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>9229 - enable OIDC bearer token API access</title>
+            <url>https://github.com/IQSS/dataverse/pull/9230</url>
+          </content>
+          <fieldValueByName>
+            <name>Re-arch: Auth MVP (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgD5u7U</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>196</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>Add ZIP Previewer &amp; File Downloader to demo and prod</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/196</url>
+          </content>
+          <fieldValueByName>
+            <name>Harvard Dataverse Instance (Sonia)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEXLTs</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9311</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>In SystemConfig.java use try-with-resources for JsonReader jsonReader = Json.createReader(new StringReader(setting)); in method getCurationLabels()</title>
+            <url>https://github.com/IQSS/dataverse/issues/9311</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEdYyA</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9312</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>In FileUtil.java use try-with-resources for in = new FileInputStream(inputFile).getChannel(); and out = new FileOutputStream(outputFile).getChannel(); in method copyFile(...) and out = new FileOutputStream(outputFile).getChannel(); in method determineFileType(...) and FileReader fileReader = new FileReader(file); in isGraphMLFile(...)</title>
+            <url>https://github.com/IQSS/dataverse/issues/9312</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEdbng</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9314</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>In JsonParser.java use try-with-resource for JsonReader jsonReader = Json.createReader(new StringReader(jsonString)); in method remapGeographicCoverage(...)</title>
+            <url>https://github.com/IQSS/dataverse/issues/9314</url>
+          </content>
+          <fieldValueByName>
+            <name>SonarQube cleanup (Gustavo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEdhY0</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9313</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>In JSONLDUtil.java use try-with-resources for JsonObject jsonld = Json.createReader(rdr).readObject(); in method decontextualizeJsonLD(...)</title>
+            <url>https://github.com/IQSS/dataverse/issues/9313</url>
+          </content>
+          <fieldValueByName>
+            <name>SonarQube cleanup (Gustavo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEdngA</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9315</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>In JsonUtil.java use try-with-resources for return Json.createReader(rdr).readObject(); in method getJsonObject(...) and return Json.createReader(rdr).readArray(); in method getJsonArray(...)</title>
+            <url>https://github.com/IQSS/dataverse/issues/9315</url>
+          </content>
+          <fieldValueByName>
+            <name>SonarQube cleanup (Gustavo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEdnhQ</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>NIH: NetCDF</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9331</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Extracting lat/long and insert into geospatial bounding box fields</title>
+            <url>https://github.com/IQSS/dataverse/issues/9331</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEh6f4</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Tech Debt</name>
+              </nodes>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9281</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>In DataConverter.java use try-with-resources for convertedFileStream</title>
+            <url>https://github.com/IQSS/dataverse/issues/9281</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEQ3Fc</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: API</name>
+              </nodes>
+              <nodes>
+                <name>User Role: API User</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.7.1 (reArchitecture)</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>9360</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>9293 - Apply filter-based auth for all API endpoints (2/2)</title>
+            <url>https://github.com/IQSS/dataverse/pull/9360</url>
+          </content>
+          <fieldValueByName>
+            <name>Re-arch: Auth MVP (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEp_QQ</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>5</number>
+            <repository>
+              <name>dataverse-frontend</name>
+            </repository>
+            <title>Define and establish the Dataverse frontend QA process</title>
+            <url>https://github.com/IQSS/dataverse-frontend/issues/5</url>
+          </content>
+          <fieldValueByName>
+            <name>Re-arch: SPA MVP (Guillermo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE8wwQ</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>1</number>
+            <repository>
+              <name>dataverse-frontend</name>
+            </repository>
+            <title>Create the skeleton of the React application</title>
+            <url>https://github.com/IQSS/dataverse-frontend/issues/1</url>
+          </content>
+          <fieldValueByName>
+            <name>Re-arch: SPA MVP (Guillermo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgExTWA</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Developer Guide</name>
+              </nodes>
+              <nodes>
+                <name>Containers &amp; Cloud</name>
+              </nodes>
+              <nodes>
+                <name>NIH OTA: 1.7.1 (reArchitecture)</name>
+              </nodes>
+              <nodes>
+                <name>Size: 130</name>
+              </nodes>
+              <totalCount>5</totalCount>
+            </labels>
+            <number>9353</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Dataverse container-based development environment</title>
+            <url>https://github.com/IQSS/dataverse/issues/9353</url>
+          </content>
+          <fieldValueByName>
+            <name>Re-arch: SPA MVP (Guillermo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEoiwU</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>3</number>
+            <repository>
+              <name>dataverse-frontend</name>
+            </repository>
+            <title>Storybook setup</title>
+            <url>https://github.com/IQSS/dataverse-frontend/issues/3</url>
+          </content>
+          <fieldValueByName>
+            <name>Re-arch: SPA MVP (Guillermo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE2tZM</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>2</number>
+            <repository>
+              <name>dataverse-frontend</name>
+            </repository>
+            <title>Configure the GitHub repository for its administration and evolution</title>
+            <url>https://github.com/IQSS/dataverse-frontend/issues/2</url>
+          </content>
+          <fieldValueByName>
+            <name>Re-arch: SPA MVP (Guillermo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgExWOM</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>9354</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>pom file update to build XOAI-5.0.0 #9339</title>
+            <url>https://github.com/IQSS/dataverse/pull/9354</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEqK2w</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>dependencies</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9188</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Bump postgresql from 42.5.0 to 42.5.1 in /modules/dataverse-parent</title>
+            <url>https://github.com/IQSS/dataverse/pull/9188</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEucfE</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DevOps: Problem</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9355</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Spike: Discover Root cause of GitHub actions stoppage in January (Before the end of February!)</title>
+            <url>https://github.com/IQSS/dataverse/issues/9355</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEuf6A</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>bklog: Deliverable</name>
+              </nodes>
+              <nodes>
+                <name>GDC: Interop With DV</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9368</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Deliverable: Investigate interoperability between datacommons and dataverse</title>
+            <url>https://github.com/IQSS/dataverse/issues/9368</url>
+          </content>
+          <fieldValueByName>
+            <name>Datacommons/DV Interop</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEuge8</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>GDC: Interop With DV</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9385</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Spike: Investigate interoperability between google datacommons and dataverse</title>
+            <url>https://github.com/IQSS/dataverse/issues/9385</url>
+          </content>
+          <fieldValueByName>
+            <name>Clear of the Backlog</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE3FFs</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9206</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/9205-Add role-based provider</title>
+            <url>https://github.com/IQSS/dataverse/pull/9206</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEvt4I</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>QDR</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9195</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/9194-fix curate command validation</title>
+            <url>https://github.com/IQSS/dataverse/pull/9195</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEvuKs</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>QDR</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9186</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/9185 contact email updates</title>
+            <url>https://github.com/IQSS/dataverse/pull/9186</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEv1A8</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>bklog: Deliverable</name>
+              </nodes>
+              <nodes>
+                <name>Deliverable: 5 Core PIDs</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9300</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Support the  5 core persistent identifiers in Dataverse</title>
+            <url>https://github.com/IQSS/dataverse/issues/9300</url>
+          </content>
+          <fieldValueByName>
+            <name>Deliverable: 5 Core PIDs</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEv_Uw</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9369</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Shib group in another group doesn't work</title>
+            <url>https://github.com/IQSS/dataverse/issues/9369</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEwFlM</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: External Tool</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9374</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Fix Binder and Whole Tale (repo2docker) to download original files rather than archival .tab files</title>
+            <url>https://github.com/IQSS/dataverse/issues/9374</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT READY</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgExfKI</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Size: 33</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9340</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>determine upgrade path from Payara 5 to 6</title>
+            <url>https://github.com/IQSS/dataverse/issues/9340</url>
+          </content>
+          <fieldValueByName>
+            <name>Upgrades in Prep for DV6</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEwBIM</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Code Infrastructure</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Installer</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Performance &amp; Stability</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Installation Guide</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>Containers &amp; Cloud</name>
+              </nodes>
+              <totalCount>6</totalCount>
+            </labels>
+            <number>9291</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>8094 java17</title>
+            <url>https://github.com/IQSS/dataverse/pull/9291</url>
+          </content>
+          <fieldValueByName>
+            <name>Upgrades in Prep for DV6</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEwBDA</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>9260</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Test and move from Solr 8.X to Solr 9.X</title>
+            <url>https://github.com/IQSS/dataverse/issues/9260</url>
+          </content>
+          <fieldValueByName>
+            <name>Upgrades in Prep for DV6</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEwA_g</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>9356</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Add execution rate metering to the command engine</title>
+            <url>https://github.com/IQSS/dataverse/issues/9356</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEqbxk</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>9359</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Investigate adding Apache-level mechanism for rejecting aggressive robot crawling</title>
+            <url>https://github.com/IQSS/dataverse/issues/9359</url>
+          </content>
+          <fieldValueByName>
+            <name>Dataverse Team (Gustavo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEqdH8</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes></nodes>
+              <totalCount>0</totalCount>
+            </labels>
+            <number>8549</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Add mechanism for collection-wise storage size quotas</title>
+            <url>https://github.com/IQSS/dataverse/issues/8549</url>
+          </content>
+          <fieldValueByName>
+            <name>Dataverse Team (Gustavo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDNX3U</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>None</content>
+          <fieldValueByName>None</fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEuc1s</id>
+          <type>REDACTED</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: DOI &amp; Handle</name>
+              </nodes>
+              <nodes>
+                <name>HERMES</name>
+              </nodes>
+              <nodes>
+                <name>Size: Queued</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>4499</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>DOIs for Dataset versions</title>
+            <url>https://github.com/IQSS/dataverse/issues/4499</url>
+          </content>
+          <fieldValueByName>
+            <name>Dataverse Team (Gustavo)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgDd6O0</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>spike</name>
+              </nodes>
+              <nodes>
+                <name>Deliverable: 5 Core PIDs</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>9370</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Spike:  issue to locate or document support for DOIs and ORCID</title>
+            <url>https://github.com/IQSS/dataverse/issues/9370</url>
+          </content>
+          <fieldValueByName>
+            <name>Deliverable: 5 Core PIDs</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgEwMv4</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: External Tool</name>
+              </nodes>
+              <nodes>
+                <name>Size: 3</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>213</number>
+            <repository>
+              <name>dataverse.harvard.edu</name>
+            </repository>
+            <title>add NcML previewers (HDF5 and NetCDF) to demo and Harvard Dataverse</title>
+            <url>https://github.com/IQSS/dataverse.harvard.edu/issues/213</url>
+          </content>
+          <fieldValueByName>
+            <name>NIH NetCDF (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE5-kI</id>
+          <type>ISSUE</type>
+        </nodes>
+        <pageInfo>
+          <endCursor>MjAw</endCursor>
+          <hasNextPage>True</hasNextPage>
+          <hasPreviousPage>True</hasPreviousPage>
+          <startCursor>MTAx</startCursor>
+        </pageInfo>
+      </items>
+    </projectV2>
+    <projectsUrl>https://github.com/orgs/IQSS/projects</projectsUrl>
+  </organization>
+</pages> <pages>
+  <organization>
+    <email>None</email>
+    <id>MDEyOk9yZ2FuaXphdGlvbjY3NTIzNw==</id>
+    <login>IQSS</login>
+    <projectV2>
+      <items>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Metadata</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Geospatial</name>
+              </nodes>
+              <nodes>
+                <name>NIH: NetCDF</name>
+              </nodes>
+              <nodes>
+                <name>Size: 10</name>
+              </nodes>
+              <totalCount>4</totalCount>
+            </labels>
+            <number>6713</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Improve Geospatial Metadata Block by adding additional fields</title>
+            <url>https://github.com/IQSS/dataverse/issues/6713</url>
+          </content>
+          <fieldValueByName>
+            <name>NIH NetCDF (Phil)</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE2uYY</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Dataset: large number of files</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>8928</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Dataset with large number of files</title>
+            <url>https://github.com/IQSS/dataverse/issues/8928</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE3DWU</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Dataset: large number of files</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>8256</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Investigate performance degradation in reindex of datasets with large numbers of files</title>
+            <url>https://github.com/IQSS/dataverse/issues/8256</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE3DW8</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Performance &amp; Stability</name>
+              </nodes>
+              <nodes>
+                <name>Dataset: large number of files</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>6808</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Performance: Slow response for datasets with high number of files or versions</title>
+            <url>https://github.com/IQSS/dataverse/issues/6808</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE3DYc</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: File Upload &amp; Handling</name>
+              </nodes>
+              <nodes>
+                <name>Type: Bug</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Performance &amp; Stability</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Sysadmin</name>
+              </nodes>
+              <nodes>
+                <name>Dataset: large number of files</name>
+              </nodes>
+              <totalCount>5</totalCount>
+            </labels>
+            <number>6723</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>High levels of open file descriptors while uploading a zip with lots of files in it</title>
+            <url>https://github.com/IQSS/dataverse/issues/6723</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE3DZI</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: File Upload &amp; Handling</name>
+              </nodes>
+              <nodes>
+                <name>Type: Bug</name>
+              </nodes>
+              <nodes>
+                <name>Dataset: large number of files</name>
+              </nodes>
+              <totalCount>3</totalCount>
+            </labels>
+            <number>5523</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>deleting datasets with large number of files &lt;400 should result in success message</title>
+            <url>https://github.com/IQSS/dataverse/issues/5523</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE3Dak</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Feature: Performance &amp; Stability</name>
+              </nodes>
+              <nodes>
+                <name>Dataset: large number of files</name>
+              </nodes>
+              <totalCount>2</totalCount>
+            </labels>
+            <number>5283</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Performance: Publishing dataset with large number of files via DataCite takes too long.</title>
+            <url>https://github.com/IQSS/dataverse/issues/5283</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE3DbY</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>Status: UX &amp; UI</name>
+              </nodes>
+              <nodes>
+                <name>Feature: File Upload &amp; Handling</name>
+              </nodes>
+              <nodes>
+                <name>Type: Bug</name>
+              </nodes>
+              <nodes>
+                <name>Feature: Permissions</name>
+              </nodes>
+              <nodes>
+                <name>User Role: Curator</name>
+              </nodes>
+              <totalCount>5</totalCount>
+            </labels>
+            <number>2641</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>Permissions: Grant access errors for large # of files</title>
+            <url>https://github.com/IQSS/dataverse/issues/2641</url>
+          </content>
+          <fieldValueByName>
+            <name>SPRINT- NEEDS SIZING</name>
+          </fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE3DcU</id>
+          <type>ISSUE</type>
+        </nodes>
+        <nodes>
+          <content>
+            <labels>
+              <nodes>
+                <name>DANS</name>
+              </nodes>
+              <totalCount>1</totalCount>
+            </labels>
+            <number>9388</number>
+            <repository>
+              <name>dataverse</name>
+            </repository>
+            <title>IQSS/9387 - Support protected system metadata</title>
+            <url>https://github.com/IQSS/dataverse/pull/9388</url>
+          </content>
+          <fieldValueByName>None</fieldValueByName>
+          <id>PVTI_lADOAApNpc4AHKIszgE46Co</id>
+          <type>PULL_REQUEST</type>
+        </nodes>
+        <pageInfo>
+          <endCursor>MjA5</endCursor>
+          <hasNextPage>False</hasNextPage>
+          <hasPreviousPage>True</hasPreviousPage>
+          <startCursor>MjAx</startCursor>
+        </pageInfo>
+      </items>
+    </projectV2>
+    <projectsUrl>https://github.com/orgs/IQSS/projects</projectsUrl>
+  </organization>
+</pages></root>
