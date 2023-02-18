@@ -84,14 +84,7 @@
             
         -->
         <xsl:for-each select="./content/labels/nodes">
-             <xsl:choose>
-                <xsl:when test='contains(./name,"Size: ")' >
                     <xsl:value-of select='replace(replace(./name,"Size: ","")," ","")' />
-                </xsl:when>
-                 <xsl:when test='contains(./array,"Size: ")' >
-                    <xsl:value-of select='replace(replace(./array,"Size: ","")," ","")' />
-                </xsl:when>
-             </xsl:choose>
         </xsl:for-each>        
         <xsl:text>|</xsl:text>
 
