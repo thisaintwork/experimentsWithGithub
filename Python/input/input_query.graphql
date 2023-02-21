@@ -57,10 +57,11 @@ query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!
                             ... on  ProjectV2ItemFieldRepositoryValue {
                                 repository {
                                     name
+
                                 }
                             }
                             ... on  ProjectV2ItemFieldReviewerValue {
-                                reviewers(first:20) {
+                                reviewers(first:1) {
                                     totalCount
                                 }
 
