@@ -78,7 +78,7 @@ args = parser.parse_args()
 
 ################################################
 # get OAUTH token
-key = 'AUTH_TKN'
+key = 'GITHUB_TOKEN'
 authTokenVal = os.getenv(key, "novalue")
 
 ################################################

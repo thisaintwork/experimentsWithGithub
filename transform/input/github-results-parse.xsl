@@ -10,16 +10,23 @@
     <xsl:template match="/" >
         
         
+        <xsl:text>Date</xsl:text>
         <xsl:text>|</xsl:text>
-        <xsl:text>Date|</xsl:text>
-        <xsl:text>Type|</xsl:text>
-        <xsl:text>Status|</xsl:text>
-        <xsl:text>IssueNumber|</xsl:text>
-        <xsl:text>Title|</xsl:text>
-        <xsl:text>LabelsCount|</xsl:text>
-        <xsl:text>LabelString|</xsl:text>
-        <xsl:text>AssignedSize|</xsl:text>
-        <xsl:text>Repository|</xsl:text>
+        <xsl:text>Type</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>Status</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>IssueNumber</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>Title</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>LabelsCount</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>LabelString</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>AssignedSize</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>Repository</xsl:text>
         
         <xsl:text>&#10;</xsl:text>
         
@@ -28,7 +35,6 @@
 
     <xsl:template match="*/projectV2/items/nodes" >
         
-        <xsl:text>|</xsl:text>
         <xsl:value-of select="$DATETIME" />
         <xsl:text>|</xsl:text>
 

@@ -1,0 +1,11 @@
+DATENOW=TESTING
+OUTFILE='github-results'
+RUNDIR=../../run/TESTING
+RUNINPUTDIR=../../run/TESTING/input
+RUNOUTPUTDIR=../../run/TESTING/output
+RUNWRKDIR=../../run/TESTING/wrk
+
+RELINPUTDIR=../input
+RELOUTPUTDIR=../output
+RELWRKDIR=../wrk
+RELBINDIR=../bin

@@ -1,21 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:output method="text"/>
+    
     <xsl:strip-space elements="*"/>
+    <xsl:param name="DATETIME" as="xs:string" required="yes"/>
 
     <xsl:template match="/" >
         
         
-        <xsl:text>Type|</xsl:text>
-        <xsl:text>Status|</xsl:text>
-        <xsl:text>IssueNumber|</xsl:text>
-        <xsl:text>Title|</xsl:text>
-        <xsl:text>LabelsCount|</xsl:text>
-        <xsl:text>LabelString|</xsl:text>
-        <xsl:text>AssignedSize|</xsl:text>
+        <xsl:text>Date</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>Type</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>Status</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>IssueNumber</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>Title</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>LabelsCount</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>LabelString</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>AssignedSize</xsl:text>
+        <xsl:text>|</xsl:text>
+        <xsl:text>Repository</xsl:text>
         
         <xsl:text>&#10;</xsl:text>
         
@@ -24,21 +35,25 @@
 
     <xsl:template match="*/projectV2/items/nodes" >
         
+        <xsl:value-of select="$DATETIME" />
+        <xsl:text>|</xsl:text>
+
+        <xsl:text>'</xsl:text>
         <xsl:value-of select="type" />
+        <xsl:text>'</xsl:text>
         <xsl:text>|</xsl:text>
+
+        <xsl:text>'</xsl:text>
         <xsl:value-of select="fieldValueByName/name" />
-        <!--
-            Extract the Issue Number
-            - If no Size label is found the value empty
-            
-            Note:
-            - This is not ideal.
-            - I'd rather work it so that I can return a string like "Not defined"
-        -->
+        <xsl:text>'</xsl:text>
         <xsl:text>|</xsl:text>
+
         <xsl:value-of select="content/number" />
         <xsl:text>|</xsl:text>
+
+        <xsl:text>'</xsl:text>
         <xsl:value-of select='replace(replace(content/title,"\n|\r","")," +"," ")' />
+        <xsl:text>'</xsl:text>
         <xsl:text>|</xsl:text>
 
         <xsl:choose>
@@ -62,14 +77,16 @@
               that includes all of the labels.
               e.g. "NIH OTA: 1.2.1","Size: 80","Deliverable: 5 Core PIDs"
         -->
-        <xsl:for-each select="content/labels/nodes">
-                    <xsl:text>"</xsl:text>
-                    <xsl:value-of select="./name" />
-                    <xsl:text>"</xsl:text>
-                    <xsl:if test='position() != last()' >
-                        <xsl:text>,</xsl:text>
-                    </xsl:if>
-        </xsl:for-each>        
+        <xsl:if test="content/labels/nodes/*" >
+            <xsl:for-each select="content/labels/nodes">
+                <xsl:text>'</xsl:text>
+                <xsl:value-of select="./name" />
+                <xsl:text>'</xsl:text>
+                <xsl:if test='position() != last()' >
+                    <xsl:text>,</xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:if>
         <xsl:text>|</xsl:text>
 
 
@@ -88,12 +105,22 @@
                 <xsl:when test='contains(./name,"Size: ")' >
                     <xsl:value-of select='replace(replace(./name,"Size: ","")," ","")' />
                 </xsl:when>
-                 <xsl:when test='contains(./array,"Size: ")' >
-                    <xsl:value-of select='replace(replace(./array,"Size: ","")," ","")' />
-                </xsl:when>
              </xsl:choose>
         </xsl:for-each>        
         <xsl:text>|</xsl:text>
+
+
+
+        <xsl:if test="content/labels/nodes/*" >
+            <xsl:for-each select="content/repository">
+                <xsl:text>'</xsl:text>
+                <xsl:value-of select="./name" />
+                <xsl:text>'</xsl:text>
+                <xsl:if test='position() != last()' >
+                    <xsl:text>,</xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:if>
 
  
         <xsl:text>&#10;</xsl:text>
