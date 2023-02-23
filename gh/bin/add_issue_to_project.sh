@@ -8,10 +8,19 @@ EOF
 
 echo "# Set basedir to current dir of this script"
 BASEDIR=$(dirname "$0")
+RELINPUTDIR=../input
+RELOUTPUTDIR=../output
+RELWRKDIR=../wrk
+RELBINDIR=../bin
 
-echo "# import the environment variables for $0"
-cat environment.sh
 . environment.sh
+
+# override the RUNDIR here
+#RUNDIR=.
+RUNINPUTDIR=${RUNDIR}/input
+RUNOUTPUTDIR=${RUNDIR}/output
+RUNWRKDIR=${RUNDIR}/wrk
+
 
 
 echo "# output the total size for the issues/PRs  in the flat file."

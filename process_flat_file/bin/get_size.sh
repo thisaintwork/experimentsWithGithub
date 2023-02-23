@@ -8,11 +8,21 @@ EOF
 
 echo "# Set basedir to current dir of this script"
 BASEDIR=$(dirname "$0")
+RELINPUTDIR=../input
+RELOUTPUTDIR=../output
+RELWRKDIR=../wrk
+RELBINDIR=../bin
 
-echo "# import the environment variables for $0"
-cat environment.sh
 . environment.sh
+# override the RUNDIR here
+#RUNDIR=.
+#RUNDIR=.
+RUNINPUTDIR=${RUNDIR}/input
+RUNOUTPUTDIR=${RUNDIR}/output
+RUNWRKDIR=${RUNDIR}/wrk
 
+cp  ${RUNWRKDIR}/${OUTFILE}.txt ${RELINPUTDIR}/
+cp  ${RUNWRKDIR}/${OUTFILE}.txt ${RELWRKDIR}/
 
 # Example input:
 #Type|Status|IssueNumber|Title|LabelsCount|LabelString|AssignedSize|
@@ -24,11 +34,27 @@ cat environment.sh
 #PULL_REQUEST|\ud83d\udeaeClear of the Backlog|9086|Iqss/7349 2 improve related pub citation entry|2|"QDR","Size: 3"|3|
 # run the resulting flat file through this command.
 echo "# output the total size for the issues/PRs  in the flat file."
-cat  ${RUNWRKDIR}/${OUTFILE}.txt  | grep 'SPRINT READY' | grep -v "^DRAFT" | cut -d'|' -f8 |  awk ' { sum += $1 } END { print sum }' > ${RUNOUTPUTDIR}/size.txt
 
-echo "# List of the issues & PRs in the flat file along with their repo."
-head -1 ${RUNWRKDIR}/${OUTFILE}.txt  | cut -d'|' -f2,4,9 --output-delimiter='|' > ${RUNWRKDIR}/issues_and_prs.txt
-cat     ${RUNWRKDIR}/${OUTFILE}.txt | grep 'SPRINT READY' | grep -v "^DRAFT" | cut -d'|' -f2,4,9 --output-delimiter='|' >> ${RUNWRKDIR}/issues_and_prs.txt
+cat  ${RELINPUTDIR}/${OUTFILE}.txt  | grep -v "^DRAFT"  > ${RELWRKDIR}/${OUTFILE}.00.txt
+tail -$(( $(wc -l < ${RELWRKDIR}/${OUTFILE}.00.txt;) -1 )) ${RELWRKDIR}/${OUTFILE}.00.txt > ${RELWRKDIR}/${OUTFILE}.10.txt
+# pull out the states e.g. 'udeaeClear of the Backlog'
+cat  ${RELWRKDIR}/${OUTFILE}.10.txt| cut -d'|' -f3 | sort -u > ${RELWRKDIR}/${OUTFILE}.20.txt
+ #>
+echo "Column|Points|IssuesCount"
+
+while read -r line;
+do
+   COUNT=$(cat  ${RELWRKDIR}/${OUTFILE}.10.txt | grep -c "$line")
+   POINTS=$(cat  ${RELWRKDIR}/${OUTFILE}.10.txt | grep "$line" | cut -d'|' -f8 |  awk ' { sum += $1 } END { print sum }')
+   echo "${line}|${POINTS}|${COUNT}"
+done < ${RELWRKDIR}/${OUTFILE}.20.txt;
+
+
+
+#cat  ${RELWRKDIR}/${OUTFILE}.01.txt > ${RELWRKDIR}/${OUTFILE}.02.txt;
+#cat  ${RELWRKDIR}/${OUTFILE}.02.txt > ${RELWRKDIR}/${OUTFILE}.03.txt;
+#cat  ${RELWRKDIR}/${OUTFILE}.03.txt > ${RELWRKDIR}/${OUTFILE}.04.txt;
+
 
 
 cat<<EOF

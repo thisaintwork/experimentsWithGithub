@@ -14,47 +14,46 @@ echo "# Hardcode the environment variables"
 echo "# Set basedir to current dir of this script"
 BASEDIR=$(dirname "$0")
 
-#DATENOW=$(date '+%Y%m%d-%H%M%S')
-
-# IMPORTANT: DATENOW controls the directory where the output is written.
-DATENOW='TESTING'
-RUNDIR=../../run/${DATENOW}
-RUNINPUTDIR=${RUNDIR}/input
-RUNOUTPUTDIR=${RUNDIR}/output
-RUNWRKDIR=${RUNDIR}/wrk
-
-RELINPUTDIR=../input
-RELOUTPUTDIR=../output
-RELWRKDIR=../wrk
-RELBINDIR=../bin
-
-
+# IMPORTANT: RUNLABEL + RUNDIR controls the directory where the output is written.
+RUNLABEL='TESTING'
+#RUNLABEL=$(date '+%Y%m%d-%H%M%S')
+RUNDIR=../../run/${RUNLABEL}
 
 # Hardcode the input here
 cat<<EOF>environment.sh
-DATENOW=${DATENOW}
-OUTFILE='github-results'
+RUNLABEL=${RUNLABEL}
 RUNDIR=${RUNDIR}
+OUTFILE='datafile'
+EOF
+
+# override the RUNDIR here
+#RUNDIR=.
+
 RUNINPUTDIR=${RUNDIR}/input
 RUNOUTPUTDIR=${RUNDIR}/output
 RUNWRKDIR=${RUNDIR}/wrk
+
+# Setup the current rundir irectory
+mkdir -p ${RUNDIR}
+mkdir -p ${RUNINPUTDIR}
+mkdir -p ${RUNOUTPUTDIR}
+mkdir -p ${RUNWRKDIR}
+
+
 
 RELINPUTDIR=../input
 RELOUTPUTDIR=../output
 RELWRKDIR=../wrk
 RELBINDIR=../bin
-EOF
+
+
+
 
 
 echo "# import the environment variables"
 echo
 . environment.sh
 
-# Setup the current rund irectory
-mkdir -p ${RUNDIR}
-mkdir -p ${RUNINPUTDIR}
-mkdir -p ${RUNOUTPUTDIR}
-mkdir -p ${RUNWRKDIR}
 
 
 
@@ -77,20 +76,13 @@ popd
 
 
 ########
-#NEXTBINDIR=../../bash/bin
+#NEXTBINDIR=../..process_flat_file/bin
 #cp environment.sh ${NEXTBINDIR}
 #pushd  ${NEXTBINDIR}
-./process_flat_file.sh
-[[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
+#./process_flat_file.sh
+#[[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
 #popd
 
-########
-NEXTBINDIR=../../gh/bin
-cp environment.sh ${NEXTBINDIR}
-pushd  ${NEXTBINDIR}
-./add_issue_to_project.sh
-[[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
-popd
 
 
 
