@@ -27,9 +27,6 @@
         <xsl:text>AssignedSize</xsl:text>
         <xsl:text>|</xsl:text>
         <xsl:text>Repository</xsl:text>
-        <xsl:text>|</xsl:text>
-        <xsl:text>closingIssuesReferences</xsl:text>
-        
         
         <xsl:text>&#10;</xsl:text>
         
@@ -67,6 +64,9 @@
                 <xsl:text>0</xsl:text>
             </xsl:otherwise>
         </xsl:choose>
+        
+
+
         <xsl:text>|</xsl:text>
 
 
@@ -111,7 +111,7 @@
 
 
 
-        <xsl:if test="content/repository/*" >
+        <xsl:if test="content/labels/nodes/*" >
             <xsl:for-each select="content/repository">
                 <xsl:text>'</xsl:text>
                 <xsl:value-of select="./name" />
@@ -121,27 +121,7 @@
                 </xsl:if>
             </xsl:for-each>
         </xsl:if>
-        <xsl:text>|</xsl:text>
-        
 
-        <!--
-            Create a closing issues references string
-            It will be blank for issues.
-            - Add it to a long comma delimited string 
-        -->
-        <xsl:if test="content/closingIssuesReferences/nodes/*" >
-            <xsl:for-each select="content/closingIssuesReferences/nodes">
-                <xsl:text>'</xsl:text>
-                <xsl:value-of select="./number" />
-                <xsl:text>'</xsl:text>
-                <xsl:if test='position() != last()' >
-                    <xsl:text>,</xsl:text>
-                </xsl:if>
-            </xsl:for-each>
-        </xsl:if>
-        <xsl:text>|</xsl:text>
-        
-        
  
         <xsl:text>&#10;</xsl:text>
    </xsl:template>  

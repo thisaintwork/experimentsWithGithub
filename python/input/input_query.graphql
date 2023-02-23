@@ -107,6 +107,13 @@ query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!
                                         name
                                     }
                                 }
+                                closingIssuesReferences (first: 20){
+                                    totalCount
+                                    nodes {
+                                        number
+                                        }
+
+                                }
                             }
                             ... on DraftIssue {
                                 title

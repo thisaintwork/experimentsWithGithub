@@ -91,7 +91,7 @@ TESTING|'ISSUE'|'Clear of the Backlog'|9283|'Payara 6: resolve conflicts and loo
 TESTING|'ISSUE'|'Clear of the Backlog'|8574|'Spike: Inventory and prioritize all existing Harvesting related issues'|5|'Feature: Harvesting','NIH OTA DC','pm.epic.nih_harvesting','NIH OTA: 1.4.1','Size: 33'|33|'dataverse'
 TESTING|'ISSUE'|'Clear of the Backlog'|7430|'Linked dataverses dont (always) show up in their linking dataverses'|1|'Size: 80'|80|'dataverse'
 TESTING|'ISSUE'|'Clear of the Backlog'|9214|'Bug: Fix dataset creation in the payara 6 branch'|2|'Payara 6 Upgrade','Size: 33'|33|'dataverse'
-TESTING|'REDACTED'|''||''|0|||
+TESTING|'ISSUE'|'Clear of the Backlog'|29|'Password update to bcrypt12'|2|'bk2211','Size: 10'|10|'dataverse-security'
 TESTING|'ISSUE'|'Clear of the Backlog'|201|'Purge unused user accounts (as in, first consider and discuss, then, potentially, purge)'|2|'ops: User Accounts','Size: 10'|10|'dataverse.harvard.edu'
 TESTING|'PULL_REQUEST'|'Clear of the Backlog'|9107|'fix for cvv and editMetadata replace=true, and test'|2|'DANS','Size: 3'|3|'dataverse'
 TESTING|'PULL_REQUEST'|'Clear of the Backlog'|9125|'8346 License internationalizataion'|1|'Size: 10'|10|'dataverse'
@@ -180,6 +180,7 @@ TESTING|'ISSUE'|'Re-arch: SPA MVP (Guillermo)'|1|'Create the skeleton of the Rea
 TESTING|'ISSUE'|'Re-arch: SPA MVP (Guillermo)'|9353|'Dataverse container-based development environment'|5|'Feature: Code Infrastructure','Feature: Developer Guide','Containers & Cloud','NIH OTA: 1.7.1 (reArchitecture)','Size: 130'|130|'dataverse'
 TESTING|'ISSUE'|'Re-arch: SPA MVP (Guillermo)'|3|'Storybook setup'|1|'Size: 10'|10|'dataverse-frontend'
 TESTING|'ISSUE'|'Re-arch: SPA MVP (Guillermo)'|2|'Configure the GitHub repository for its administration and evolution'|1|'Size: 10'|10|'dataverse-frontend'
+TESTING|'ISSUE'|'Re-arch: SPA MVP (Guillermo)'|6|'Design and configure a default option for infrastructure and deployment'|1|'Size: 33'|33|'dataverse-frontend'
 TESTING|'PULL_REQUEST'|'Clear of the Backlog'|9354|'pom file update to build XOAI-5.0.0 #9339'|0|||
 TESTING|'PULL_REQUEST'|'Clear of the Backlog'|9188|'Bump postgresql from 42.5.0 to 42.5.1 in /modules/dataverse-parent'|2|'dependencies','Size: 3'|3|'dataverse'
 TESTING|'ISSUE'|'SPRINT- NEEDS SIZING'|9355|'Spike: Discover Root cause of GitHub actions stoppage in January (Before the end of February!)'|1|'DevOps: Problem'||'dataverse'
@@ -197,7 +198,7 @@ TESTING|'ISSUE'|'Upgrades in Prep for DV6'|9260|'Test and move from Solr 8.X to 
 TESTING|'ISSUE'|'SPRINT- NEEDS SIZING'|9356|'Add execution rate metering to the command engine'|0|||
 TESTING|'ISSUE'|'Dataverse Team (Gustavo)'|9359|'Investigate adding Apache-level mechanism for rejecting aggressive robot crawling'|0|||
 TESTING|'ISSUE'|'Dataverse Team (Gustavo)'|8549|'Add mechanism for collection-wise storage size quotas'|0|||
-TESTING|'REDACTED'|''||''|0|||
+TESTING|'ISSUE'|'Dataverse Team (Gustavo)'|27|'Cookies with SameSite set to none'|2|'sz.Small','bk2211'||'dataverse-security'
 TESTING|'ISSUE'|'Dataverse Team (Gustavo)'|4499|'DOIs for Dataset versions'|3|'Feature: DOI & Handle','HERMES','Size: Queued'|Queued|'dataverse'
 TESTING|'ISSUE'|'Deliverable: 5 Core PIDs'|9370|'Spike: issue to locate or document support for DOIs and ORCID'|2|'spike','Deliverable: 5 Core PIDs'||'dataverse'
 TESTING|'ISSUE'|'NIH NetCDF (Phil)'|213|'add NcML previewers (HDF5 and NetCDF) to demo and Harvard Dataverse'|2|'Feature: External Tool','Size: 3'|3|'dataverse.harvard.edu'
