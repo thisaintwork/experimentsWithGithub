@@ -83,7 +83,17 @@ pushd  ${NEXTBINDIR}
 popd
 
 ########
-#NEXTBINDIR=../..process_flat_file/bin
+NEXTBINDIR=../../process_flat_file/bin
+cp environment.sh ${NEXTBINDIR}
+pushd  ${NEXTBINDIR}
+./get_size.sh
+[[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
+popd
+
+
+
+########
+#NEXTBINDIR=../../process_flat_file/bin
 #cp environment.sh ${NEXTBINDIR}
 #pushd  ${NEXTBINDIR}
 #./process_flat_file.sh
