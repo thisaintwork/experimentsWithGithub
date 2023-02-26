@@ -25,7 +25,7 @@ RUNWRKDIR=${RUNDIR}/wrk
 echo "# produce a flat file from the xml output."
 # java -cp c:\saxon\saxon-he-11.1.jar net.sf.saxon.Query -t -qs:"current-date()"
 cp ${RELINPUTDIR}/github-results-parse.xsl ${RUNINPUTDIR}/github-results-parse.xsl
-${JAVAEXE} -cp ${RELINPUTDIR}/../saxon-he-11.5/saxon-he-11.5.jar net.sf.saxon.Transform -t -s:${RUNWRKDIR}/${OUTFILE}.xml -xsl:${RUNINPUTDIR}/github-results-parse.xsl DATETIME="${RUNLABEL}" -o:${RUNWRKDIR}/${OUTFILE}.txt
+${JAVAEXE} -cp ${RELINPUTDIR}/../saxon-he-11.5/saxon-he-11.5.jar net.sf.saxon.Transform -t -s:${RUNWRKDIR}/${OUTFILE}.xml -xsl:${RUNINPUTDIR}/github-results-parse.xsl RUNLABEL="${RUNLABEL}" -o:${RUNWRKDIR}/${OUTFILE}.txt
 
 echo "---"
 head ${RUNWRKDIR}/${OUTFILE}.txt

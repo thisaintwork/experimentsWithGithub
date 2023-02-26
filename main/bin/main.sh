@@ -15,7 +15,7 @@ echo "# Set basedir to current dir of this script"
 BASEDIR=$(dirname "$0")
 
 # IMPORTANT: RUNLABEL + RUNDIR controls the directory where the output is written.
-RUNLABEL='TESTING'
+RUNLABEL='20230226'
 #RUNLABEL=$(date '+%Y%m%d-%H%M%S')
 RUNDIR=../../run/${RUNLABEL}
 
@@ -59,7 +59,7 @@ echo
 
 
 ########
-NEXTBINDIR=../../python/bin
+NEXTBINDIR=../../api/bin
 cp environment.sh ${NEXTBINDIR}
 pushd  ${NEXTBINDIR}
 ./query_github_for_project_info.sh
@@ -74,6 +74,13 @@ pushd  ${NEXTBINDIR}
 [[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
 popd
 
+########
+NEXTBINDIR=../../transform/bin
+cp environment.sh ${NEXTBINDIR}
+pushd  ${NEXTBINDIR}
+./get_list_of_all_labels.sh
+[[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
+popd
 
 ########
 #NEXTBINDIR=../..process_flat_file/bin

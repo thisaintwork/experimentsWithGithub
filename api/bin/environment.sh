@@ -1,0 +1,3 @@
+RUNLABEL=20230226
+RUNDIR=../../run/20230226
+OUTFILE='datafile'

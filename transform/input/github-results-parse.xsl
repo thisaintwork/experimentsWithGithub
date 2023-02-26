@@ -5,7 +5,7 @@
     <xsl:output method="text"/>
     
     <xsl:strip-space elements="*"/>
-    <xsl:param name="DATETIME" as="xs:string" required="yes"/>
+    <xsl:param name="RUNLABEL" as="xs:string" required="yes"/>
 
     <xsl:template match="/" >
         
@@ -38,7 +38,7 @@
 
     <xsl:template match="*/projectV2/items/nodes" >
         
-        <xsl:value-of select="$DATETIME" />
+        <xsl:value-of select="$RUNLABEL" />
         <xsl:text>|</xsl:text>
 
         <xsl:text>'</xsl:text>

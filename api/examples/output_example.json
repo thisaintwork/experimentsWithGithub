@@ -1,0 +1,284 @@
+###########################################################3
+#				RETURN 1
+###########################################################3
+
+{
+	"organization": {
+		"projectV2": {
+			"title": "🅱1️⃣Dataverse_Global_Backlog",
+			"closed": "False",
+			"number": 34,
+			"createdAt": "2022-10-13T16:30:18Z",
+			"updatedAt": "2023-02-11T01:08:33Z",
+			"closedAt": "None",
+			"url": "https://github.com/orgs/IQSS/projects/34",
+			"creator": {
+				"login": "mreekie"
+			},
+			"items": {
+				"totalCount": 201,
+				"pageInfo": {
+					"hasNextPage": "True",
+					"hasPreviousPage": "False",
+					"endCursor": "Mg",
+					"startCursor": "MQ"
+				},
+				"nodes": [
+					{
+						"id": "PVTI_lADOAApNpc4AHKIszgDdiPw",
+						"type": "DRAFT_ISSUE",
+						"fieldValueByName": {
+							"name": "▶ SPRINT READY"
+						},
+						"content": {
+							"title": "▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫"
+						}
+					},
+					{
+						"id": "PVTI_lADOAApNpc4AHKIszgEdV3I",
+						"type": "PULL_REQUEST",
+						"fieldValueByName": {
+							"name": "🚮Clear of the Backlog"
+						},
+						"content": {
+							"repository": {
+								"name": "dataverse"
+							},
+							"title": "IQSS/9189-fix non-Globus properties",
+							"number": 9193,
+							"url": "https://github.com/IQSS/dataverse/pull/9193",
+							"labels": {
+								"totalCount": 1,
+								"nodes": [
+									{
+										"name": "Size: 3"
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"id": "MDEyOk9yZ2FuaXphdGlvbjY3NTIzNw==",
+		"email": "None",
+		"projectsUrl": "https://github.com/orgs/IQSS/projects",
+		"login": "IQSS"
+	}
+}
+
+###########################################################3
+#				RETURN 2
+###########################################################3
+{
+	"organization": {
+		"projectV2": {
+			"title": "🅱1️⃣Dataverse_Global_Backlog",
+			"closed": "False",
+			"number": 34,
+			"createdAt": "2022-10-13T16:30:18Z",
+			"updatedAt": "2023-02-11T01:08:33Z",
+			"closedAt": "None",
+			"url": "https://github.com/orgs/IQSS/projects/34",
+			"creator": {
+				"login": "mreekie"
+			},
+			"items": {
+				"totalCount": 201,
+				"pageInfo": {
+					"hasNextPage": "True",
+					"hasPreviousPage": "True",
+					"endCursor": "NA",
+					"startCursor": "Mw"
+				},
+				"nodes": [
+					{
+						"id": "PVTI_lADOAApNpc4AHKIszgEjFxw",
+						"type": "ISSUE",
+						"fieldValueByName": {
+							"name": "🚮Clear of the Backlog"
+						},
+						"content": {
+							"repository": {
+								"name": "dataverse.harvard.edu"
+							},
+							"title": "Add Binder button for operating on datasets with Jupyter notebooks, Python, R, etc.",
+							"number": 208,
+							"url": "https://github.com/IQSS/dataverse.harvard.edu/issues/208",
+							"labels": {
+								"totalCount": 1,
+								"nodes": [
+									{
+										"name": "Size: 3"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": "PVTI_lADOAApNpc4AHKIszgEW8Kk",
+						"type": "ISSUE",
+						"fieldValueByName": {
+							"name": "🚮Clear of the Backlog"
+						},
+						"content": {
+							"repository": {
+								"name": "dataverse"
+							},
+							"title": "New filter-based design for the API authentication mechanisms",
+							"number": 9293,
+							"url": "https://github.com/IQSS/dataverse/issues/9293",
+							"labels": {
+								"totalCount": 4,
+								"nodes": [
+									{
+										"name": "Feature: API"
+									},
+									{
+										"name": "User Role: API User"
+									},
+									{
+										"name": "NIH OTA: 1.7.1 (reArchitecture)"
+									},
+									{
+										"name": "Size: 33"
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"id": "MDEyOk9yZ2FuaXphdGlvbjY3NTIzNw==",
+		"email": "None",
+		"projectsUrl": "https://github.com/orgs/IQSS/projects",
+		"login": "IQSS"
+	}
+}
+
+
+
+
+###########################################################
+#				RETURN 3
+###########################################################3
+{
+	"organization": {
+		"projectV2": {
+			"title": "🅱1️⃣Dataverse_Global_Backlog",
+			"closed": "False",
+			"number": 34,
+			"createdAt": "2022-10-13T16:30:18Z",
+			"updatedAt": "2023-02-11T01:08:33Z",
+			"closedAt": "None",
+			"url": "https://github.com/orgs/IQSS/projects/34",
+			"creator": {
+				"login": "mreekie"
+			},
+			"items": {
+				"totalCount": 201,
+				"pageInfo": {
+					"hasNextPage": "True",
+					"hasPreviousPage": "False",
+					"endCursor": "NA",
+					"startCursor": "MQ"
+				},
+				"nodes": [
+					{
+						"id": "PVTI_lADOAApNpc4AHKIszgDdiPw",
+						"type": "DRAFT_ISSUE",
+						"fieldValueByName": {
+							"name": "▶ SPRINT READY"
+						},
+						"content": {
+							"title": "▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫"
+						}
+					},
+					{
+						"id": "PVTI_lADOAApNpc4AHKIszgEdV3I",
+						"type": "PULL_REQUEST",
+						"fieldValueByName": {
+							"name": "🚮Clear of the Backlog"
+						},
+						"content": {
+							"repository": {
+								"name": "dataverse"
+							},
+							"title": "IQSS/9189-fix non-Globus properties",
+							"number": 9193,
+							"url": "https://github.com/IQSS/dataverse/pull/9193",
+							"labels": {
+								"totalCount": 1,
+								"nodes": [
+									{
+										"name": "Size: 3"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": "PVTI_lADOAApNpc4AHKIszgEjFxw",
+						"type": "ISSUE",
+						"fieldValueByName": {
+							"name": "🚮Clear of the Backlog"
+						},
+						"content": {
+							"repository": {
+								"name": "dataverse.harvard.edu"
+							},
+							"title": "Add Binder button for operating on datasets with Jupyter notebooks, Python, R, etc.",
+							"number": 208,
+							"url": "https://github.com/IQSS/dataverse.harvard.edu/issues/208",
+							"labels": {
+								"totalCount": 1,
+								"nodes": [
+									{
+										"name": "Size: 3"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": "PVTI_lADOAApNpc4AHKIszgEW8Kk",
+						"type": "ISSUE",
+						"fieldValueByName": {
+							"name": "🚮Clear of the Backlog"
+						},
+						"content": {
+							"repository": {
+								"name": "dataverse"
+							},
+							"title": "New filter-based design for the API authentication mechanisms",
+							"number": 9293,
+							"url": "https://github.com/IQSS/dataverse/issues/9293",
+							"labels": {
+								"totalCount": 4,
+								"nodes": [
+									{
+										"name": "Feature: API"
+									},
+									{
+										"name": "User Role: API User"
+									},
+									{
+										"name": "NIH OTA: 1.7.1 (reArchitecture)"
+									},
+									{
+										"name": "Size: 33"
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"id": "MDEyOk9yZ2FuaXphdGlvbjY3NTIzNw==",
+		"email": "None",
+		"projectsUrl": "https://github.com/orgs/IQSS/projects",
+		"login": "IQSS"
+	}
+}
