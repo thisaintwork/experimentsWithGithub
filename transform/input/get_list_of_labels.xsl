@@ -26,12 +26,28 @@
         
         <xsl:apply-templates />
     </xsl:template >
-    
-    <xsl:template match="*/projectV2/items/nodes" >
+
+
+
+    <xsl:template match="*/projectV2/items/nodes/content/labels/nodes/name" >           
+        <ul> 
+            <xsl:for-each select=".[not(.=preceding::*)]">
+            
+                <li>
+                    <xsl:value-of select="."/>
+                    <xsl:text>&#10;</xsl:text>
+                </li>   
+            </xsl:for-each>            
+        </ul>
+    </xsl:template>
+
+
+
+<!--    <xsl:template match="*/projectV2/items/nodes" >
         
         
-        <!--
-        -->
+        <!-\-
+        -\->
             <xsl:for-each select="content/labels/nodes">
                 <xsl:if test='./name' >
                     <xsl:text>'</xsl:text>
@@ -44,7 +60,7 @@
         
         
     </xsl:template>  
-    
+  -->  
     <xsl:template match="text()|@*">
         <!--<xsl:value-of select="."/>-->
     </xsl:template>
