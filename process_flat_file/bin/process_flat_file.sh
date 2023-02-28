@@ -31,6 +31,7 @@ RUNWRKDIR=${RUNDIR}/wrk
 #PULL_REQUEST|\ud83d\udeaeClear of the Backlog|9086|Iqss/7349 2 improve related pub citation entry|2|"QDR","Size: 3"|3|
 # run the resulting flat file through this command.
 echo "# output the total size for the issues/PRs  in the flat file."
+cp  ${RUNWRKDIR}/${OUTFILE}.txt ${RUNWRKDIR}/${OUTFILE}.orig.txt
 cat  ${RUNWRKDIR}/${OUTFILE}.txt  | grep 'SPRINT READY' | grep -v "^DRAFT" | cut -d'|' -f8 |  awk ' { sum += $1 } END { print sum }' > ${RUNOUTPUTDIR}/size.txt
 
 echo "# List of the issues & PRs in the flat file along with their repo."

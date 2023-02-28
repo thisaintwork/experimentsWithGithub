@@ -24,8 +24,8 @@ RELBINDIR=../bin
 RUNINPUTDIR=${RUNDIR}/input
 RUNOUTPUTDIR=${RUNDIR}/output
 RUNWRKDIR=${RUNDIR}/wrk
-PYTHONEXE=/home/perftest/DevCode/github-com-mreekie/GitHubProjects/experimentsWithGithub/venv/bin/python
-QRYFILENAME=input_query.graphql
+JAVAEXE=/snap/openjdk/current/jdk/bin/java
+XSLFILENAME=xml_to_flat_file.xsl
 OUTFILE=${OUTFILE}
 
 cat<<EOF
@@ -35,9 +35,17 @@ cat<<EOF
 # Begin: $0
 EOF
 
-cp ${RELINPUTDIR}/${QRYFILENAME} ${RUNINPUTDIR}/${QRYFILENAME}
-${PYTHONEXE} ${RELBINDIR}/queries_to_github.py --qry ${RUNINPUTDIR}/${QRYFILENAME}> ${RUNWRKDIR}/${OUTFILE}.xml
 
+# java -cp c:\saxon\saxon-he-11.1.jar net.sf.saxon.Query -t -qs:"current-date()"
+cp ${RELINPUTDIR}/${XSLFILENAME} ${RUNINPUTDIR}/${XSLFILENAME}
+
+
+${JAVAEXE} -cp ${RELINPUTDIR}/../saxon-he-11.5/saxon-he-11.5.jar net.sf.saxon.Transform -t -s:${RUNWRKDIR}/${OUTFILE}.xml -xsl:${RUNINPUTDIR}/${XSLFILENAME}  RUNLABEL="${RUNLABEL}" -o:${RUNWRKDIR}/${OUTFILE}.txt
+cp ${RUNWRKDIR}/${OUTFILE}.txt ${RUNWRKDIR}/${OUTFILE}-orig.txt
+echo "---"
+head ${RUNWRKDIR}/${OUTFILE}.txt
+echo "---"
+echo
 
 cat<<EOF
 # End: $0

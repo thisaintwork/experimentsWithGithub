@@ -1,28 +1,42 @@
 #!/usr/bin/bash
 set -o errexit
 
-cat<<EOF
-#===========================
-# Begin: $0
-EOF
-
-echo "# Set basedir to current dir of this script"
+# ###########################################################
+# Initialize the environment and global variables.
+# -----------------------------------------------------------
 BASEDIR=$(dirname "$0")
+
+echo "# import the environment variables"
+echo
+. environment.sh
+
 RELINPUTDIR=../input
 RELOUTPUTDIR=../output
 RELWRKDIR=../wrk
 RELBINDIR=../bin
 
-. environment.sh
+# ###########################################################
+# LOCAL VARIABLE CUSTOMIZATION
+# -----------------------------------------------------------
+
 # override the RUNDIR here
-#RUNDIR=.
 #RUNDIR=.
 RUNINPUTDIR=${RUNDIR}/input
 RUNOUTPUTDIR=${RUNDIR}/output
 RUNWRKDIR=${RUNDIR}/wrk
+JAVAEXE=/snap/openjdk/current/jdk/bin/java
+XSLFILENAME=xml_to_flat_file.xsl
+OUTFILE=${OUTFILE}
+
+cat<<EOF
+# ###########################################################
+# Announcement
+# -----------------------------------------------------------
+# Begin: $0
+EOF
 
 cp  ${RUNWRKDIR}/${OUTFILE}.txt ${RELINPUTDIR}/
-cp  ${RUNWRKDIR}/${OUTFILE}.txt ${RELWRKDIR}/
+cp  ${RUNWRKDIR}/${OUTFILE}.txt ${RELINPUTDIR}/${OUTFILE}-orig.txt
 
 # Example input:
 #Type|Status|IssueNumber|Title|LabelsCount|LabelString|AssignedSize|
@@ -35,17 +49,23 @@ cp  ${RUNWRKDIR}/${OUTFILE}.txt ${RELWRKDIR}/
 # run the resulting flat file through this command.
 echo "# output the total size for the issues/PRs  in the flat file."
 
+# remove draft issues
 cat  ${RELINPUTDIR}/${OUTFILE}.txt  | grep -v "^DRAFT"  > ${RELWRKDIR}/${OUTFILE}.00.txt
+
+# remove the header
 tail -$(( $(wc -l < ${RELWRKDIR}/${OUTFILE}.00.txt;) -1 )) ${RELWRKDIR}/${OUTFILE}.00.txt > ${RELWRKDIR}/${OUTFILE}.10.txt
-# pull out the states e.g. 'udeaeClear of the Backlog'
-cat  ${RELWRKDIR}/${OUTFILE}.10.txt| cut -d'|' -f3 | sort -u > ${RELWRKDIR}/${OUTFILE}.20.txt
- #>
+
+# pull out a unique list of  states e.g. 'udeaeClear of the Backlog'
+cat  ${RELWRKDIR}/${OUTFILE}.10.txt | cut -d'|' -f1 | sort -u > ${RELWRKDIR}/${OUTFILE}.20.txt
+
+# output the total size for the issues/PRs  in the flat file.
+#State|Points|IssuesCount
 echo "Column|Points|IssuesCount"
 
 while read -r line;
 do
    COUNT=$(cat  ${RELWRKDIR}/${OUTFILE}.10.txt | grep -c "$line")
-   POINTS=$(cat  ${RELWRKDIR}/${OUTFILE}.10.txt | grep "$line" | cut -d'|' -f8 |  awk ' { sum += $1 } END { print sum }')
+   POINTS=$(cat  ${RELWRKDIR}/${OUTFILE}.10.txt | grep "$line" | cut -d'|' -f2 |  awk ' { sum += $1 } END { print sum }')
    echo "${line}|${POINTS}|${COUNT}"
 done < ${RELWRKDIR}/${OUTFILE}.20.txt;
 

@@ -1,22 +1,15 @@
 #!/usr/bin/bash
 set -o errexit
 
-cat<<EOF
 
-# This script will create a flat file from the github results.
-# Eventually this script should be broken up and each of the steps should be put in it's own script in it's bin directory.
-# run from the bash/bin directory"
-
-
-EOF
-
-echo "# Hardcode the environment variables"
-echo "# Set basedir to current dir of this script"
+# ###########################################################
+# Initialize the environment and global variables.
+# -----------------------------------------------------------
 BASEDIR=$(dirname "$0")
 
 # IMPORTANT: RUNLABEL + RUNDIR controls the directory where the output is written.
-RUNLABEL='20230226'
-#RUNLABEL=$(date '+%Y%m%d-%H%M%S')
+#RUNLABEL='20230226'
+RUNLABEL=$(date '+%Y%m%d-%H%M%S')
 RUNDIR=../../run/${RUNLABEL}
 
 # Hardcode the input here
@@ -24,6 +17,8 @@ cat<<EOF>environment.sh
 RUNLABEL=${RUNLABEL}
 RUNDIR=${RUNDIR}
 OUTFILE='datafile'
+LOGINORG="IQSS"
+PROJECTNUM=34
 EOF
 
 # override the RUNDIR here
@@ -40,7 +35,6 @@ mkdir -p ${RUNOUTPUTDIR}
 mkdir -p ${RUNWRKDIR}
 
 
-
 RELINPUTDIR=../input
 RELOUTPUTDIR=../output
 RELWRKDIR=../wrk
@@ -48,39 +42,25 @@ RELBINDIR=../bin
 
 
 
+# ###########################################################
+# Initialize the environment and global variables.
+# -----------------------------------------------------------
+cat<<EOF
+
+# This script will create a flat file from the github results.
+# Eventually this script should be broken up and each of the steps should be put in it's own script in it's bin directory.
+# run from the bash/bin directory"
 
 
-echo "# import the environment variables"
-echo
-. environment.sh
-
-
-
-
-
-########
-NEXTBINDIR=../../api/bin
-cp environment.sh ${NEXTBINDIR}
-pushd  ${NEXTBINDIR}
-./query_github_for_project_info.sh
-[[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
-popd
+EOF
 
 ########
-NEXTBINDIR=../../transform/bin
-cp environment.sh ${NEXTBINDIR}
-pushd  ${NEXTBINDIR}
-./transform_xml_to_flatfile.sh
+NEXTBINDIR=.
+#cp environment.sh ${NEXTBINDIR}
+#pushd  ${NEXTBINDIR}
+./refresh_exported_data.sh
 [[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
-popd
-
-########
-NEXTBINDIR=../../transform/bin
-cp environment.sh ${NEXTBINDIR}
-pushd  ${NEXTBINDIR}
-./get_list_of_all_labels.sh
-[[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
-popd
+#popd
 
 ########
 NEXTBINDIR=../../process_flat_file/bin
@@ -92,13 +72,6 @@ popd
 
 
 
-########
-#NEXTBINDIR=../../process_flat_file/bin
-#cp environment.sh ${NEXTBINDIR}
-#pushd  ${NEXTBINDIR}
-#./process_flat_file.sh
-#[[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
-#popd
 
 
 

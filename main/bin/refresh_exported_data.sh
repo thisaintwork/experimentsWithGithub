@@ -24,9 +24,9 @@ RELBINDIR=../bin
 RUNINPUTDIR=${RUNDIR}/input
 RUNOUTPUTDIR=${RUNDIR}/output
 RUNWRKDIR=${RUNDIR}/wrk
-PYTHONEXE=/home/perftest/DevCode/github-com-mreekie/GitHubProjects/experimentsWithGithub/venv/bin/python
-QRYFILENAME=input_query.graphql
-OUTFILE=${OUTFILE}
+JAVAEXE=/snap/openjdk/current/jdk/bin/java
+XSLFILENAME=xml_to_flat_file.xsl.xsl
+OUTFILE=${OUTFILE}-flat
 
 cat<<EOF
 # ###########################################################
@@ -35,11 +35,31 @@ cat<<EOF
 # Begin: $0
 EOF
 
-cp ${RELINPUTDIR}/${QRYFILENAME} ${RUNINPUTDIR}/${QRYFILENAME}
-${PYTHONEXE} ${RELBINDIR}/queries_to_github.py --qry ${RUNINPUTDIR}/${QRYFILENAME}> ${RUNWRKDIR}/${OUTFILE}.xml
+# ###########################################################
+# Run the query against github
+# -----------------------------------------------------------
+NEXTBINDIR=../../api/bin
+cp environment.sh ${NEXTBINDIR}
+pushd  ${NEXTBINDIR}
+./query_github_for_project_info.sh
+[[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
+popd
+
+# ###########################################################
+# Transform the query results into a flat file
+# -----------------------------------------------------------
+NEXTBINDIR=../../transform/bin
+cp environment.sh ${NEXTBINDIR}
+pushd  ${NEXTBINDIR}
+./xform_xml_to_flat_file.sh
+[[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
+popd
 
 
-cat<<EOF
-# End: $0
-#---------------------------
-EOF
+
+
+
+
+
+
+

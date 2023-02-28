@@ -1,3 +1,5 @@
+# input_query.graphql
+
 query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!) {
  #   query ($first: Int!, $skip: Int!) {
  # products(first: $first, skip: $skip) {
