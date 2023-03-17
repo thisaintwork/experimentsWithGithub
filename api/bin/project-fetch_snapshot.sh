@@ -4,16 +4,8 @@ set -o errexit
 # ###########################################################
 # Initialize the environment and global variables.
 # -----------------------------------------------------------
-BASEDIR=$(dirname "$0")
-
-echo "# import the environment variables"
-echo
-. environment.sh
-
-RELINPUTDIR=../input
-RELOUTPUTDIR=../output
-RELWRKDIR=../wrk
-RELBINDIR=../bin
+. ./environment.sh
+. ${RELINPUTDIR}/project-fetch_snapshot-input.sh
 
 # ###########################################################
 # LOCAL VARIABLE CUSTOMIZATION
@@ -21,23 +13,21 @@ RELBINDIR=../bin
 
 # override the RUNDIR here
 #RUNDIR=.
-RUNINPUTDIR=${RUNDIR}/input
-RUNOUTPUTDIR=${RUNDIR}/output
-RUNWRKDIR=${RUNDIR}/wrk
 PYTHONEXE=/home/perftest/DevCode/github-com-mreekie/GitHubProjects/experimentsWithGithub/venv/bin/python
-QRYFILENAME=input_query.graphql
-OUTFILE=${OUTFILE}
+WRKINGFILE=${WRKINGFILE}
 
 cat<<EOF
+
 # ###########################################################
 # Announcement
 # -----------------------------------------------------------
 # Begin: $0
+$(cat ${RELINPUTDIR}/project-fetch_snapshot-input.sh)
 EOF
 
-cp ${RELINPUTDIR}/${QRYFILENAME} ${RUNINPUTDIR}/${QRYFILENAME}
-${PYTHONEXE} ${RELBINDIR}/queries_to_github.py --qry ${RUNINPUTDIR}/${QRYFILENAME}> ${RUNWRKDIR}/${OUTFILE}.xml
-
+# Query is run in the local directory and then copies of input and output are sent to run directory
+cp ../lib/${QRYFILENAME} ${RELINPUTDIR}/
+${PYTHONEXE} ./github-fetch_via_graphql.py --qry ${RELINPUTDIR}/${QRYFILENAME} > ${RELOUTPUTDIR}/${WRKINGFILE}.xml
 
 cat<<EOF
 # End: $0

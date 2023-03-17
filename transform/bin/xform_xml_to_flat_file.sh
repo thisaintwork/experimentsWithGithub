@@ -4,16 +4,7 @@ set -o errexit
 # ###########################################################
 # Initialize the environment and global variables.
 # -----------------------------------------------------------
-BASEDIR=$(dirname "$0")
-
-echo "# import the environment variables"
-echo
-. environment.sh
-
-RELINPUTDIR=../input
-RELOUTPUTDIR=../output
-RELWRKDIR=../wrk
-RELBINDIR=../bin
+. ./environment.sh
 
 # ###########################################################
 # LOCAL VARIABLE CUSTOMIZATION
@@ -21,14 +12,11 @@ RELBINDIR=../bin
 
 # override the RUNDIR here
 #RUNDIR=.
-RUNINPUTDIR=${RUNDIR}/input
-RUNOUTPUTDIR=${RUNDIR}/output
-RUNWRKDIR=${RUNDIR}/wrk
 JAVAEXE=/snap/openjdk/current/jdk/bin/java
 XSLFILENAME=xml_to_flat_file.xsl
-OUTFILE=${OUTFILE}
 
 cat<<EOF
+
 # ###########################################################
 # Announcement
 # -----------------------------------------------------------
@@ -37,13 +25,12 @@ EOF
 
 
 # java -cp c:\saxon\saxon-he-11.1.jar net.sf.saxon.Query -t -qs:"current-date()"
-cp ${RELINPUTDIR}/${XSLFILENAME} ${RUNINPUTDIR}/${XSLFILENAME}
+# The input for this operation is in the latest run working directory
+cp ../lib/${XSLFILENAME}  ${RELINPUTDIR}/${XSLFILENAME}
+${JAVAEXE} -cp ../saxon-he-11.5/saxon-he-11.5.jar net.sf.saxon.Transform -t -s:${RELINPUTDIR}/${WRKINGFILE}.xml -xsl:${RELINPUTDIR}/${XSLFILENAME}  RUNLABEL="${RUNLABEL}" -o:${RELOUTPUTDIR}/${WRKINGFILE}.txt
 
-
-${JAVAEXE} -cp ${RELINPUTDIR}/../saxon-he-11.5/saxon-he-11.5.jar net.sf.saxon.Transform -t -s:${RUNWRKDIR}/${OUTFILE}.xml -xsl:${RUNINPUTDIR}/${XSLFILENAME}  RUNLABEL="${RUNLABEL}" -o:${RUNWRKDIR}/${OUTFILE}.txt
-cp ${RUNWRKDIR}/${OUTFILE}.txt ${RUNWRKDIR}/${OUTFILE}-orig.txt
 echo "---"
-head ${RUNWRKDIR}/${OUTFILE}.txt
+head ${RELOUTPUTDIR}/${WRKINGFILE}.txt
 echo "---"
 echo
 
