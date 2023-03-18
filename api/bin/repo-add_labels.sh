@@ -4,16 +4,7 @@ set -o errexit
 # ###########################################################
 # Initialize the environment and global variables.
 # -----------------------------------------------------------
-BASEDIR=$(dirname "$0")
-
-echo "# import the environment variables"
-echo
-. environment.sh
-
-RELINPUTDIR=../input
-RELOUTPUTDIR=../output
-RELWRKDIR=../wrk
-RELBINDIR=../bin
+. ./environment.sh
 
 # ###########################################################
 # LOCAL VARIABLE CUSTOMIZATION
@@ -21,12 +12,10 @@ RELBINDIR=../bin
 
 # override the RUNDIR here
 #RUNDIR=.
-RUNINPUTDIR=${RUNDIR}/input
-RUNOUTPUTDIR=${RUNDIR}/output
-RUNWRKDIR=${RUNDIR}/wrk
-OUTFILE=${OUTFILE}
+
 
 cat<<EOF
+
 # ###########################################################
 # Announcement
 # -----------------------------------------------------------
@@ -34,34 +23,33 @@ cat<<EOF
 # Begin: $0
 EOF
 
-
 echo "# cp the list of repos and the labels to search for to the run input directory"
-REPOS=repos_tobe_added_to
-LABELSLIST=labels_tobe_added
-cp  ${RELINPUTDIR}/${REPOS}.txt ${RUNWRKDIR}/${REPOS}.txt
-cp  ${RELINPUTDIR}/${LABELSLIST}.txt ${RUNWRKDIR}/${LABELSLIST}.txt
+REPOSLIST=repo-add_labels_to_these_repos-input_repos
+LABELSLIST=repo-add_labels_to_these_repos-input_labels
 
 COUNT=0
-while read -r LABELLINE;
+while read -r LABELLINE || [ -n "$LABELLINE" ]
 do
   echo "--- LABELLINE: ${LABELLINE}"
-  LBLNAME=$(echo ${LABELLINE} | cut -d'|' -f1)
-  LBLCLR=$(echo ${LABELLINE} | cut -d'|' -f2)
 
-  while read -r REPOLINE;
+  LBLNAME=$(echo "${LABELLINE}" | cut -f1)
+  LBLDESC=$(echo "${LABELLINE}" | cut -f2)
+  LBLCLR=$(echo "${LABELLINE}" | cut -f3)
+
+  while read -r REPOLINE || [ -n "$REPOLINE" ]
   do
     echo "--- --- REPOLINE: ${REPOLINE}"
        #echo ${REPOLINE}
       # gh label create 'Feature: Search/Browse' -c 'c7def8' --force --repo 'IQSS/dataverse-pm'
-      CMDNOW="gh label create '${LBLNAME}' -c '${LBLCLR}' --force --repo '${REPOLINE}'"
+      CMDNOW="gh label create ${LBLNAME} -d ${LBLDESC} -c ${LBLCLR} --force --repo ${REPOLINE}"
       echo ${CMDNOW}
       eval ${CMDNOW}
       EVAL_RETURN=$?
       [ ${EVAL_RETURN} != "0" ] && EVAL_RETURN="ERROR"
       sleep 1
-  done < ${RUNWRKDIR}/${REPOS}.txt
+  done < ${RELINPUTDIR}/${REPOSLIST}.txt
   COUNT=$((COUNT+1))
-done < ${RUNWRKDIR}/${LABELSLIST}.txt
+done < ${RELINPUTDIR}/${LABELSLIST}.txt
 
 cat<<EOF
 # End: $0

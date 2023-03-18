@@ -8,9 +8,9 @@ EOF
 
 . ./environment.sh
     pushd $1
-    touch ${RELINPUTDIR}/empty.txt; rm ${RELINPUTDIR}/*
-    touch ${RELOUTPUTDIR}/empty.txt; rm ${RELOUTPUTDIR}/*
-    touch ${RELWRKDIR}/empty.txt; rm ${RELWRKDIR}/*
+    touch ${RELINPUTDIR}/empty.txt; rm ${RELINPUTDIR}/*; touch ${RELINPUTDIR}/empty.txt;
+    touch ${RELOUTPUTDIR}/empty.txt; rm ${RELOUTPUTDIR}/*; touch ${RELOUTPUTDIR}/empty.txt
+    touch ${RELWRKDIR}/empty.txt; rm ${RELWRKDIR}/*; touch ${RELWRKDIR}/empty.txt
     popd
 
 
