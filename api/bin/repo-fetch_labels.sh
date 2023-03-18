@@ -25,10 +25,7 @@ EOF
 
 
 echo "# cp the list of repos and the labels to search for to the run input directory"
-REPOS=repos_list_input
-LABELSLIST=labels_list_input
-cp  ${RELINPUTDIR}/${REPOS}.txt ${RUNWRKDIR}/${REPOS}.txt
-cp  ${RELINPUTDIR}/${LABELSLIST}.txt ${RUNWRKDIR}/${LABELSLIST}.txt
+REPOS='repo-fetch_labels-input_repos'
 
 COUNT=0
 while read -r REPOLINE;
@@ -36,14 +33,15 @@ do
     echo "--- --- REPOLINE: ${REPOLINE}"
 
        #echo ${REPOLINE}
-       CMDNOW="gh label list --repo '${REPOLINE}' --limit 300 --json name,color | jq -r '.[] | [.name, .color] | @tsv' | sed s'#\t#\|#g'"
+       CMDNOW="gh label list --repo '${REPOLINE}' --limit 300 --json name,color,description | jq -r '.[] | [.name, .color, .description] | @tsv' | sed s'#\t#\"\t\"#g' | sed s'#^#\"#g' | sed s'/$/\"/g'"
        echo ${CMDNOW}
-       eval ${CMDNOW}
+       OUTTEXT=$(echo ${REPOLINE} | sed s'#/#-#g')
+       eval ${CMDNOW} > ${RELOUTPUTDIR}/${OUTTEXT}-output.txt
        EVAL_RETURN=$?
        [ ${EVAL_RETURN} != "0" ] && EVAL_RETURN="ERROR"
        sleep 1
     COUNT=$((COUNT+1))
-done < ${RUNWRKDIR}/${REPOS}.txt
+done < ${RELINPUTDIR}/${REPOS}.txt
 
 cat<<EOF
 # End: $0
