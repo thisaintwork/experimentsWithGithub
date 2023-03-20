@@ -4,7 +4,12 @@ query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!
  #   query ($first: Int!, $skip: Int!) {
  # products(first: $first, skip: $skip) {
     organization(login: $loginOrg) {
+            id
+            email
+            projectsUrl
+            login
             projectV2 (number: $projectNum) {
+                id
                 #title
                 #closed
                 #number
@@ -59,6 +64,7 @@ query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!
                             ... on  ProjectV2ItemFieldRepositoryValue {
                                 repository {
                                     name
+                                    id
 
                                 }
                             }
@@ -129,11 +135,5 @@ query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!
                     }
                 }
             }
-
-
-            id
-            email
-            projectsUrl
-            login
         }
 }

@@ -14,18 +14,18 @@ cat<<EOF
 # -----------------------------------------------------------
 EOF
 
-touch ${LATESTINPUTDIR}/empty.txt
-touch ${LATESTOUTPUTDIR}/empty.txt
-touch ${LATESTWRKDIR}/empty.txt
+touch ${LATESTINPUTDIR}/empty.txt; rm ${LATESTINPUTDIR}/*
+touch ${LATESTOUTPUTDIR}/empty.txt; rm ${LATESTOUTPUTDIR}/*
+touch ${LATESTWRKDIR}/empty.txt; rm ${LATESTWRKDIR}/*
+
+touch ${LATESTINPUTDIR}/empty-${RUNLABEL}.txt
+touch ${LATESTOUTPUTDIR}/empty-${RUNLABEL}.txt
+touch ${LATESTWRKDIR}/empty-${RUNLABEL}.txt
 
 
-touch ${RUNINPUTDIR}/empty.txt
-touch ${RUNOUTPUTDIR}/empty.txt
-touch ${RUNWRKDIR}/empty.txt
-
-rm ${LATESTINPUTDIR}/*
-rm ${LATESTOUTPUTDIR}/*
-rm ${LATESTWRKDIR}/*
+touch ${RUNINPUTDIR}/empty-${RUNLABEL}.txt
+touch ${RUNOUTPUTDIR}/empty-${RUNLABEL}.txt
+touch ${RUNWRKDIR}/empty-${RUNLABEL}.txt
 
 cp -v ${RUNINPUTDIR}/* ${LATESTINPUTDIR}/
 cp -v ${RUNOUTPUTDIR}/* ${LATESTOUTPUTDIR}/

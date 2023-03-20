@@ -73,6 +73,8 @@ def get_all_items(auth_token_val, query_str, vars_in):
 
 parser = argparse.ArgumentParser(description='query related information')
 parser.add_argument('--qry', dest='query_filename', type=str, help='Name of the query file')
+parser.add_argument('--org', dest='login_org' , type=str, help='XXX')
+parser.add_argument('--prjnum', dest='project_num' , type=int, help='XXX')
 args = parser.parse_args()
 #print(args.query_filename)
 
@@ -84,12 +86,14 @@ authTokenVal = os.getenv(key, "novalue")
 ################################################
 # read graphql query from file
 query_filename = args.query_filename
-#query_filename = '../input/input_query.graphql'
+project_num= args.project_num
+login_org = args.login_org
 queryString = load_query(query_filename)
 
 ################################################
 # Setup the query variables
-varsIn = {"loginOrg": "IQSS", "firstFew": 100, "projectNum": 34}
+#varsIn = {"loginOrg": "IQSS", "firstFew": 100, "projectNum": 34}
+varsIn = {"loginOrg": login_org, "firstFew": 100, "projectNum": project_num}
 
 ################################################
 # Get all the data

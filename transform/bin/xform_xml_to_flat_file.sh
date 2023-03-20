@@ -13,7 +13,7 @@ set -o errexit
 # override the RUNDIR here
 #RUNDIR=.
 JAVAEXE=/snap/openjdk/current/jdk/bin/java
-XSLFILENAME=xml_to_flat_file.xsl
+XSLFILENAME=xml_to_flat_file
 
 cat<<EOF
 
@@ -26,8 +26,8 @@ EOF
 
 # java -cp c:\saxon\saxon-he-11.1.jar net.sf.saxon.Query -t -qs:"current-date()"
 # The input for this operation is in the latest run working directory
-cp ../lib/${XSLFILENAME}  ${RELINPUTDIR}/${XSLFILENAME}
-${JAVAEXE} -cp ../saxon-he-11.5/saxon-he-11.5.jar net.sf.saxon.Transform -t -s:${RELINPUTDIR}/${WRKINGFILE}.xml -xsl:${RELINPUTDIR}/${XSLFILENAME}  RUNLABEL="${RUNLABEL}" -o:${RELOUTPUTDIR}/${WRKINGFILE}.txt
+cp ../lib/${XSLFILENAME}.xsl  ${RELINPUTDIR}/
+${JAVAEXE} -cp ../saxon-he-11.5/saxon-he-11.5.jar net.sf.saxon.Transform -t -s:${RELINPUTDIR}/${WRKINGFILE}.xml -xsl:${RELINPUTDIR}/${XSLFILENAME}.xsl  RUNLABEL="${RUNLABEL}" -o:${RELOUTPUTDIR}/${WRKINGFILE}.txt
 
 echo "---"
 head ${RELOUTPUTDIR}/${WRKINGFILE}.txt

@@ -4,16 +4,7 @@ set -o errexit
 # ###########################################################
 # Initialize the environment and global variables.
 # -----------------------------------------------------------
-BASEDIR=$(dirname "$0")
-
-echo "# import the environment variables"
-echo
-. environment.sh
-
-RELINPUTDIR=../input
-RELOUTPUTDIR=../output
-RELWRKDIR=../wrk
-RELBINDIR=../bin
+. ./environment.sh
 
 # ###########################################################
 # LOCAL VARIABLE CUSTOMIZATION
@@ -21,48 +12,53 @@ RELBINDIR=../bin
 
 # override the RUNDIR here
 #RUNDIR=.
-RUNINPUTDIR=${RUNDIR}/input
-RUNOUTPUTDIR=${RUNDIR}/output
-RUNWRKDIR=${RUNDIR}/wrk
-OUTFILE=${OUTFILE}
+
 
 cat<<EOF
+
 # ###########################################################
 # Announcement
 # -----------------------------------------------------------
+# https://cli.github.com/manual/index
+# $(pwd)
 # Begin: $0
 EOF
 
 
-echo "# output the total size for the issues/PRs  in the flat file."
-cat  ${RUNWRKDIR}/${OUTFILE}.txt  | grep 'SPRINT READY' | grep -v "^DRAFT" | cut -d'|' -f8 |  awk ' { sum += $1 } END { print sum }' > ${RUNOUTPUTDIR}/size.txt
+# ###########################################################
+# Declare input variables
+# from the command line
+# -----------------------------------------------------------
+INPUTLIST=${1}
+ACTION=${2}
+PROJECT=${3}
 
-echo "# List of the issues & PRs in the flat file along with their repo."
-
-tail -$(( $(wc -l < ${RUNWRKDIR}/${OUTFILE}.txt) -1 )) ${RUNWRKDIR}/${OUTFILE}.txt | grep 'SPRINT READY' | grep -v "^DRAFT" | cut -d'|' -f3,4,6 --output-delimiter='|' > ${RUNWRKDIR}/add_these.txt
-
+ACTION=$(echo "$ACTION" |  sed "s/'//g")
+PROJECT=$(echo "$PROJECT" | sed "s/'//g")
 
 
 # e.g.
-#'PULL_REQUEST'|8940|'dataverse'
-COUNT=0
+#'PULL_REQUEST'\t8940\t'dataverse'
+COUNT=1
 while read -r line;
 do
-       TYPEOF=$(echo $line | cut -d'|' -f1)
-       NUMB=$(echo $line | cut -d'|' -f2)
-       REPO=$(echo $line | cut -d'|' -f3 | sed "s/'//g")
-
        CMDNOW="ERROR"
        TYPE="ERROR"
-       [[ "${TYPEOF}" = "'PULL_REQUEST'" ]] && TYPE="pr"
-       [[ "${TYPEOF}" = "'ISSUE'" ]] && TYPE="issue"
-       CMDNOW="gh ${TYPE} edit ${NUMB} --repo 'IQSS/${REPO}' --add-project 'IQSS/dataverse'"
-       #CMDNOW="gh ${TYPE} edit ${NUMB} --repo 'IQSS/${REPO}' --remove-project 'deleteMeAfterTesting'"
+       TYPEOF=$(echo "$line" | cut -f1 | sed "s/'//g")
+       NUMB=$(echo "$line" | cut -f2 | sed "s/'//g")
+       REPO=$(echo "$line" | cut -f3 | sed "s/'//g")
+
+       [[ "${TYPEOF}" = "PULL_REQUEST" ]] && TYPE="pr"
+       [[ "${TYPEOF}" = "ISSUE" ]] && TYPE="issue"
+       CMDNOW="gh ${TYPE} edit ${NUMB} --repo ${REPO} --${ACTION} ${PROJECT}"
+       echo "COUNTER: ${COUNT}"
+       echo "    CMD: ${CMDNOW}"
       eval ${CMDNOW}
       EVAL_RETURN=$?
       # shellcheck disable=SC1033
       [ ${EVAL_RETURN} != "0" ] && EVAL_RETURN="ERROR"
       COUNT=$((COUNT+1))
+      sleep 1
 
 cat<<EOF
 
@@ -74,7 +70,7 @@ cat<<EOF
 EOF
 
 
-done < ${RUNWRKDIR}/add_these.txt
+done < ${RELINPUTDIR}/${INPUTLIST}.txt
 
 cat<<EOF
 # End: $0

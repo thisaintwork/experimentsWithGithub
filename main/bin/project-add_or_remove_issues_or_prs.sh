@@ -5,6 +5,7 @@ set -o errexit
 cat<<EOF
 
 # ###########################################################
+# $(pwd)
 # Begin: $0
 # -----------------------------------------------------------
 EOF
@@ -16,54 +17,30 @@ EOF
 ./environment-initialize.sh
 . ./environment.sh
 
-
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# FIRST: Transform the query results into a flat file
+# Transform the query results into a flat file
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # ###########################################################
 # Declare input variables
 NEXTBINDIR=../../api/bin
-LOGINORG='IQSS'
-PROJECTNUM='32'
-QRYFILENAME='input_query.graphql'
+INPUTFILE='project-add_or_remove_issues_or_prs-input'
+#ACTION='add-project'
+ACTION='remove-project'
+PROJECT="'FundedDeliverables'"
 
 # ###########################################################
 # prep the local run environment
 ../lib/clean_local_run_environment.sh ${NEXTBINDIR}
 cp -v environment.sh ${NEXTBINDIR}/
-
+cp -v ${RELINPUTDIR}/${INPUTFILE}.txt ${NEXTBINDIR}/${RELINPUTDIR}/
 # ###########################################################
 # Execution
 pushd  ${NEXTBINDIR}
-./project-fetch_snapshot.sh "${LOGINORG}" "${PROJECTNUM}" "${QRYFILENAME}"
+./project-add_or_remove_issues_or_prs.sh "${INPUTFILE}" "${ACTION}" "${PROJECT}"
 [[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
 cp -v ${RELINPUTDIR}/* ${RUNINPUTDIR}/
 cp -v ${RELOUTPUTDIR}/* ${RUNWRKDIR}/
-popd
-
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# SECOND: Transform the query results into a flat file
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-# ###########################################################
-# Declare input variables
-NEXTBINDIR=../../api/bin
-
-# ###########################################################
-# prep the local run environment
-../lib/clean_local_run_environment.sh ${NEXTBINDIR}
-cp -v environment.sh ${NEXTBINDIR}
-
-# ###########################################################
-# Execution
-pushd  ${NEXTBINDIR}
-cp -v  ${RUNWRKDIR}/${WRKINGFILE}.xml ${RELINPUTDIR}/
-./xform_xml_to_flat_file.sh
-[[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
-cp -v ${RELINPUTDIR}/* ${RUNINPUTDIR}/
-cp -v  ${RELOUTPUTDIR}/* ${RUNWRKDIR}/
-cp -v  ${RELOUTPUTDIR}/* ${RUNOUTPUTDIR}/
 popd
 
 # ###########################################################

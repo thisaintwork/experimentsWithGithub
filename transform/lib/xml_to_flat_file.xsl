@@ -45,33 +45,33 @@
     <xsl:template match="/" >
 
         <xsl:text>Status</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>AssignedSize</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>Type</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>IssueNumber</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>Title</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>Repository</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>Comments</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>LabelString</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>closingIssuesReferences</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>OG Queue</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>Closed</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>ClosedAt</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>RUNLABEL</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         <xsl:text>LabelsCount</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         
 
 
@@ -80,7 +80,7 @@
         -->       
         <xsl:for-each select="$uniqLabelList/uniqLabelList/uniquelabel">
             <xsl:value-of select="." />
-            <xsl:text>|</xsl:text>
+            <xsl:text>&#9;</xsl:text>
             
         </xsl:for-each>       
         
@@ -95,7 +95,7 @@
         <xsl:text>'</xsl:text>
         <xsl:value-of select="fieldValueByName/name" />
         <xsl:text>'</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
 
         <!-- Assigned Size
              Extract the estimated size
@@ -111,23 +111,23 @@
                 </xsl:when>
             </xsl:choose>
         </xsl:for-each>        
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
 
         <!--Type-->
         <xsl:text>'</xsl:text>
         <xsl:value-of select="type" />
         <xsl:text>'</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
 
         <!--Issue Number-->
         <xsl:value-of select="content/number" />
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         
         <!--Title-->
         <xsl:text>'</xsl:text>
         <xsl:value-of select='replace(replace(content/title,"\n|\r","")," +"," ")' />
         <xsl:text>'</xsl:text>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         
         <!--Repository-->
         <xsl:if test="content/repository/*" >
@@ -140,10 +140,10 @@
                 </xsl:if>
             </xsl:for-each>
         </xsl:if>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         
         <!--Space for a comment-->
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
 
         <!--LabelString
             Create a labels string
@@ -162,7 +162,7 @@
                 </xsl:if>
             </xsl:for-each>
         </xsl:if>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         
         
         
@@ -182,28 +182,28 @@
                 </xsl:if>
             </xsl:for-each>
         </xsl:if>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         
         <!--Status as OG Queue-->
         <xsl:text>'</xsl:text>
         <xsl:value-of select="fieldValueByName/name" />
         <xsl:text>'</xsl:text>
-        <xsl:text>|</xsl:text>   
+        <xsl:text>&#9;</xsl:text>   
         
         <!--Open or Closed?-->
         <xsl:value-of select="content/closed" />
-        <xsl:text>|</xsl:text>  
+        <xsl:text>&#9;</xsl:text>  
         
         <!--Closed at-->
         <xsl:text>'</xsl:text>
         <xsl:value-of select="content/closedAt" />
         <xsl:text>'</xsl:text>
-        <xsl:text>|</xsl:text>  
+        <xsl:text>&#9;</xsl:text>  
         
 
         <!--Run Label-->
         <xsl:value-of select="$RUNLABEL" />
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         
         
         <!--LabelsCount-->
@@ -215,7 +215,7 @@
                 <xsl:text>0</xsl:text>
             </xsl:otherwise>
         </xsl:choose>
-        <xsl:text>|</xsl:text>
+        <xsl:text>&#9;</xsl:text>
         
        
         
@@ -251,7 +251,7 @@
                     </xsl:when>
                 </xsl:choose>
             </xsl:for-each>
-            <xsl:text>|</xsl:text>
+            <xsl:text>&#9;</xsl:text>
         </xsl:for-each>
             
         <!--End line-->   
