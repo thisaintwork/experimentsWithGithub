@@ -33,7 +33,7 @@ popd
 # ###########################################################
 # copy all the most up to date run files to the latest run directory
 # -----------------------------------------------------------
-./latest_run-update.sh
+../lib/latest_run-update.sh
 [[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
 
 

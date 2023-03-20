@@ -33,10 +33,10 @@ do
     echo "--- --- REPOLINE: ${REPOLINE}"
 
        #echo ${REPOLINE}
-       CMDNOW="gh label list --repo '${REPOLINE}' --limit 300 --json name,color,description | jq -r '.[] | [.name, .color, .description] | @tsv' | sed s'#\t#\"\t\"#g' | sed s'#^#\"#g' | sed s'/$/\"/g'"
+       CMDNOW="gh label list --repo ${REPOLINE} --limit 300 --json name,color,description | jq -r '.[] | [.name, .color, .description] | @tsv' | sed s'#\t#\"\t\"#g' | sed s'#^#\"#g' | sed s'/$/\"/g'"
        echo ${CMDNOW}
-       OUTTEXT=$(echo ${REPOLINE} | sed s'#/#-#g')
-       eval ${CMDNOW} > ${RELOUTPUTDIR}/${OUTTEXT}-output.txt
+       OUTFILE=$( echo "${WRKINGFILE}-${REPOLINE}" | sed "s/'//g" | sed "s/\./_/g" | sed "s#\/#-#g" )
+       eval ${CMDNOW} > ${RELOUTPUTDIR}/${OUTFILE}-output.txt
        EVAL_RETURN=$?
        [ ${EVAL_RETURN} != "0" ] && EVAL_RETURN="ERROR"
        sleep 1

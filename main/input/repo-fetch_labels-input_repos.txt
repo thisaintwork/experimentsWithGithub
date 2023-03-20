@@ -1,5 +1,5 @@
-IQSS/dataverse
-IQSS/dataverse-pm
-IQSS/dataverse.harvard.edu
-IQSS/dataverse-frontend
-IQSS/dataverse-security
+'IQSS/dataverse'
+'IQSS/dataverse-pm'
+'IQSS/dataverse.harvard.edu'
+'IQSS/dataverse-frontend'
+'IQSS/dataverse-security'

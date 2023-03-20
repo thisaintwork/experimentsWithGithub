@@ -27,32 +27,28 @@ EOF
 # Declare input variables
 # from the command line
 # -----------------------------------------------------------
-REPOSLIST=${1}
-LABELSLIST=${2}
+INPUTLIST=${1}
 
-COUNT=0
-while read -r LABELLINE || [ -n "$LABELLINE" ]
+COUNT=1
+while read -r INPUTLINE || [ -n "INPUTLINE" ]
 do
-  echo "--- LABELLINE: ${LABELLINE}"
+  echo "--- INPUTLINE: ${INPUTLINE}"
 
-  LBLNAME=$(echo "${LABELLINE}" | cut -f1)
-  LBLDESC=$(echo "${LABELLINE}" | cut -f2)
-  LBLCLR=$(echo "${LABELLINE}" | cut -f3)
+  REPO=$(echo "${INPUTLINE}" | cut -f1)
+  ID=$(echo "${INPUTLINE}" | cut -f2)
+  TYPE=$(echo "${INPUTLINE}" | cut -f3)
+  LBLNAME=$(echo "${INPUTLINE}" | cut -f5)
 
-  while read -r REPOLINE || [ -n "$REPOLINE" ]
-  do
-    echo "--- --- REPOLINE: ${REPOLINE}"
-       #echo ${REPOLINE}
-      # gh label create 'Feature: Search/Browse' -c 'c7def8' --force --repo 'IQSS/dataverse-pm'
-      CMDNOW="gh label create ${LBLNAME} -d ${LBLDESC} -c ${LBLCLR} --force --repo ${REPOLINE}"
-      echo ${CMDNOW}
-      eval ${CMDNOW}
-      EVAL_RETURN=$?
-      [ ${EVAL_RETURN} != "0" ] && EVAL_RETURN="ERROR"
-      sleep 2
-  done < ${RELINPUTDIR}/${REPOSLIST}.txt
+  echo "--- --- ---"
+  CMDNOW="gh ${TYPE} edit ${ID} --add-label ${LBLNAME} --repo ${REPO}"
+  echo "${COUNT}: ${CMDNOW} -> ${OUTFILE}"
+  eval ${CMDNOW}
+  EVAL_RETURN=$?
+  [ ${EVAL_RETURN} != "0" ] && EVAL_RETURN="ERROR"
+  sleep 1
+
   COUNT=$((COUNT+1))
-done < ${RELINPUTDIR}/${LABELSLIST}.txt
+done < ${RELINPUTDIR}/${INPUTLIST}.txt
 
 cat<<EOF
 # End: $0

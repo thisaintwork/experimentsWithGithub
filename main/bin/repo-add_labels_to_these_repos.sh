@@ -16,19 +16,25 @@ EOF
 ./environment-initialize.sh
 . ./environment.sh
 
+# ###########################################################
+# Declare input variables
+# -----------------------------------------------------------
+INPUTLABELS=repo-add_labels_to_these_repos-input_labels
+INPUTREPOS=repo-add_labels_to_these_repos-input_repos
+
 
 # ###########################################################
 # -----------------------------------------------------------
 NEXTBINDIR=../../api/bin
 #prep the local run environment
-./clean_local_run_environment.sh ${NEXTBINDIR}
+../lib/clean_local_run_environment.sh ${NEXTBINDIR}
 cp -v environment.sh ${NEXTBINDIR}/
 
-cp -v ${RELINPUTDIR}/repo-add_labels_to_these_repos-input_labels.txt ${NEXTBINDIR}/${RELINPUTDIR}/
-cp -v ${RELINPUTDIR}/repo-add_labels_to_these_repos-input_repos.txt ${NEXTBINDIR}/${RELINPUTDIR}/
+cp -v ${RELINPUTDIR}/${INPUTLABELS}.txt ${NEXTBINDIR}/${RELINPUTDIR}/
+cp -v ${RELINPUTDIR}/${INPUTREPOS}.txt ${NEXTBINDIR}/${RELINPUTDIR}/
 
 pushd  ${NEXTBINDIR}
-./repo-add_labels.sh
+./repo-add_labels.sh ${INPUTREPOS} ${INPUTLABELS}
 [[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
 cp -v ${RELINPUTDIR}/* ${RUNINPUTDIR}/
 cp -v ${RELOUTPUTDIR}/* ${RUNWRKDIR}/
@@ -37,7 +43,7 @@ popd
 # ###########################################################
 # copy all the most up to date run files to the latest run directory
 # -----------------------------------------------------------
-./latest_run-update.sh
+../lib/latest_run-update.sh
 [[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
 
 cat<<EOF

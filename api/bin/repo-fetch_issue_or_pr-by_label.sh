@@ -4,16 +4,7 @@ set -o errexit
 # ###########################################################
 # Initialize the environment and global variables.
 # -----------------------------------------------------------
-BASEDIR=$(dirname "$0")
-
-echo "# import the environment variables"
-echo
-. environment.sh
-
-RELINPUTDIR=../input
-RELOUTPUTDIR=../output
-RELWRKDIR=../wrk
-RELBINDIR=../bin
+. ./environment.sh
 
 # ###########################################################
 # LOCAL VARIABLE CUSTOMIZATION
@@ -21,12 +12,10 @@ RELBINDIR=../bin
 
 # override the RUNDIR here
 #RUNDIR=.
-RUNINPUTDIR=${RUNDIR}/input
-RUNOUTPUTDIR=${RUNDIR}/output
-RUNWRKDIR=${RUNDIR}/wrk
-OUTFILE=${OUTFILE}
+
 
 cat<<EOF
+
 # ###########################################################
 # Announcement
 # -----------------------------------------------------------
@@ -36,35 +25,42 @@ EOF
 
 
 echo "# cp the list of repos and the labels to search for to the run input directory"
-REPOS=repos_tobe_added_to
-LABELSLIST=labels_tobe_added
-cp  ${RELINPUTDIR}/${REPOS}.txt ${RUNWRKDIR}/${REPOS}.txt
-cp  ${RELINPUTDIR}/${LABELSLIST}.txt ${RUNWRKDIR}/${LABELSLIST}.txt
+REPOS=repo-fetch_issue_or_pr-by_label-input_repos
+LABELSLIST=repo-fetch_issue_or_pr-by_label-input_labels
 
-COUNT=0
-while read -r LABELLINE;
+COUNT=1
+while read -r LABELLINE || [ -n "$LABELLINE" ]
 do
-  echo "--- LABELLINE: ${LABELLINE}"
-  while read -r REPOLINE;
+  LBLNAME=$(echo "${LABELLINE}" | cut -f1)
+  LBLDESC=$(echo "${LABELLINE}" | cut -f2)
+  LBLCLR=$(echo "${LABELLINE}" | cut -f3)
+  echo "--- LABELLINE:  ${LBLNAME} | ${LBLDESC} | ${LBLCLR}"
+
+  while read -r REPOLINE || [ -n "$REPOLINE" ]
   do
     echo "--- --- REPOLINE: ${REPOLINE}"
 
-       #echo ${REPOLINE}
        for TYPEOF in 'issues' 'prs';
        do
           echo "--- --- ---"
-          echo "${REPOLINE}|${LABELLINE}|${TYPEOF}|${COUNT}"
+          #echo "${REPOLINE}|${LABELLINE}|${TYPEOF}|${COUNT}"
           # gh search issues --label 'Dataset: large number of files' --repo 'IQSS/dataverse'
-          CMDNOW="gh search ${TYPEOF} --label '${LABELLINE}' --repo '${REPOLINE}'"
-          echo ${CMDNOW}
-          eval ${CMDNOW}
+          CMDNOW="gh search ${TYPEOF} --label ${LBLNAME} --repo ${REPOLINE}"
+          OUTFILE=$( echo "${WRKINGFILE}+${REPOLINE}+${LBLNAME}+${TYPEOF}" | sed "s/'//g" | sed "s/\./_/g" | sed "s#\/#-#g" | sed "s# #_#g")
+          echo "${COUNT}: ${CMDNOW} -> ${OUTFILE}"
+          eval ${CMDNOW} >> ${RELOUTPUTDIR}/${OUTFILE}.txt
           EVAL_RETURN=$?
           [ ${EVAL_RETURN} != "0" ] && EVAL_RETURN="ERROR"
           sleep 1
        done
-  done < ${RUNWRKDIR}/${REPOS}.txt
-  COUNT=$((COUNT+1))
-done < ${RUNWRKDIR}/${LABELSLIST}.txt
+       COUNT=$((COUNT+1))
+
+       if [ $((COUNT % 5)) -eq 0 ]; then
+         sleep 10
+       fi
+
+  done < ${RELINPUTDIR}/${REPOS}.txt
+done < ${RELINPUTDIR}/${LABELSLIST}.txt
 
 cat<<EOF
 # End: $0

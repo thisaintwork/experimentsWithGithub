@@ -16,6 +16,11 @@ EOF
 ./environment-initialize.sh
 . ./environment.sh
 
+# ###########################################################
+# Declare input variables
+# -----------------------------------------------------------
+INPUTINFO=repo-add_label_to_these_issues_or_prs-input
+
 
 # ###########################################################
 # -----------------------------------------------------------
@@ -23,10 +28,10 @@ NEXTBINDIR=../../api/bin
 #prep the local run environment
 ../lib/clean_local_run_environment.sh ${NEXTBINDIR}
 cp -v environment.sh ${NEXTBINDIR}/
-cp -v ${RELINPUTDIR}/repo-fetch_labels-input_repos.txt ${NEXTBINDIR}/${RELINPUTDIR}/
+cp -v ${RELINPUTDIR}/${INPUTINFO}.txt ${NEXTBINDIR}/${RELINPUTDIR}/
 
 pushd  ${NEXTBINDIR}
-./repo-fetch_labels.sh
+./repo-add_labels_to_issues_or_prs.sh ${INPUTINFO}
 [[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
 cp -v ${RELINPUTDIR}/* ${RUNINPUTDIR}/
 cp -v ${RELOUTPUTDIR}/* ${RUNWRKDIR}/

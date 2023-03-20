@@ -1,1 +1,2 @@
-'IQSS/dataverse-pm'
+'IQSS/dataverse.harvard.edu'
+'IQSS/dataverse-frontend'

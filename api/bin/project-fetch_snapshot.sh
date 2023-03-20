@@ -14,7 +14,7 @@ set -o errexit
 # override the RUNDIR here
 #RUNDIR=.
 PYTHONEXE=/home/perftest/DevCode/github-com-mreekie/GitHubProjects/experimentsWithGithub/venv/bin/python
-WRKINGFILE=${WRKINGFILE}
+
 
 cat<<EOF
 

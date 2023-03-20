@@ -24,7 +24,7 @@ EOF
 # -----------------------------------------------------------
 NEXTBINDIR=../../api/bin
 #prep the local run environment
-./clean_local_run_environment.sh ${NEXTBINDIR}
+../lib/clean_local_run_environment.sh ${NEXTBINDIR}
 cp -v environment.sh ${NEXTBINDIR}/
 
 
@@ -42,7 +42,7 @@ popd
 # -----------------------------------------------------------
 NEXTBINDIR=../../transform/bin
 #prep the local run environment
-./clean_local_run_environment.sh ${NEXTBINDIR}
+../lib/clean_local_run_environment.sh ${NEXTBINDIR}
 cp -v environment.sh ${NEXTBINDIR}
 
 pushd  ${NEXTBINDIR}
@@ -56,7 +56,7 @@ popd
 # ###########################################################
 # copy all the most up to date run files to the latest run directory
 # -----------------------------------------------------------
-./latest_run-update.sh
+../lib/latest_run-update.sh
 [[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
 
 cat<<EOF
