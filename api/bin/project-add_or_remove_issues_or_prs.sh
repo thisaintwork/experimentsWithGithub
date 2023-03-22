@@ -9,9 +9,10 @@ set -o errexit
 # ###########################################################
 # LOCAL VARIABLE CUSTOMIZATION
 # -----------------------------------------------------------
-
 # override the RUNDIR here
 #RUNDIR=.
+INPUTLIST=${1}
+GRAPHQL="$(cat ${RELINPUTDIR}/input_query-mutation.graphql | tr -s '\n' ' ')"
 
 
 cat<<EOF
@@ -26,40 +27,30 @@ EOF
 
 
 # ###########################################################
-# Declare input variables
-# from the command line
-# -----------------------------------------------------------
-INPUTLIST=${1}
-ACTION=${2}
-PROJECT=${3}
-
-ACTION=$(echo "$ACTION" |  sed "s/'//g")
-PROJECT=$(echo "$PROJECT" | sed "s/'//g")
-
-
-# e.g.
+# Execution
 #'PULL_REQUEST'\t8940\t'dataverse'
 COUNT=1
 while read -r line;
 do
-       CMDNOW="ERROR"
-       TYPE="ERROR"
-       TYPEOF=$(echo "$line" | cut -f1 | sed "s/'//g")
-       NUMB=$(echo "$line" | cut -f2 | sed "s/'//g")
-       REPO=$(echo "$line" | cut -f3 | sed "s/'//g")
+      CMDNOW="ERROR"
+      PROJECTID="PROJ_ERR"
+      ITEMID="ITEMID_ERR"
 
-       [[ "${TYPEOF}" = "PULL_REQUEST" ]] && TYPE="pr"
-       [[ "${TYPEOF}" = "ISSUE" ]] && TYPE="issue"
-       CMDNOW="gh ${TYPE} edit ${NUMB} --repo ${REPO} --${ACTION} ${PROJECT}"
-       echo "COUNTER: ${COUNT}"
-       echo "    CMD: ${CMDNOW}"
-      eval ${CMDNOW}
+      PROJECTID=$(echo "$line" | cut -f1 | sed "s/'//g")
+      ITEMID=$(echo "$line" | cut -f2 | sed "s/'//g")
+
+
+      #CMDNOW="gh api graphql -F projectId='{${PROJECTID}}' -F itemID='{${ITEMID}}' -f query=${GRAPHQL}"
+      CMDNOW="gh api graphql -F projectId='${PROJECTID}' -F itemID='${ITEMID}' -f query=${GRAPHQL}"
+      echo "COUNTER: ${COUNT}"
+      echo "    CMD: ${CMDNOW}"
+      eval "${CMDNOW}"
       EVAL_RETURN=$?
       # shellcheck disable=SC1033
       [ ${EVAL_RETURN} != "0" ] && EVAL_RETURN="ERROR"
       COUNT=$((COUNT+1))
       sleep 1
-
+exit 0
 cat<<EOF
 
 # ---------
@@ -70,7 +61,7 @@ cat<<EOF
 EOF
 
 
-done < ${RELINPUTDIR}/${INPUTLIST}.txt
+done < ${RELINPUTDIR}/${WRKINGFILE}.txt
 
 cat<<EOF
 # End: $0
