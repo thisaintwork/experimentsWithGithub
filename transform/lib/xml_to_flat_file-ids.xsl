@@ -282,6 +282,7 @@
         
         <xsl:for-each select="$uniqLabelList/uniqLabelList/uniquelabel">
             <xsl:variable name="thisUniqLabelListElement" select="." />
+            <xsl:text>0</xsl:text>
             <xsl:for-each select="$thisItemLabelNameListElements">
 
 <!--

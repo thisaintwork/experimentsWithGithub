@@ -13,7 +13,7 @@ set -o errexit
 # override the RUNDIR here
 #RUNDIR=.
 JAVAEXE=/snap/openjdk/current/jdk/bin/java
-XSLFILENAME=xml_to_flat_file
+XSLFILENAME=xml_to_flat_file-ids
 
 cat<<EOF
 
