@@ -1,3 +1,0 @@
-LOGINORG="IQSS"
-PROJECTNUM=34
-QRYFILENAME=input_query.graphql
