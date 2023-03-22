@@ -1,5 +1,4 @@
 ﻿# input_query.graphql
-
 query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!) {
  #   query ($first: Int!, $skip: Int!) {
  # products(first: $first, skip: $skip) {
@@ -10,16 +9,16 @@ query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!
             login
             projectV2 (number: $projectNum) {
                 id
-                #title
-                #closed
-                #number
-                #createdAt
-                #updatedAt
-                #closedAt
-                #url
-                #creator {
-                #    login
-                #}
+                title
+                closed
+                number
+                createdAt
+                updatedAt
+                closedAt
+                url
+                creator {
+                    login
+                }
                 items (first: $firstFew, after: $startWith) {
 
                 #    totalCount

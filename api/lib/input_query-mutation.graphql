@@ -1,0 +1,11 @@
+﻿mutation($projectId: ID!, $itemID: ID!) {
+    deleteProjectV2Item(
+        input: {
+            projectId: $projectId
+            itemId: $itemID
+            }
+        ) {
+            deletedItemId
+        }
+}
+
