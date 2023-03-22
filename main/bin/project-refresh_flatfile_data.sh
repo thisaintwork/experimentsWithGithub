@@ -48,7 +48,7 @@ popd
 
 # ###########################################################
 # Declare input variables
-NEXTBINDIR=../../api/bin
+NEXTBINDIR=../../transform/bin
 
 # ###########################################################
 # prep the local run environment
