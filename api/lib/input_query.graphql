@@ -1,4 +1,18 @@
-﻿# input_query.graphql
+﻿# =================================================================
+# get a list of all labels in a repository
+# =================================================================
+#         input: $loginOrg: e.g. IQSS/dataverse
+#              : repository: e.g. dataverse
+#              : $firstFew: get this many items on this query
+#              : $startWith: the starting place for getting the next page of data
+#  Intermediary: for paging - hasNextPage, hasPreviousPage, endCursor, startCursor
+#
+#
+#        output: The results as JSON
+#
+#       precond:
+#      postcond:
+
 query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!) {
  #   query ($first: Int!, $skip: Int!) {
  # products(first: $first, skip: $skip) {
@@ -21,7 +35,7 @@ query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!
                 }
                 items (first: $firstFew, after: $startWith) {
 
-                #    totalCount
+                     totalCount
                      pageInfo {
                         hasNextPage
                         hasPreviousPage

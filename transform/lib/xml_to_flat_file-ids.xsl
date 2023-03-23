@@ -41,15 +41,20 @@
 
     <!--
     Input:
-   Output: the project ID
+   Output: uniqe variables for the non-repeating information
   Precond: Assumes the query returns info for a single project
+           Since there is pagination, these top level items will repeat, 
+            the assumption here is that they will always be the same, whic
+            for our purposes is safe.
+            got the idea from:
+            https://stackoverflow.com/questions/2291567/how-to-use-xslt-to-create-distinct-values
  Postcond:
   Summary:
           
     -->
-    <xsl:variable name="projectID" select="//organization/projectV2/id"/>
-    <xsl:variable name="projectTitle" select="//organization/projectV2/title"/>
-    <xsl:variable name="projectNum" select="//organization/projectV2/number"/>
+    <xsl:variable name="projectID" select="//organization/projectV2/id[not(.=preceding::*)]"/>
+    <xsl:variable name="projectTitle" select="//organization/projectV2/title[not(.=preceding::*)]"/>
+    <xsl:variable name="projectNum" select="//organization/projectV2/number[not(.=preceding::*)]"/>
     
 
 

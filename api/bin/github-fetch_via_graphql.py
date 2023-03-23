@@ -1,4 +1,4 @@
-# An example to get the remaining rate limit using the GitHub GraphQL API.
+
 
 from gql import gql, Client
 from gql.transport.aiohttp import AIOHTTPTransport
@@ -93,7 +93,7 @@ queryString = load_query(query_filename)
 ################################################
 # Setup the query variables
 #varsIn = {"loginOrg": "IQSS", "firstFew": 100, "projectNum": 34}
-varsIn = {"loginOrg": login_org, "firstFew": 100, "projectNum": project_num}
+varsIn = {"loginOrg": login_org, "firstFew": 10, "projectNum": project_num}
 
 ################################################
 # Get all the data

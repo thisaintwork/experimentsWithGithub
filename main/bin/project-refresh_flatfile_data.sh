@@ -22,7 +22,7 @@ EOF
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # ###########################################################
-# Declare input variables
+# Declare input variables.
 NEXTBINDIR=../../api/bin
 LOGINORG='IQSS'
 PROJECTNUM='32'
