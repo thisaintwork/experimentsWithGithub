@@ -1,0 +1,26 @@
+﻿# =================================================================
+# get a list of all labels in a repository
+# =================================================================
+#         input: $itemId: The id of the label to be modified.
+#              : $name: The name of the label. In this case we are only modifying the name.
+#        output: returns the new name and the existing id
+#       precond: requires a special Accept header
+#                   e.g. headers = {"Authorization": "Bearer " + auth_token_val, "Accept": "application/vnd.github.bane-preview+json"}
+#                   see:https://docs.github.com/en/graphql/overview/schema-previews#labels-preview
+#      postcond: The label name is updated
+mutation ( $itemId: ID!, $name: String!) {
+    updateLabel(
+        input: {
+            id: $itemId
+            name: $name
+        }
+    ) {
+            label {
+                id
+                name
+            }
+        }
+}
+
+
+
