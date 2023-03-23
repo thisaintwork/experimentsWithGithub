@@ -13,5 +13,6 @@
 **/output
 **/run
 **/TESTING
+**/TEST
 **/*.tar
-**/environment.sh
+environment.sh

@@ -1,0 +1,51 @@
+﻿# =================================================================
+# get a list of all labels in a repository
+# =================================================================
+#         input: $loginOrg: e.g. IQSS/dataverse
+#              : $repository: e.g. dataverse
+#              : $firstFew: get this many items on this query
+#              :
+#     paging-in: $startWith: the starting place for getting the next page of data
+#    paging-out:  hasNextPage, hasPreviousPage, endCursor, startCursor
+#
+#
+#        output: The results as JSON
+#
+#       precond:
+#      postcond:
+
+
+query ($loginOrg: String!, $repository: String!, $firstFew: Int, $startWith: String) {
+ #   query ($first: Int!, $skip: Int!) {
+ # products(first: $first, skip: $skip) {
+    organization(login: $loginOrg) {
+            id
+            email
+            projectsUrl
+            login
+            name
+        repository(name: $repository) {
+            id
+            name
+            url
+            labels(first: $firstFew, after: $startWith) {
+                # labels property returns labelConnection Type
+                totalCount
+                pageInfo {
+                    hasNextPage
+                    hasPreviousPage
+                    endCursor
+                    startCursor
+                }
+                nodes {
+                    # nodes returns a list of label Type
+                    id
+                    name
+                    color
+                    description
+                    url
+                }
+            }
+        }
+    }
+}
