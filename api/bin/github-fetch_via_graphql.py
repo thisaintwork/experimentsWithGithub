@@ -53,7 +53,7 @@ def get_all_items(auth_token_val, query_str, vars_in):
         query_input_params["startWith"] = start_with
 
     results_list = ' '.join(results_list)
-    result = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + '<root>' + results_list + '</root>'
+    result = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + "\n" + '<root>' + "\n" + results_list + "\n" + '</root>'
 
     return result
 

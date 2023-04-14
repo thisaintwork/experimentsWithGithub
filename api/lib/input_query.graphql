@@ -1,5 +1,5 @@
 ﻿# =================================================================
-# get a list of all labels in a repository
+# get a list of all contents of a project
 # =================================================================
 #         input: $loginOrg: e.g. IQSS/dataverse
 #              : repository: e.g. dataverse
@@ -45,66 +45,128 @@ query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!
                     nodes {
                         id
                         type
-                        fieldValueByName (name: "Status") {
-                            ... on ProjectV2ItemFieldDateValue {
-                                date
-                            }
+                        fieldValues (first: 20) {
+                            totalCount
+                            nodes {
 
-                            ... on  ProjectV2ItemFieldIterationValue {
-                                id
-                            }
-                            ... on  ProjectV2ItemFieldLabelValue {
-                                labels {
-                                    totalCount
-                                    nodes {
-                                        name
+                                    ... on ProjectV2ItemFieldDateValue {
+                                        field {
+                                        ... on  ProjectV2Field {
+                                            name
+                                            }
+                                        ... on  ProjectV2IterationField {
+                                            name
+                                            }
+                                        ... on  ProjectV2SingleSelectField {
+                                            name
+                                            }
+                                        }
+                                        date
                                     }
-                                }
-                            }
-                            ... on  ProjectV2ItemFieldMilestoneValue {
-                                milestone {
-                                    title
-                                }
-                            }
-                            ... on  ProjectV2ItemFieldNumberValue {
-                                number
-                            }
-                            ... on  ProjectV2ItemFieldPullRequestValue {
-                                pullRequests {
-                                    totalCount
-                                }
-                            }
-                            ... on  ProjectV2ItemFieldRepositoryValue {
-                                repository {
-                                    name
-                                    id
 
-                                }
-                            }
-                            ... on  ProjectV2ItemFieldReviewerValue {
-                                reviewers(first:1) {
-                                    totalCount
-                                }
+                                    ... on  ProjectV2ItemFieldIterationValue {
+                                        id
+                                    }
+                                    ... on  ProjectV2ItemFieldLabelValue {
+                                        labels(first:20) {
 
-                            }
-                            ... on  ProjectV2ItemFieldSingleSelectValue {
-                                name
-                            }
-                            ... on  ProjectV2ItemFieldTextValue {
-                                text
+                                            totalCount
+                                            nodes {
+                                                name
+                                            }
+                                        }
+                                    }
+                                    ... on  ProjectV2ItemFieldMilestoneValue {
+                                       milestone {
+                                           title
+                                        }
+                                    }
+                                    ... on  ProjectV2ItemFieldNumberValue {
+                                        number
+                                    }
+                                    ... on  ProjectV2ItemFieldPullRequestValue {
+                                        pullRequests {
+                                            totalCount
+                                        }
+                                    }
+                                    ... on  ProjectV2ItemFieldRepositoryValue {
+                                        repository {
+                                            name
+                                            id
 
-                            }
-                            ... on  ProjectV2ItemFieldUserValue {
-                                users(first:20) {
-                                    totalCount
-                                }
+                                        }
+                                    }
+                                    ... on  ProjectV2ItemFieldReviewerValue {
+                                        reviewers(first:1) {
+                                            totalCount
+                                        }
+
+                                    }
+                                    ... on  ProjectV2ItemFieldSingleSelectValue {
+                                        name
+                                        field {
+                                        ... on  ProjectV2Field {
+                                            name
+                                            }
+                                        ... on  ProjectV2IterationField {
+                                            name
+                                            }
+                                        ... on  ProjectV2SingleSelectField {
+                                            name
+                                            }
+                                        }
+                                    }
+                                    ... on  ProjectV2ItemFieldTextValue {
+                                        field {
+                                        ... on  ProjectV2Field {
+                                            name
+                                            }
+                                        ... on  ProjectV2IterationField {
+                                            name
+                                            }
+                                        ... on  ProjectV2SingleSelectField {
+                                            name
+                                            }
+                                        }
+                                        text
+                                    }
+                                    ... on  ProjectV2ItemFieldUserValue {
+                                        users(first:20) {
+                                            totalCount
+                                        }
+                                    }
                             }
                         }
                         content {
                             ... on Issue {
+                                ...issueFields
+                            }
+                            ... on PullRequest {
+                                ...prFields
+                            }
+                            ... on DraftIssue {
+                                title
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+}
+fragment issueFields on Issue {
+
                                 repository {
                                     name
                                 }
+                                assignees (first: 10) {
+                                  totalCount
+                                    nodes {
+                                        login
+                                    }
+                                }
+                                body
+                                bodyText
                                 title
                                 number
                                 url
@@ -117,8 +179,8 @@ query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!
                                     }
                                 }
                             }
-                            ... on PullRequest {
-                                repository {
+fragment prFields on PullRequest {
+                               repository {
                                     name
                                 }
                                 title
@@ -140,13 +202,3 @@ query ($loginOrg: String!, $firstFew: Int, $startWith: String, $projectNum: Int!
 
                                 }
                             }
-                            ... on DraftIssue {
-                                title
-                            }
-
-                        }
-                    }
-                }
-            }
-        }
-}

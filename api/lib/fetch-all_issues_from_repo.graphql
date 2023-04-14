@@ -1,0 +1,70 @@
+﻿# =================================================================
+#The followin 2 lines are REQUIRED for paging to work
+#has_next_page_path = ["repository", "issues", "pageInfo", "hasNextPage"]
+#start_with_path = ["repository", "issues", "pageInfo", "endCursor"]
+# =================================================================
+# get a list of all contents of a project
+# =================================================================
+#         input: $loginOrg: e.g. IQSS/dataverse
+#              : repository: e.g. dataverse
+#              : $firstFew: get this many items on this query
+#              : $startWith: the starting place for getting the next page of data
+#  Intermediary: for paging - hasNextPage, hasPreviousPage, endCursor, startCursor
+#
+#
+#        output: The results as JSON
+#
+#       precond:
+#      postcond:
+
+query ($loginOrg: String!, $repo: String!, $firstFew: Int, $startWith: String) {
+  repository(owner: $loginOrg, name: $repo) {
+    id
+    name
+    url
+    owner {
+      login
+    }
+    issues(
+      first: $firstFew,
+      after: $startWith,
+    ) {
+      totalCount
+      pageInfo {
+        hasNextPage
+        hasPreviousPage
+        endCursor
+        startCursor
+      }
+      nodes {
+        ...issueFields
+      }
+    }
+  }
+}
+
+fragment issueFields on Issue {
+  repository {
+    name
+  }
+  assignees(first: 10) {
+    totalCount
+    nodes {
+      login
+    }
+  }
+  id
+  body
+  bodyText
+  title
+  number
+  url
+  closed
+  closedAt
+  labels(first: 10) {
+    totalCount
+    nodes {
+      name
+    }
+  }
+}

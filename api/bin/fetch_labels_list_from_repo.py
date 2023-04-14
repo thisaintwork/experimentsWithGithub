@@ -76,16 +76,21 @@ def get_all_items(auth_token_val, query_str, vars_in):
 
 
 # Main
-# Get all the items
+# Get a list of all the labels in a repo
 #   input: auth token for github
 #          query_str - graphql file containing the query
 #          vars_in - contains the correct variables for the query to work
 #
 #  output:
 #  prereq: vars_in and query_str are closely related and are assumed to be coorect.
-# postreq:
 #   descr:
+# example:
+#  for i in 'dataverse' 'dataverse-pm' 'dataverse.harvard.edu' 'dataverse-frontend' 'dataverse-security';do
+#  echo $i;
+#  python fetch_labels_list_from_repo.py --qry ../lib/fetch_labels_list_from_repo.graphql --org 'IQSS' --repo $i > $i-$(date '+%Y%m%d-%H%M%S').xml ;
+#  done
 #
+#postcond: e.g.
 #
 
 parser = argparse.ArgumentParser(description='query related information')

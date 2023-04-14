@@ -13,7 +13,8 @@ set -o errexit
 # override the RUNDIR here
 #RUNDIR=.
 JAVAEXE=/snap/openjdk/current/jdk/bin/java
-XSLFILENAME=xml_to_flat_file-ids
+# XSLFILENAME=xml_to_flat_file-ids
+#XSLFILENAME=
 
 cat<<EOF
 
@@ -22,6 +23,12 @@ cat<<EOF
 # -----------------------------------------------------------
 # Begin: $0
 EOF
+
+# ###########################################################
+# Declare input variables
+# from the command line.
+# -----------------------------------------------------------
+XSLFILENAME=${1}
 
 
 # java -cp c:\saxon\saxon-he-11.1.jar net.sf.saxon.Query -t -qs:"current-date()"

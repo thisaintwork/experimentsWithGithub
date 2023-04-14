@@ -1,7 +1,7 @@
 ﻿# =================================================================
 # get a list of all labels in a repository
 # =================================================================
-#         input: $loginOrg: e.g. IQSS/dataverse
+#         input: $loginOrg: e.g. IQSS
 #              : $repository: e.g. dataverse
 #              : $firstFew: get this many items on this query
 #              :

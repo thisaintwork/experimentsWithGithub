@@ -31,17 +31,19 @@
   Summary:
           
     -->
+<!--    
     <xsl:variable name="orgID" select="//organization/id[not(.=preceding::*)]"/>
     <xsl:variable name="orgLogin" select="//organization/login[not(.=preceding::*)]"/>
     <xsl:variable name="repoID" select="//organization/repository/id[not(.=preceding::*)]"/>
     <xsl:variable name="repoName" select="//organization/repository/name[not(.=preceding::*)]"/>
-    
+-->    
 
 
     <!--
       Summary: print out a header row then invoke the rest of the templates 
     -->
     <xsl:template match="/" >
+
 
         <xsl:text>Organization</xsl:text>
         <xsl:text>&#9;</xsl:text>
@@ -67,54 +69,58 @@
         <xsl:apply-templates />
     </xsl:template >
     
-    <xsl:template match="//labels/nodes" >
+    <xsl:template match="//organization" >
 
-        <xsl:text>'</xsl:text>
-        <xsl:value-of select="$orgLogin" />
-        <xsl:text>'</xsl:text>
-        <xsl:text>&#9;</xsl:text>
+        <xsl:for-each select="./repository/labels/nodes">
+            
+           <xsl:text>'</xsl:text>
+           <xsl:value-of select="../../../login" />
+           <xsl:text>'</xsl:text>
+           <xsl:text>&#9;</xsl:text>
+       
+           <xsl:text>'</xsl:text>
+            <xsl:value-of select="../../../id" />
+           <xsl:text>'</xsl:text>
+           <xsl:text>&#9;</xsl:text>
+       
+           <xsl:text>'</xsl:text>
+            <xsl:value-of select="../../name" />
+           <xsl:text>'</xsl:text>
+           <xsl:text>&#9;</xsl:text>
+   
+           <xsl:text>'</xsl:text>
+            <xsl:value-of select="../../id" />
+           <xsl:text>'</xsl:text>
+           <xsl:text>&#9;</xsl:text>
+     
+               <xsl:text>'</xsl:text>
+               <xsl:value-of select="./name" />
+               <xsl:text>'</xsl:text>
+               <xsl:text>&#9;</xsl:text>
+               
+               <xsl:text>'</xsl:text>
+               <xsl:value-of select="./id" />
+               <xsl:text>'</xsl:text>
+               <xsl:text>&#9;</xsl:text>
+               
+               
+               <xsl:text>'</xsl:text>
+               <xsl:value-of select="./color" />
+               <xsl:text>'</xsl:text>
+               <xsl:text>&#9;</xsl:text>
+       
+               <xsl:text>'</xsl:text>
+               <xsl:value-of select="./description" />
+               <xsl:text>'</xsl:text>
+               <xsl:text>&#9;</xsl:text>
 
-        <xsl:text>'</xsl:text>
-        <xsl:value-of select="$orgID" />
-        <xsl:text>'</xsl:text>
-        <xsl:text>&#9;</xsl:text>
-
-        <xsl:text>'</xsl:text>
-        <xsl:value-of select="$repoName" />
-        <xsl:text>'</xsl:text>
-        <xsl:text>&#9;</xsl:text>
-
-        <xsl:text>'</xsl:text>
-        <xsl:value-of select="$repoID" />
-        <xsl:text>'</xsl:text>
-        <xsl:text>&#9;</xsl:text>
-
-        <xsl:text>'</xsl:text>
-        <xsl:value-of select="name" />
-        <xsl:text>'</xsl:text>
-        <xsl:text>&#9;</xsl:text>
-        
-        <xsl:text>'</xsl:text>
-        <xsl:value-of select="id" />
-        <xsl:text>'</xsl:text>
-        <xsl:text>&#9;</xsl:text>
-        
-        
-        <xsl:text>'</xsl:text>
-        <xsl:value-of select="color" />
-        <xsl:text>'</xsl:text>
-        <xsl:text>&#9;</xsl:text>
-
-        <xsl:text>'</xsl:text>
-        <xsl:value-of select="description" />
-        <xsl:text>'</xsl:text>
-        <xsl:text>&#9;</xsl:text>
-        
-        
+            <xsl:value-of select="$RUNLABEL" />
+            <xsl:text>&#9;</xsl:text>
+            <!--End line-->   
+            <xsl:text>&#10;</xsl:text>
+        </xsl:for-each>
 
         <!--Run Label-->
-        <xsl:value-of select="$RUNLABEL" />
-        <xsl:text>&#9;</xsl:text>
         
         <!--End line-->   
         <xsl:text>&#10;</xsl:text>

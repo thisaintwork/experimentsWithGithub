@@ -14,6 +14,21 @@ from dict2xml import dict2xml
 from datetime import datetime
 import time
 
+# =================================================================
+# grab the input file
+# =================================================================
+#         input: from a file
+#                The first line is a header line
+#                The lines that follow are the data in columns separated by tabs
+#        output: result - this is an xml encoded json result string. The result string doesn't count for much here.
+#       precond: for the file
+#                has a column with the label: 'LabelID'
+#                has a column with the lable: 'LabelName2'
+#                Later code depends on these two columns being present
+#                example input:
+#
+#      postcond: The data is read in
+# e.g output
 class DataReader:
     def __init__(self, filename):
         with open(filename, 'r') as file:
@@ -74,6 +89,7 @@ def load_query(query_file):
 #                   e.g. headers = {"Authorization": "Bearer " + auth_token_val, "Accept": "application/vnd.github.bane-preview+json"}
 #                   see:https://docs.github.com/en/graphql/overview/schema-previews#labels-preview
 #      postcond: result is printed to stdout
+#
 # e.g output
 #<?xml version="1.0" encoding="UTF-8"?>
 #<root>
@@ -87,6 +103,13 @@ def load_query(query_file):
 #</pages>
 #</root>
 #
+# e.g input - In this case all the columms are extra excecpt fpr 2
+#IDX	Organization	OrganizationID	Repo	RepoID	LabelName	LabelID	LabelColor	LabelDescription	RUNLABEL	LabelName2
+#286	'IQSS'	'MDEyOk9yZ2FuaXphdGlvbjY3NTIzNw=='	'dataverse-frontend'	'R_kgDOI3pPiw'	'pm.f01-d-y01-a01-t01'	'LA_kwDOI3pPi88AAAABOy9BUA'	'1d76db'	'NIH, yr1, aim1, task1: MVP for registering metadata in the repository'	'TEST'	'pm.GREI-d-1.1.1'
+#287	'IQSS'	'MDEyOk9yZ2FuaXphdGlvbjY3NTIzNw=='	'dataverse-frontend'	'R_kgDOI3pPiw'	'pm.f01-d-y01-a01-t02'	'LA_kwDOI3pPi88AAAABOy9CWQ'	'1d76db'	'NIH, yr1, aim1, task2: Define a cost recovery model for large dataset support'	'TEST'	'pm.GREI-d-1.1.2'
+#288	'IQSS'	'MDEyOk9yZ2FuaXphdGlvbjY3NTIzNw=='	'dataverse-frontend'	'R_kgDOI3pPiw'	'pm.f01-d-y01-a02-t01'	'LA_kwDOI3pPi88AAAABOy9DlA'	'1d76db'	'NIH, yr1, aim2, task1: Design and implement integration with controlled voc'	'TEST'	'pm.GREI-d-1.2.1'
+#289	'IQSS'	'MDEyOk9yZ2FuaXphdGlvbjY3NTIzNw=='	'dataverse-frontend'	'R_kgDOI3pPiw'	'pm.f01-d-y01-a02-t02'	'LA_kwDOI3pPi88AAAABOy9ErA'	'1d76db'	'NIH, yr1, aim2, task2: Define use cases for DDI-CDI support'	'TEST'	'pm.GREI-d-1.2.2'
+
 def execute_mutation(auth_token_val, query_str, vars_in):
     query_input_params = vars_in
     # print("query_input_params \"{}\"".format(query_input_params))
@@ -115,6 +138,9 @@ def execute_mutation(auth_token_val, query_str, vars_in):
 # postreq:
 #   descr:
 #
+# e.g runline
+# :~/DevCode/github-com-mreekie/GitHubProjects/experimentsWithGithub/api/bin$
+# python mutation-update_labels.py --qry ../lib/mutation-update_label.graphql --in_file ../../main/input/2023_04_08-update_label_names.tsv
 #
 
 parser = argparse.ArgumentParser(description='query related information')

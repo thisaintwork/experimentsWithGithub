@@ -1,3 +1,0 @@
-RUNLABEL=TESTING
-RUNDIR=../../run/TESTING
-OUTFILE='datafile'

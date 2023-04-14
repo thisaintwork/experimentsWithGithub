@@ -25,7 +25,7 @@ EOF
 # Declare input variables.
 NEXTBINDIR=../../api/bin
 LOGINORG='IQSS'
-PROJECTNUM='32'
+PROJECTNUM='34'
 QRYFILENAME='input_query.graphql'
 
 # ###########################################################
@@ -49,7 +49,7 @@ popd
 # ###########################################################
 # Declare input variables
 NEXTBINDIR=../../transform/bin
-
+XSLFILENAME=xml_to_flat_file-extended-02
 # ###########################################################
 # prep the local run environment
 ../lib/clean_local_run_environment.sh ${NEXTBINDIR}
@@ -59,7 +59,7 @@ cp -v environment.sh ${NEXTBINDIR}
 # Execution
 pushd  ${NEXTBINDIR}
 cp -v  ${RUNWRKDIR}/${WRKINGFILE}.xml ${RELINPUTDIR}/
-./xform_xml_to_flat_file.sh
+./xform_xml_to_flat_file.sh "${XSLFILENAME}"
 [[ "$?" != "0" ]] && echo "ERROR: $?" && exit 1
 cp -v ${RELINPUTDIR}/* ${RUNINPUTDIR}/
 cp -v  ${RELOUTPUTDIR}/* ${RUNWRKDIR}/
